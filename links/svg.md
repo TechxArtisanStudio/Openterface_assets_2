@@ -9,3 +9,5 @@ Copy and paste these links into your markdown files:
 
 [icon-raspberry-pi](https://TechxArtisanStudio.github.io/Openterface_assets_2/images/icon/raspberry-pi.svg)
 
+[icon-txa-icon](https://TechxArtisanStudio.github.io/Openterface_assets_2/images/icon/txa-icon.svg)
+
