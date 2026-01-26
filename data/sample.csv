@@ -1,0 +1,6 @@
+name,type,size,format
+sample.jpg,image,1024,JPEG
+style.css,stylesheet,2048,CSS
+app.js,script,4096,JavaScript
+sample.json,data,512,JSON
+config.txt,config,256,TXT
