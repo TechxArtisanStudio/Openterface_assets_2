@@ -15,5 +15,7 @@ Copy and paste these links into your markdown files:
 
 [iShot_2026-01-19_17.39.23](https://TechxArtisanStudio.github.io/Openterface_assets_2/images/iShot_2026-01-19_17.39.23.webp)
 
+[icon-clockwork](https://TechxArtisanStudio.github.io/Openterface_assets_2/images/icon/clockwork.webp)
+
 [sample](https://TechxArtisanStudio.github.io/Openterface_assets_2/images/sample.webp)
 
