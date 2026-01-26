@@ -17,5 +17,7 @@ Copy and paste these links into your markdown files:
 
 [icon-clockwork](https://TechxArtisanStudio.github.io/Openterface_assets_2/images/icon/clockwork.webp)
 
+[keymod-2in1](https://TechxArtisanStudio.github.io/Openterface_assets_2/images/keymod/2in1.webp)
+
 [sample](https://TechxArtisanStudio.github.io/Openterface_assets_2/images/sample.webp)
 
