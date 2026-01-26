@@ -1,0 +1,19 @@
+[repository]
+# Base URL for generated asset links
+# Replace with your actual domain (e.g., https://assets.example.com)
+# This URL will be used when generating markdown links in the links/ directory
+base_url = "https://TechxArtisanStudio.github.io/Openterface_assets_2"
+
+# GitHub Pages domain (for CNAME)
+# Leave empty if using default github.io domain
+# This should match the domain in src/CNAME if using a custom domain
+domain = ""
+
+[build]
+# Directories to process (relative to src/)
+# These directories will be processed during the build
+image_dirs = ["images"]
+css_dirs = ["css"]
+js_dirs = ["js"]
+data_dirs = ["data"]
+md_dirs = ["md"]

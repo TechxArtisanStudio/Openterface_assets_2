@@ -1,0 +1,26 @@
+{
+  "name": "Static Assets Template",
+  "version": "1.0.0",
+  "description": "A template repository for managing static assets with automated GitHub Actions workflows",
+  "features": [
+    "Automated Build Pipeline",
+    "GitHub Actions Workflow",
+    "URL Generation",
+    "Image Optimization",
+    "WebP Conversion"
+  ],
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/youyoubilly/static-assets-template"
+  },
+  "build": {
+    "image_formats": ["png", "jpg", "jpeg", "webp", "svg", "gif"],
+    "css_minify": true,
+    "js_minify": true,
+    "webp_conversion": true
+  }
+}

@@ -1,0 +1,24 @@
+# Static Assets Template Configuration
+
+## Build Settings
+IMAGE_FORMATS=png,jpg,jpeg,webp,svg,gif
+CSS_MINIFY=true
+JS_MINIFY=true
+WEBP_CONVERSION=true
+
+## Output Directories
+DIST_DIR=dist
+IMAGES_DIR=dist/images
+CSS_DIR=dist/css
+JS_DIR=dist/js
+DATA_DIR=dist/data
+
+## GitHub Pages
+BASE_URL=https://youyoubilly.github.io/static-assets-template
+REPO_NAME=static-assets-template
+
+## Notes
+- Images in src/images/ will be copied to dist/images/
+- PNG/JPG/JPEG images will be converted to WebP format
+- CSS files will be minified to .min.css
+- JS files will be minified to .min.js
