@@ -9,6 +9,8 @@ Copy and paste these links into your markdown files:
 
 [blog-kvm-go-caps-3_png_gallery-lg](https://assets2.openterface.com/images/blog/kvm-go-caps-3_png_gallery-lg.webp)
 
+[blog-sdcard](https://assets2.openterface.com/images/blog/sdcard.webp)
+
 [icon-clockwork](https://assets2.openterface.com/images/icon/clockwork.webp)
 
 [keymod-2in1](https://assets2.openterface.com/images/keymod/2in1.webp)
