@@ -5,5 +5,5 @@ These URLs are predicted based on build transformations.
 
 Copy and paste these links into your markdown files:
 
-[README](https://TechxArtisanStudio.github.io/Openterface_assets_2/md/README.md)
+[README](https://assets2.openterface.com/md/README.md)
 

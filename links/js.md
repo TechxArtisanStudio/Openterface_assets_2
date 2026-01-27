@@ -5,5 +5,5 @@ These URLs are predicted based on build transformations.
 
 Copy and paste these links into your markdown files:
 
-[app.min](https://TechxArtisanStudio.github.io/Openterface_assets_2/js/app.min.js)
+[app.min](https://assets2.openterface.com/js/app.min.js)
 

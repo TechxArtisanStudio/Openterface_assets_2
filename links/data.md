@@ -5,9 +5,9 @@ These URLs are predicted based on build transformations.
 
 Copy and paste these links into your markdown files:
 
-[config](https://TechxArtisanStudio.github.io/Openterface_assets_2/data/config.txt)
+[config](https://assets2.openterface.com/data/config.txt)
 
-[sample](https://TechxArtisanStudio.github.io/Openterface_assets_2/data/sample.csv)
+[sample](https://assets2.openterface.com/data/sample.csv)
 
-[sample](https://TechxArtisanStudio.github.io/Openterface_assets_2/data/sample.json)
+[sample](https://assets2.openterface.com/data/sample.json)
 

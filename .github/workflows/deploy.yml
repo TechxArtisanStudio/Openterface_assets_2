@@ -82,6 +82,29 @@ jobs:
             exit 1
           fi
 
+      - name: Create CNAME for custom domain
+        run: |
+          python -c "
+          import tomllib
+          from pathlib import Path
+          config_path = Path('config.toml')
+          if not config_path.exists():
+              exit(0)
+          with open(config_path, 'rb') as f:
+              config = tomllib.load(f)
+          base_url = (config.get('repository') or {}).get('base_url') or ''
+          if not base_url:
+              (Path('dist') / 'CNAME').unlink(missing_ok=True)
+              exit(0)
+          domain = base_url.replace('https://', '').replace('http://', '').rstrip('/').split('/')[0]
+          if not domain or '.github.io' in domain:
+              # Not a custom domain; remove dist/CNAME if present
+              (Path('dist') / 'CNAME').unlink(missing_ok=True)
+              exit(0)
+          (Path('dist') / 'CNAME').write_text(domain + chr(10), encoding='utf-8')
+          print(f'Created dist/CNAME with domain: {domain}')
+          "
+
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:

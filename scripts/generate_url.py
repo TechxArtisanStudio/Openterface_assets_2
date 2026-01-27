@@ -26,6 +26,9 @@ except ImportError:
     except ImportError:
         tomllib = None
 
+# Default base URL when not in config.toml
+DEFAULT_BASE_URL = "https://assets2.openterface.com"
+
 # File type configuration mapping
 FILE_TYPE_MAPPING = {
     'webp': {
@@ -139,8 +142,8 @@ def get_base_url_from_config(project_root: Path) -> str:
     if 'repository' in config and 'base_url' in config['repository']:
         return config['repository']['base_url']
     
-    # Default fallback
-    return "https://assets.example.com"
+    # Default fallback for this project
+    return DEFAULT_BASE_URL
 
 
 def find_files_by_type(directory: Path, extensions: List[str], base_dir: Path) -> List[Path]:
@@ -204,7 +207,7 @@ def scan_dist_directory(project_root: Path, file_type_config: Dict) -> List[Tupl
 def generate_markdown_links(
     file_pairs: List[Tuple[Path, Path]],
     url_path: str,
-    base_url: str = "https://assets.example.com"
+    base_url: str = DEFAULT_BASE_URL
 ) -> List[str]:
     """Generate markdown links for files."""
     markdown_lines = []
@@ -325,7 +328,7 @@ Examples:
         '--base-url',
         type=str,
         default=None,
-        help='Base URL for generated links (default: read from config.toml, or https://assets.example.com)'
+        help=f'Base URL for generated links (default: read from config.toml, or {DEFAULT_BASE_URL})'
     )
     parser.add_argument(
         '--output-dir',
