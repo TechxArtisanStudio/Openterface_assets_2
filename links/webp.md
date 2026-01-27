@@ -5,6 +5,8 @@ These URLs are predicted based on build transformations.
 
 Copy and paste these links into your markdown files:
 
+[Pros-and-Cons](https://assets2.openterface.com/images/Pros-and-Cons.webp)
+
 [background_rm](https://assets2.openterface.com/images/background_rm.webp)
 
 [blog-kvm-go-caps-3_png_gallery-lg](https://assets2.openterface.com/images/blog/kvm-go-caps-3_png_gallery-lg.webp)
