@@ -19,21 +19,5 @@ Copy and paste these links into your markdown files:
 
 [keymod-2in1](https://TechxArtisanStudio.github.io/Openterface_assets_2/images/keymod/2in1.webp)
 
-[keymod-Circuit board](https://TechxArtisanStudio.github.io/Openterface_assets_2/images/keymod/Circuit board.webp)
-
-[keymod-USB-C](https://TechxArtisanStudio.github.io/Openterface_assets_2/images/keymod/USB-C.webp)
-
-[keymod-feature](https://TechxArtisanStudio.github.io/Openterface_assets_2/images/keymod/feature.webp)
-
-[keymod-gaming keyboard](https://TechxArtisanStudio.github.io/Openterface_assets_2/images/keymod/gaming keyboard.webp)
-
-[keymod-ipad connect](https://TechxArtisanStudio.github.io/Openterface_assets_2/images/keymod/ipad connect.webp)
-
-[keymod-keymod](https://TechxArtisanStudio.github.io/Openterface_assets_2/images/keymod/keymod.webp)
-
-[keymod-right side](https://TechxArtisanStudio.github.io/Openterface_assets_2/images/keymod/right side.webp)
-
-[keymod-windows connect](https://TechxArtisanStudio.github.io/Openterface_assets_2/images/keymod/windows connect.webp)
-
 [sample](https://TechxArtisanStudio.github.io/Openterface_assets_2/images/sample.webp)
 
