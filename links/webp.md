@@ -15,6 +15,14 @@ Copy and paste these links into your markdown files:
 
 [USB](https://assets2.openterface.com/images/USB.webp)
 
+[Untitled-1-1](https://assets2.openterface.com/images/Untitled-1-1.webp)
+
+[Untitled-2-1](https://assets2.openterface.com/images/Untitled-2-1.webp)
+
+[Untitled-3](https://assets2.openterface.com/images/Untitled-3.webp)
+
+[Untitled-4](https://assets2.openterface.com/images/Untitled-4.webp)
+
 [background_rm](https://assets2.openterface.com/images/background_rm.webp)
 
 [blog-kvm-go-caps-3_png_gallery-lg](https://assets2.openterface.com/images/blog/kvm-go-caps-3_png_gallery-lg.webp)
