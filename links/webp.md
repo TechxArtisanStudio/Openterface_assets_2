@@ -13,6 +13,8 @@ Copy and paste these links into your markdown files:
 
 [blog-sdcard](https://assets2.openterface.com/images/blog/sdcard.webp)
 
+[edit-paste](https://assets2.openterface.com/images/edit-paste.webp)
+
 [icon-clockwork](https://assets2.openterface.com/images/icon/clockwork.webp)
 
 [keymod-2in1](https://assets2.openterface.com/images/keymod/2in1.webp)
@@ -32,4 +34,12 @@ Copy and paste these links into your markdown files:
 [keymod-right-side](https://assets2.openterface.com/images/keymod/right-side.webp)
 
 [keymod-windows-connect](https://assets2.openterface.com/images/keymod/windows-connect.webp)
+
+[setting](https://assets2.openterface.com/images/setting.webp)
+
+[win ctrl+v](https://assets2.openterface.com/images/win ctrl+v.webp)
+
+[win-mode](https://assets2.openterface.com/images/win-mode.webp)
+
+[workaround](https://assets2.openterface.com/images/workaround.webp)
 
