@@ -39,6 +39,8 @@ Copy and paste these links into your markdown files:
 
 [win ctrl+v](https://assets2.openterface.com/images/win ctrl+v.webp)
 
+[win-ctrl+v](https://assets2.openterface.com/images/win-ctrl+v.webp)
+
 [win-mode](https://assets2.openterface.com/images/win-mode.webp)
 
 [workaround](https://assets2.openterface.com/images/workaround.webp)
