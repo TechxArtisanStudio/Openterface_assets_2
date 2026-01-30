@@ -5,7 +5,15 @@ These URLs are predicted based on build transformations.
 
 Copy and paste these links into your markdown files:
 
+[Performance](https://assets2.openterface.com/images/Performance.webp)
+
+[Performance2](https://assets2.openterface.com/images/Performance2.webp)
+
 [Pros-and-Cons](https://assets2.openterface.com/images/Pros-and-Cons.webp)
+
+[SD card](https://assets2.openterface.com/images/SD card.webp)
+
+[USB](https://assets2.openterface.com/images/USB.webp)
 
 [background_rm](https://assets2.openterface.com/images/background_rm.webp)
 
@@ -34,6 +42,8 @@ Copy and paste these links into your markdown files:
 [keymod-right-side](https://assets2.openterface.com/images/keymod/right-side.webp)
 
 [keymod-windows-connect](https://assets2.openterface.com/images/keymod/windows-connect.webp)
+
+[plug ](https://assets2.openterface.com/images/plug .webp)
 
 [setting](https://assets2.openterface.com/images/setting.webp)
 
