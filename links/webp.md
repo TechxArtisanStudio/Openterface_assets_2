@@ -5,39 +5,21 @@ These URLs are predicted based on build transformations.
 
 Copy and paste these links into your markdown files:
 
-[Host-plug&play](https://assets2.openterface.com/images/Host-plug&play.webp)
-
-[ID+Name](https://assets2.openterface.com/images/ID+Name.webp)
-
-[Performance](https://assets2.openterface.com/images/Performance.webp)
-
-[Performance2](https://assets2.openterface.com/images/Performance2.webp)
-
-[Pros-and-Cons](https://assets2.openterface.com/images/Pros-and-Cons.webp)
-
-[SD card](https://assets2.openterface.com/images/SD card.webp)
-
-[Target-plug&play](https://assets2.openterface.com/images/Target-plug&play.webp)
-
-[USB](https://assets2.openterface.com/images/USB.webp)
-
-[Untitled-1-1](https://assets2.openterface.com/images/Untitled-1-1.webp)
-
-[Untitled-2-1](https://assets2.openterface.com/images/Untitled-2-1.webp)
-
-[Untitled-3](https://assets2.openterface.com/images/Untitled-3.webp)
-
-[Untitled-4](https://assets2.openterface.com/images/Untitled-4.webp)
-
 [background_rm](https://assets2.openterface.com/images/background_rm.webp)
+
+[blog-Performance](https://assets2.openterface.com/images/blog/Performance.webp)
+
+[blog-Performance2](https://assets2.openterface.com/images/blog/Performance2.webp)
+
+[blog-SD-card](https://assets2.openterface.com/images/blog/SD-card.webp)
+
+[blog-USB](https://assets2.openterface.com/images/blog/USB.webp)
 
 [blog-kvm-go-caps-3_png_gallery-lg](https://assets2.openterface.com/images/blog/kvm-go-caps-3_png_gallery-lg.webp)
 
+[blog-plug](https://assets2.openterface.com/images/blog/plug.webp)
+
 [blog-sdcard](https://assets2.openterface.com/images/blog/sdcard.webp)
-
-[compress](https://assets2.openterface.com/images/compress.webp)
-
-[copy](https://assets2.openterface.com/images/copy.webp)
 
 [edit-paste](https://assets2.openterface.com/images/edit-paste.webp)
 
@@ -61,17 +43,7 @@ Copy and paste these links into your markdown files:
 
 [keymod-windows-connect](https://assets2.openterface.com/images/keymod/windows-connect.webp)
 
-[list](https://assets2.openterface.com/images/list.webp)
-
-[next](https://assets2.openterface.com/images/next.webp)
-
-[plug ](https://assets2.openterface.com/images/plug .webp)
-
 [setting](https://assets2.openterface.com/images/setting.webp)
-
-[stress-test](https://assets2.openterface.com/images/stress-test.webp)
-
-[win ctrl+v](https://assets2.openterface.com/images/win ctrl+v.webp)
 
 [win-ctrl+v](https://assets2.openterface.com/images/win-ctrl+v.webp)
 
