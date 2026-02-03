@@ -25,6 +25,8 @@ Copy and paste these links into your markdown files:
 
 [icon-clockwork](https://assets2.openterface.com/images/icon/clockwork.webp)
 
+[icon-txa-logo](https://assets2.openterface.com/images/icon/txa-logo.webp)
+
 [keymod-2in1](https://assets2.openterface.com/images/keymod/2in1.webp)
 
 [keymod-Circuit-board](https://assets2.openterface.com/images/keymod/Circuit-board.webp)
