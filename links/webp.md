@@ -7,15 +7,25 @@ Copy and paste these links into your markdown files:
 
 [Host-plug&play](https://assets2.openterface.com/images/Host-plug&play.webp)
 
+[Host_app](https://assets2.openterface.com/images/Host_app.webp)
+
 [ID+Name](https://assets2.openterface.com/images/ID+Name.webp)
 
 [KVM-GO_VGA-angled-view](https://assets2.openterface.com/images/KVM-GO_VGA-angled-view.webp)
 
 [KVM-GO_VGA-screw-positions](https://assets2.openterface.com/images/KVM-GO_VGA-screw-positions.webp)
 
+[KVM-GO_prototypes](https://assets2.openterface.com/images/KVM-GO_prototypes.webp)
+
+[Metal_shell](https://assets2.openterface.com/images/Metal_shell.webp)
+
+[Orange_cover](https://assets2.openterface.com/images/Orange_cover.webp)
+
 [Side-screw-detail](https://assets2.openterface.com/images/Side-screw-detail.webp)
 
 [Target-plug&play](https://assets2.openterface.com/images/Target-plug&play.webp)
+
+[Thermal_solution](https://assets2.openterface.com/images/Thermal_solution.webp)
 
 [VGA-connector-and-thumbscrews](https://assets2.openterface.com/images/VGA-connector-and-thumbscrews.webp)
 
