@@ -9,7 +9,15 @@ Copy and paste these links into your markdown files:
 
 [ID+Name](https://assets2.openterface.com/images/ID+Name.webp)
 
+[KVM-GO_VGA-angled-view](https://assets2.openterface.com/images/KVM-GO_VGA-angled-view.webp)
+
+[KVM-GO_VGA-screw-positions](https://assets2.openterface.com/images/KVM-GO_VGA-screw-positions.webp)
+
+[Side-screw-detail](https://assets2.openterface.com/images/Side-screw-detail.webp)
+
 [Target-plug&play](https://assets2.openterface.com/images/Target-plug&play.webp)
+
+[VGA-connector-and-thumbscrews](https://assets2.openterface.com/images/VGA-connector-and-thumbscrews.webp)
 
 [background_rm](https://assets2.openterface.com/images/background_rm.webp)
 
