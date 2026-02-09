@@ -11,6 +11,8 @@ Copy and paste these links into your markdown files:
 
 [icon-linux](https://assets2.openterface.com/images/icon/linux.svg)
 
+[icon-mail](https://assets2.openterface.com/images/icon/mail.svg)
+
 [icon-raspberry-pi](https://assets2.openterface.com/images/icon/raspberry-pi.svg)
 
 [icon-txa-icon](https://assets2.openterface.com/images/icon/txa-icon.svg)
