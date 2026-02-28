@@ -83,6 +83,8 @@ Copy and paste these links into your markdown files:
 
 [edit-paste](https://assets2.openterface.com/images/edit-paste.webp)
 
+[feature](https://assets2.openterface.com/images/feature.webp)
+
 [icon-clockwork](https://assets2.openterface.com/images/icon/clockwork.webp)
 
 [icon-txa-logo](https://assets2.openterface.com/images/icon/txa-logo.webp)
