@@ -107,6 +107,8 @@ Copy and paste these links into your markdown files:
 
 [keymod-windows-connect](https://assets2.openterface.com/images/keymod/windows-connect.webp)
 
+[keymod-windows-connect](https://assets2.openterface.com/images/keymod-windows-connect.webp)
+
 [list](https://assets2.openterface.com/images/list.webp)
 
 [next](https://assets2.openterface.com/images/next.webp)
