@@ -5,6 +5,10 @@ These URLs are predicted based on build transformations.
 
 Copy and paste these links into your markdown files:
 
+[Back-cover-screw](https://assets2.openterface.com/images/Back-cover-screw.webp)
+
+[Back-cover](https://assets2.openterface.com/images/Back-cover.webp)
+
 [CNC-machining](https://assets2.openterface.com/images/CNC-machining.webp)
 
 [Casing-temperature-test](https://assets2.openterface.com/images/Casing-temperature-test.webp)
@@ -33,6 +37,12 @@ Copy and paste these links into your markdown files:
 
 [New-PCB-ayout](https://assets2.openterface.com/images/New-PCB-ayout.webp)
 
+[New-Version](https://assets2.openterface.com/images/New-Version.webp)
+
+[New-vga-version-screwdrivers](https://assets2.openterface.com/images/New-vga-version-screwdrivers.webp)
+
+[Open-source](https://assets2.openterface.com/images/Open-source.webp)
+
 [Orange_cover](https://assets2.openterface.com/images/Orange_cover.webp)
 
 [Original-PCB-layout](https://assets2.openterface.com/images/Original-PCB-layout.webp)
@@ -52,6 +62,8 @@ Copy and paste these links into your markdown files:
 [Thermal_solution](https://assets2.openterface.com/images/Thermal_solution.webp)
 
 [VGA-connector-and-thumbscrews](https://assets2.openterface.com/images/VGA-connector-and-thumbscrews.webp)
+
+[Various-versions-of-interface-nylon-front-covers](https://assets2.openterface.com/images/Various-versions-of-interface-nylon-front-covers.webp)
 
 [Wiring-layout-modification-2](https://assets2.openterface.com/images/Wiring-layout-modification-2.webp)
 
@@ -79,6 +91,8 @@ Copy and paste these links into your markdown files:
 
 [compress](https://assets2.openterface.com/images/compress.webp)
 
+[connection-cap](https://assets2.openterface.com/images/connection-cap.webp)
+
 [copy](https://assets2.openterface.com/images/copy.webp)
 
 [edit-paste](https://assets2.openterface.com/images/edit-paste.webp)
@@ -88,6 +102,8 @@ Copy and paste these links into your markdown files:
 [icon-clockwork](https://assets2.openterface.com/images/icon/clockwork.webp)
 
 [icon-txa-logo](https://assets2.openterface.com/images/icon/txa-logo.webp)
+
+[keychain-cord-2](https://assets2.openterface.com/images/keychain-cord-2.webp)
 
 [keymod-2in1](https://assets2.openterface.com/images/keymod/2in1.webp)
 
