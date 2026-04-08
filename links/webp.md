@@ -133,6 +133,14 @@ Copy and paste these links into your markdown files:
 
 [keymod-youtube-cover](https://assets2.openterface.com/images/keymod/youtube-cover.webp)
 
+[keymod-connector-a](https://assets2.openterface.com/images/keymod-connector-a.webp)
+
+[keymod-connector-b](https://assets2.openterface.com/images/keymod-connector-b.webp)
+
+[keymod-connector-c](https://assets2.openterface.com/images/keymod-connector-c.webp)
+
+[keymod-connector-d](https://assets2.openterface.com/images/keymod-connector-d.webp)
+
 [keymod-windows-connect](https://assets2.openterface.com/images/keymod-windows-connect.webp)
 
 [list](https://assets2.openterface.com/images/list.webp)
@@ -150,4 +158,6 @@ Copy and paste these links into your markdown files:
 [win-mode](https://assets2.openterface.com/images/win-mode.webp)
 
 [workaround](https://assets2.openterface.com/images/workaround.webp)
+
+[youtube-cover](https://assets2.openterface.com/images/youtube-cover.webp)
 
