@@ -117,11 +117,21 @@ Copy and paste these links into your markdown files:
 
 [keymod-ipad-connect](https://assets2.openterface.com/images/keymod/ipad-connect.webp)
 
+[keymod-keymod-connector-a](https://assets2.openterface.com/images/keymod/keymod-connector-a.webp)
+
+[keymod-keymod-connector-b](https://assets2.openterface.com/images/keymod/keymod-connector-b.webp)
+
+[keymod-keymod-connector-c](https://assets2.openterface.com/images/keymod/keymod-connector-c.webp)
+
+[keymod-keymod-connector-d](https://assets2.openterface.com/images/keymod/keymod-connector-d.webp)
+
 [keymod-keymod](https://assets2.openterface.com/images/keymod/keymod.webp)
 
 [keymod-right-side](https://assets2.openterface.com/images/keymod/right-side.webp)
 
 [keymod-windows-connect](https://assets2.openterface.com/images/keymod/windows-connect.webp)
+
+[keymod-youtube-cover](https://assets2.openterface.com/images/keymod/youtube-cover.webp)
 
 [keymod-windows-connect](https://assets2.openterface.com/images/keymod-windows-connect.webp)
 
