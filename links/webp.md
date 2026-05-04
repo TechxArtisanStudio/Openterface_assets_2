@@ -163,6 +163,22 @@ Copy and paste these links into your markdown files:
 
 [keymod-windows-connect](https://assets2.openterface.com/images/keymod-windows-connect.webp)
 
+[kvm-go-kvm-go-compliance-certificates-emc-test-report](https://assets2.openterface.com/images/kvm-go/kvm-go-compliance-certificates-emc-test-report.webp)
+
+[kvm-go-kvm-go-group-3](https://assets2.openterface.com/images/kvm-go/kvm-go-group-3.webp)
+
+[kvm-go-kvm-go-hdmi-dp-vga-km-pcb-lineup](https://assets2.openterface.com/images/kvm-go/kvm-go-hdmi-dp-vga-km-pcb-lineup.webp)
+
+[kvm-go-kvm-go-oshwa-certification-cn000022](https://assets2.openterface.com/images/kvm-go/kvm-go-oshwa-certification-cn000022.webp)
+
+[kvm-go-kvm-go-product-page-subscribe](https://assets2.openterface.com/images/kvm-go/kvm-go-product-page-subscribe.webp)
+
+[kvm-go-kvm-go-usb-c-connector-boards-batch-tray](https://assets2.openterface.com/images/kvm-go/kvm-go-usb-c-connector-boards-batch-tray.webp)
+
+[kvm-go-kvm-go-v1-0-boards-four-units](https://assets2.openterface.com/images/kvm-go/kvm-go-v1-0-boards-four-units.webp)
+
+[kvm-go-kvm-go-vga-dp-hdmi-exploded-assembly](https://assets2.openterface.com/images/kvm-go/kvm-go-vga-dp-hdmi-exploded-assembly.webp)
+
 [list](https://assets2.openterface.com/images/list.webp)
 
 [next](https://assets2.openterface.com/images/next.webp)
