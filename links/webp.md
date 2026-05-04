@@ -113,6 +113,8 @@ Copy and paste these links into your markdown files:
 
 [keymod-andorid-demo-keyboard-mouse-landscape-macro-strip](https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-landscape-macro-strip.webp)
 
+[keymod-andorid-demo-keyboard-mouse-landscape-qwerty-touchpad](https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-landscape-qwerty-touchpad.webp)
+
 [keymod-andorid-demo-keyboard-mouse-landscape-split-keyboard-touchpad](https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-landscape-split-keyboard-touchpad.webp)
 
 [keymod-andorid-demo-keyboard-mouse-portrait-long-text-compose](https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-portrait-long-text-compose.webp)
@@ -128,6 +130,8 @@ Copy and paste these links into your markdown files:
 [keymod-andorid-demo-shortcut-hub](https://assets2.openterface.com/images/keymod/andorid/demo-shortcut-hub.webp)
 
 [keymod-andorid-demo-voice-input](https://assets2.openterface.com/images/keymod/andorid/demo-voice-input.webp)
+
+[keymod-andorid-demo-welcome-keymod-mode-selection-landscape](https://assets2.openterface.com/images/keymod/andorid/demo-welcome-keymod-mode-selection-landscape.webp)
 
 [keymod-andorid-demo-welcome-mode-selection](https://assets2.openterface.com/images/keymod/andorid/demo-welcome-mode-selection.webp)
 
