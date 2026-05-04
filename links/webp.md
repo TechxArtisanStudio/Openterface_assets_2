@@ -111,6 +111,26 @@ Copy and paste these links into your markdown files:
 
 [keymod-USB-C](https://assets2.openterface.com/images/keymod/USB-C.webp)
 
+[keymod-andorid-demo-keyboard-mouse-landscape-macro-strip](https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-landscape-macro-strip.webp)
+
+[keymod-andorid-demo-keyboard-mouse-landscape-split-keyboard-touchpad](https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-landscape-split-keyboard-touchpad.webp)
+
+[keymod-andorid-demo-keyboard-mouse-portrait-long-text-compose](https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-portrait-long-text-compose.webp)
+
+[keymod-andorid-demo-keyboard-mouse-portrait-touchpad-gestures](https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-portrait-touchpad-gestures.webp)
+
+[keymod-andorid-demo-keyboard-mouse-portrait-touchpad-numpad](https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-portrait-touchpad-numpad.webp)
+
+[keymod-andorid-demo-navigation-drawer](https://assets2.openterface.com/images/keymod/andorid/demo-navigation-drawer.webp)
+
+[keymod-andorid-demo-presentation-google-slides](https://assets2.openterface.com/images/keymod/andorid/demo-presentation-google-slides.webp)
+
+[keymod-andorid-demo-shortcut-hub](https://assets2.openterface.com/images/keymod/andorid/demo-shortcut-hub.webp)
+
+[keymod-andorid-demo-voice-input](https://assets2.openterface.com/images/keymod/andorid/demo-voice-input.webp)
+
+[keymod-andorid-demo-welcome-mode-selection](https://assets2.openterface.com/images/keymod/andorid/demo-welcome-mode-selection.webp)
+
 [keymod-feature](https://assets2.openterface.com/images/keymod/feature.webp)
 
 [keymod-gaming-keyboard](https://assets2.openterface.com/images/keymod/gaming-keyboard.webp)
