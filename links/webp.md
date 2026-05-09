@@ -109,6 +109,34 @@ Copy and paste these links into your markdown files:
 
 [keymod-Circuit-board](https://assets2.openterface.com/images/keymod/Circuit-board.webp)
 
+[keymod-Gamepad-perset-1](https://assets2.openterface.com/images/keymod/Gamepad-perset-1.webp)
+
+[keymod-Gamepad-perset-2](https://assets2.openterface.com/images/keymod/Gamepad-perset-2.webp)
+
+[keymod-Gamepad-perset-3](https://assets2.openterface.com/images/keymod/Gamepad-perset-3.webp)
+
+[keymod-Gamepad-perset-4](https://assets2.openterface.com/images/keymod/Gamepad-perset-4.webp)
+
+[keymod-Gamepad-perset-minecraft](https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft.webp)
+
+[keymod-KM-Basic-ComposeSend](https://assets2.openterface.com/images/keymod/KM-Basic-ComposeSend.webp)
+
+[keymod-KM-Basic-Keyboard](https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard.webp)
+
+[keymod-KM-Basic-Numpad](https://assets2.openterface.com/images/keymod/KM-Basic-Numpad.webp)
+
+[keymod-KM-Basic-TouchPad](https://assets2.openterface.com/images/keymod/KM-Basic-TouchPad.webp)
+
+[keymod-KM-Pro-Keyboard-landscape-full](https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-full.webp)
+
+[keymod-KM-Pro-Keyboard-landscape-split](https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split.webp)
+
+[keymod-KM-Pro-Keyboard-portiat-ime](https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-portiat-ime.webp)
+
+[keymod-KM-Pro-Keyboard-portiat-keyboard](https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-portiat-keyboard.webp)
+
+[keymod-KM-Pro-Keyboard-portiat-numpad](https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-portiat-numpad.webp)
+
 [keymod-USB-C](https://assets2.openterface.com/images/keymod/USB-C.webp)
 
 [keymod-andorid-demo-keyboard-mouse-landscape-macro-strip](https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-landscape-macro-strip.webp)
