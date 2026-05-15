@@ -137,6 +137,24 @@ Copy and paste these links into your markdown files:
 
 [keymod-KM-Pro-Keyboard-portiat-numpad](https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-portiat-numpad.webp)
 
+[keymod-KeyCmd-Full-Keyboard-landscape](https://assets2.openterface.com/images/keymod/KeyCmd-Full-Keyboard-landscape.webp)
+
+[keymod-KeyCmd-Keyboard-TouchPad-portrait](https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait.webp)
+
+[keymod-KeyCmd-NumPad-landscape](https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape.webp)
+
+[keymod-KeyCmd-NumPad-portrait](https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-portrait.webp)
+
+[keymod-KeyCmd-Remote-Coding-portrait](https://assets2.openterface.com/images/keymod/KeyCmd-Remote-Coding-portrait.webp)
+
+[keymod-KeyCmd-Script-Running-portrait](https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait.webp)
+
+[keymod-KeyCmd-Settings-screen](https://assets2.openterface.com/images/keymod/KeyCmd-Settings-screen.webp)
+
+[keymod-KeyCmd-Touchpad-landscape](https://assets2.openterface.com/images/keymod/KeyCmd-Touchpad-landscape.webp)
+
+[keymod-KeyCmd-Welcome-Screen-landscape](https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape.webp)
+
 [keymod-USB-C](https://assets2.openterface.com/images/keymod/USB-C.webp)
 
 [keymod-andorid-demo-keyboard-mouse-landscape-macro-strip](https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-landscape-macro-strip.webp)
