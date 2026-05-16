@@ -155,6 +155,8 @@ Copy and paste these links into your markdown files:
 
 [keymod-KeyCmd-Welcome-Screen-landscape](https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape.webp)
 
+[keymod-KeyCmd-km-basic-Touchpad](https://assets2.openterface.com/images/keymod/KeyCmd-km-basic-Touchpad.webp)
+
 [keymod-USB-C](https://assets2.openterface.com/images/keymod/USB-C.webp)
 
 [keymod-andorid-demo-keyboard-mouse-landscape-macro-strip](https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-landscape-macro-strip.webp)
