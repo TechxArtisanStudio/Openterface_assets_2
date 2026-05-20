@@ -15,7 +15,10 @@
         other: 'Other',
     };
 
+    const VIEW_STORAGE_KEY = 'openterface_assets_view';
+
     let manifest = null;
+    let viewMode = 'comfortable';
     let activeCategory = 'all';
     let searchQuery = '';
     let debounceTimer = null;
@@ -35,6 +38,7 @@
     const lightboxCaption = document.getElementById('lightbox-caption');
     const lightboxOpen = document.getElementById('lightbox-open');
     const lightboxCopy = document.getElementById('lightbox-copy');
+    const viewToggle = document.getElementById('view-toggle');
 
     function escapeHtml(str) {
         const div = document.createElement('div');
@@ -115,6 +119,43 @@
         }
     }
 
+    function setViewMode(mode) {
+        viewMode = mode === 'compact' ? 'compact' : 'comfortable';
+        try {
+            localStorage.setItem(VIEW_STORAGE_KEY, viewMode);
+        } catch {
+            /* ignore */
+        }
+        gridEl.classList.toggle('view-compact', viewMode === 'compact');
+        if (viewToggle) {
+            viewToggle.querySelectorAll('.view-btn').forEach((btn) => {
+                const active = btn.dataset.view === viewMode;
+                btn.classList.toggle('active', active);
+                btn.setAttribute('aria-pressed', active ? 'true' : 'false');
+            });
+        }
+    }
+
+    function initViewToggle() {
+        try {
+            const saved = localStorage.getItem(VIEW_STORAGE_KEY);
+            if (saved === 'compact' || saved === 'comfortable') {
+                viewMode = saved;
+            }
+        } catch {
+            /* ignore */
+        }
+        setViewMode(viewMode);
+        if (!viewToggle) return;
+        viewToggle.querySelectorAll('.view-btn').forEach((btn) => {
+            btn.addEventListener('click', () => {
+                if (btn.dataset.view !== viewMode) {
+                    setViewMode(btn.dataset.view);
+                }
+            });
+        });
+    }
+
     function renderTabs() {
         if (!manifest) return;
         const cats = manifest.categories || [];
@@ -157,7 +198,7 @@
 
         html += `<div class="card-body">`;
         html += `<div class="card-header-row">`;
-        html += `<div class="card-name">${escapeHtml(asset.name)}</div>`;
+        html += `<div class="card-name" title="${escapeHtml(asset.name + ' — ' + displayPath)}">${escapeHtml(asset.name)}</div>`;
         html += `<span class="category-badge" data-cat="${escapeHtml(asset.category)}">${escapeHtml(catLabel)}</span>`;
         html += `</div>`;
 
@@ -331,6 +372,7 @@
             manifest = await res.json();
             renderStats();
             renderTabs();
+            initViewToggle();
             renderGrid();
             gridEl.classList.remove('hidden');
         } catch (err) {
