@@ -79,6 +79,9 @@ if [ -n "$image_files" ]; then
         
         echo "Processing image: $file -> $output_file"
         
+        # Remove previous WebP so a failed run cannot leave a stale file
+        rm -f "$output_file"
+        
         # Convert to WebP with error checking
         if cwebp "$file" -o "$output_file" 2>&1; then
             echo "  ✓ Successfully created: $output_file"
