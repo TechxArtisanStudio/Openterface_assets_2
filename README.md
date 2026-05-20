@@ -175,6 +175,22 @@ The site at the repository root URL (`https://assets2.openterface.com/` when dep
 
 The catalog is generated from built files (not `links/*.md`), so it always matches what GitHub Pages serves. Raster images with both JPEG/PNG and WebP variants appear once (WebP preferred).
 
+## Access (password gate)
+
+The asset browser homepage is protected by a **lightweight frontend gate** (shared team password). This only hides the browse UI from casual visitors—it is **not** strong security.
+
+- **Remember on this device** is enabled by default: after entering the password once, your browser keeps access for **30 days** (`localStorage`).
+- Uncheck “Remember on this device” to require the password again when the browser session ends (`sessionStorage` only).
+- Use **Log out** in the header to clear stored access on shared machines.
+
+**Still public without the password:**
+
+- Direct CDN URLs (`/images/...`, `/data/...`, etc.)
+- `https://assets2.openterface.com/assets.json`
+- All files in this public GitHub repository
+
+Do not rely on this gate to protect confidential assets; use private hosting if you need real access control.
+
 ## Adding Assets
 
 ### Images
