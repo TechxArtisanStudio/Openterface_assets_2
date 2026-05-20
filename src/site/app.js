@@ -16,9 +16,17 @@
     };
 
     const VIEW_STORAGE_KEY = 'openterface_assets_view';
+    const SORT_STORAGE_KEY = 'openterface_assets_sort';
+
+    const SORT_LABELS = {
+        name: 'Name A–Z',
+        'date-desc': 'Newest first',
+        'date-asc': 'Oldest first',
+    };
 
     let manifest = null;
     let viewMode = 'comfortable';
+    let sortMode = 'name';
     let activeCategory = 'all';
     let searchQuery = '';
     let debounceTimer = null;
@@ -39,6 +47,7 @@
     const lightboxOpen = document.getElementById('lightbox-open');
     const lightboxCopy = document.getElementById('lightbox-copy');
     const viewToggle = document.getElementById('view-toggle');
+    const sortSelect = document.getElementById('sort-select');
 
     function escapeHtml(str) {
         const div = document.createElement('div');
@@ -65,6 +74,20 @@
             });
         } catch {
             return iso;
+        }
+    }
+
+    function formatAssetDate(iso) {
+        if (!iso) return '';
+        try {
+            const d = new Date(iso);
+            return d.toLocaleDateString(undefined, {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric',
+            });
+        } catch {
+            return '';
         }
     }
 
@@ -105,12 +128,11 @@
             `<span class="stat-chip">${s.data || 0} data</span>`,
         ];
         if (manifest.generated_at) {
+            const built = `Built ${formatBuildTime(manifest.generated_at)}`;
+            const title = manifest.commit ? `${built} · ${manifest.commit}` : built;
             parts.push(
-                `<span class="stat-chip muted">Built ${escapeHtml(formatBuildTime(manifest.generated_at))}</span>`
+                `<span class="stat-chip stat-chip-muted" title="${escapeHtml(title)}">${escapeHtml(built)}</span>`
             );
-        }
-        if (manifest.commit) {
-            parts.push(`<span class="stat-chip muted">${escapeHtml(manifest.commit)}</span>`);
         }
         statsBar.innerHTML = parts.join('');
 
@@ -134,6 +156,57 @@
                 btn.setAttribute('aria-pressed', active ? 'true' : 'false');
             });
         }
+    }
+
+    function compareAssets(a, b) {
+        if (sortMode === 'date-desc') {
+            return (b.modified_ts || 0) - (a.modified_ts || 0) || a.path.localeCompare(b.path);
+        }
+        if (sortMode === 'date-asc') {
+            return (a.modified_ts || 0) - (b.modified_ts || 0) || a.path.localeCompare(b.path);
+        }
+        return a.path.localeCompare(b.path);
+    }
+
+    function collectAssets() {
+        const list = [];
+        (manifest.categories || []).forEach((cat) => {
+            (cat.assets || []).forEach((asset) => {
+                asset.category = cat.id;
+                list.push(asset);
+            });
+        });
+        list.sort(compareAssets);
+        return list;
+    }
+
+    function setSortMode(mode) {
+        if (!['name', 'date-desc', 'date-asc'].includes(mode)) mode = 'name';
+        sortMode = mode;
+        try {
+            localStorage.setItem(SORT_STORAGE_KEY, sortMode);
+        } catch {
+            /* ignore */
+        }
+        if (sortSelect) sortSelect.value = sortMode;
+    }
+
+    function initSortSelect() {
+        try {
+            const saved = localStorage.getItem(SORT_STORAGE_KEY);
+            if (saved && ['name', 'date-desc', 'date-asc'].includes(saved)) {
+                sortMode = saved;
+            }
+        } catch {
+            /* ignore */
+        }
+        setSortMode(sortMode);
+        if (!sortSelect) return;
+        sortSelect.addEventListener('change', () => {
+            setSortMode(sortSelect.value);
+            renderGrid();
+            scrollToResults();
+        });
     }
 
     function initViewToggle() {
@@ -179,6 +252,21 @@
         });
     }
 
+    function buildActionsHtml(asset, isImage, extraClass) {
+        const cls = extraClass ? `card-actions ${extraClass}` : 'card-actions';
+        const mdLink = `[${asset.name}](${asset.url})`;
+        const mdImg = `![${asset.name}](${asset.url})`;
+        let html = `<div class="${cls}" data-md-link="${escapeHtml(mdLink)}" data-md-img="${escapeHtml(mdImg)}">`;
+        html += `<button type="button" class="icon-btn" data-copy="url" title="Copy URL" aria-label="Copy URL">${ICON_LINK}</button>`;
+        html += `<button type="button" class="icon-btn" data-copy="md" title="Copy markdown link" aria-label="Copy markdown link">${ICON_MD}</button>`;
+        if (isImage) {
+            html += `<button type="button" class="icon-btn" data-copy="img" title="Copy markdown image" aria-label="Copy markdown image">${ICON_IMG}</button>`;
+        }
+        html += `<a class="icon-btn" href="${escapeHtml(asset.url)}" target="_blank" rel="noopener noreferrer" title="Open in new tab" aria-label="Open in new tab">${ICON_OPEN}</a>`;
+        html += `</div>`;
+        return { html, mdLink, mdImg };
+    }
+
     function buildCard(asset) {
         const isImage = asset.is_image;
         const displayPath = '/' + asset.path;
@@ -188,10 +276,16 @@
 
         let html = `<article class="${cardClass}" data-path="${escapeHtml(asset.path.toLowerCase())}" data-category="${escapeHtml(asset.category)}" data-search="${escapeHtml(asset.search_text || '')}">`;
 
+        const actions = buildActionsHtml(asset, isImage, 'card-actions--inline');
+        const overlayActions = isImage ? buildActionsHtml(asset, isImage, 'card-actions--overlay') : null;
+
         if (isImage) {
+            html += `<div class="card-media">`;
             html += `<button type="button" class="thumb-wrap" data-preview="${escapeHtml(asset.url)}" aria-label="Preview ${escapeHtml(asset.name)}">`;
-            html += `<img class="thumb" src="${escapeHtml(asset.url)}" alt="${escapeHtml(asset.name)}" loading="lazy">`;
+            html += `<img class="thumb" src="${escapeHtml(asset.url)}" alt="${escapeHtml(asset.name)}" loading="lazy" decoding="async" onerror="this.classList.add('thumb--error')">`;
             html += `</button>`;
+            html += overlayActions.html;
+            html += `</div>`;
         } else {
             html += `<div class="card-media-row"><div class="file-icon" aria-hidden="true">${fileEmoji(asset.ext)}</div></div>`;
         }
@@ -203,6 +297,7 @@
         html += `</div>`;
 
         const metaParts = [];
+        if (asset.modified_at) metaParts.push(formatAssetDate(asset.modified_at));
         if (asset.folder && asset.folder !== '(root)') metaParts.push(asset.folder);
         if (sizeLabel) metaParts.push(sizeLabel);
         if (metaParts.length) {
@@ -216,29 +311,23 @@
             html += `<span class="alt-chip"><a href="${escapeHtml(alt.url)}" target="_blank" rel="noopener noreferrer">Also as ${escapeHtml(alt.ext)}</a></span>`;
         }
 
-        const mdLink = `[${asset.name}](${asset.url})`;
-        const mdImg = `![${asset.name}](${asset.url})`;
-
-        html += `<div class="card-actions">`;
-        html += `<button type="button" class="icon-btn" data-copy="url" title="Copy URL" aria-label="Copy URL">${ICON_LINK}</button>`;
-        html += `<button type="button" class="icon-btn" data-copy="md" title="Copy markdown link" aria-label="Copy markdown link">${ICON_MD}</button>`;
-        if (isImage) {
-            html += `<button type="button" class="icon-btn" data-copy="img" title="Copy markdown image" aria-label="Copy markdown image">${ICON_IMG}</button>`;
-        }
-        html += `<a class="icon-btn" href="${escapeHtml(asset.url)}" target="_blank" rel="noopener noreferrer" title="Open in new tab" aria-label="Open in new tab">${ICON_OPEN}</a>`;
-        html += `</div></div></article>`;
+        html += actions.html;
+        html += `</div></article>`;
 
         const el = document.createElement('div');
         el.innerHTML = html;
         const card = el.firstElementChild;
 
-        card.querySelectorAll('[data-copy]').forEach((btn) => {
-            btn.addEventListener('click', () => {
-                const kind = btn.dataset.copy;
-                let text = asset.url;
-                if (kind === 'md') text = mdLink;
-                if (kind === 'img') text = mdImg;
-                copyText(text, btn);
+        card.querySelectorAll('.card-actions').forEach((actionsEl) => {
+            actionsEl.querySelectorAll('[data-copy]').forEach((btn) => {
+                btn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const kind = btn.dataset.copy;
+                    let text = asset.url;
+                    if (kind === 'md') text = actions.mdLink;
+                    if (kind === 'img') text = actions.mdImg;
+                    copyText(text, btn);
+                });
             });
         });
 
@@ -284,6 +373,9 @@
             const label = CATEGORY_LABELS[activeCategory] || activeCategory;
             statusText += ` · ${label} only`;
         }
+        if (sortMode !== 'name' && SORT_LABELS[sortMode]) {
+            statusText += ` · ${SORT_LABELS[sortMode]}`;
+        }
         statusEl.textContent = statusText;
         statusEl.classList.toggle('error', !hasResults);
 
@@ -295,11 +387,8 @@
         gridEl.innerHTML = '';
         const fragment = document.createDocumentFragment();
 
-        (manifest.categories || []).forEach((cat) => {
-            (cat.assets || []).forEach((asset) => {
-                asset.category = cat.id;
-                fragment.appendChild(buildCard(asset));
-            });
+        collectAssets().forEach((asset) => {
+            fragment.appendChild(buildCard(asset));
         });
 
         gridEl.appendChild(fragment);
@@ -372,6 +461,7 @@
             manifest = await res.json();
             renderStats();
             renderTabs();
+            initSortSelect();
             initViewToggle();
             renderGrid();
             gridEl.classList.remove('hidden');

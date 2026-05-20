@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import json
 import os
+import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -84,6 +85,69 @@ def dedupe_key(rel_path: str) -> str:
     return f"{parent}/{stem}".lower()
 
 
+def git_last_modified_ts(project_root: Path, src_path: Path) -> Optional[int]:
+    """Last commit time touching src_path (proxy for upload/update date)."""
+    if not src_path.exists():
+        return None
+    try:
+        result = subprocess.run(
+            ["git", "log", "-1", "--format=%ct", "--", str(src_path)],
+            cwd=project_root,
+            capture_output=True,
+            text=True,
+            timeout=10,
+            check=False,
+        )
+        if result.returncode == 0 and result.stdout.strip().isdigit():
+            return int(result.stdout.strip())
+    except (OSError, ValueError, subprocess.SubprocessError):
+        pass
+    return None
+
+
+def src_candidates_for_dist(dist_rel: str) -> List[Path]:
+    """Map a dist-relative path to possible src/ paths (handles webp siblings)."""
+    p = Path(dist_rel)
+    candidates = [Path("src") / dist_rel]
+    if dist_rel.startswith("images/"):
+        base = Path("src") / dist_rel
+        stem = base.with_suffix("")
+        for ext in (".jpg", ".jpeg", ".png", ".webp", ".gif", ".svg"):
+            candidates.append(stem.with_suffix(ext))
+    elif dist_rel.startswith(("css/", "js/")):
+        p = Path(dist_rel)
+        if p.suffix == ".min.css":
+            candidates.append(Path("src") / p.with_name(p.stem.replace(".min", "") + ".css"))
+        elif p.suffix == ".min.js":
+            candidates.append(Path("src") / p.with_name(p.stem.replace(".min", "") + ".js"))
+    return candidates
+
+
+def modified_timestamp(
+    project_root: Path, dist_dir: Path, dist_paths: List[str]
+) -> Tuple[int, Optional[str]]:
+    """Best-effort modified time from git history, then src/dist file mtime."""
+    best_ts = 0
+    for dist_rel in dist_paths:
+        for src_path in src_candidates_for_dist(dist_rel):
+            if not src_path.exists():
+                continue
+            ts = git_last_modified_ts(project_root, src_path)
+            if ts is None:
+                ts = int(src_path.stat().st_mtime)
+            if ts > best_ts:
+                best_ts = ts
+        dist_file = dist_dir / dist_rel
+        if dist_file.exists():
+            ts = int(dist_file.stat().st_mtime)
+            if ts > best_ts:
+                best_ts = ts
+    if not best_ts:
+        return 0, None
+    iso = datetime.fromtimestamp(best_ts, tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    return best_ts, iso
+
+
 def pick_primary(paths: List[str]) -> Tuple[str, List[str]]:
     """Choose primary URL path; return (primary, alternates)."""
     webp = [p for p in paths if p.lower().endswith(".webp")]
@@ -132,20 +196,25 @@ def build_assets(project_root: Path, dist_dir: Path, base_url: str) -> List[Dict
 
     for paths in sorted(groups.values(), key=lambda ps: ps[0].lower()):
         primary, alternates = pick_primary(paths)
-        entries.append(_make_entry(primary, base_url, dist_dir, alternates))
+        entries.append(_make_entry(primary, base_url, dist_dir, project_root, alternates, paths))
         processed.update(paths)
 
     for rel in raw_files:
         rel_str = rel.as_posix()
         if rel_str in processed:
             continue
-        entries.append(_make_entry(rel_str, base_url, dist_dir, []))
+        entries.append(_make_entry(rel_str, base_url, dist_dir, project_root, [], [rel_str]))
 
     return entries
 
 
 def _make_entry(
-    rel_str: str, base_url: str, dist_dir: Path, alternate_paths: List[str]
+    rel_str: str,
+    base_url: str,
+    dist_dir: Path,
+    project_root: Path,
+    alternate_paths: List[str],
+    mtime_paths: List[str],
 ) -> Dict:
     full = dist_dir / rel_str
     p = Path(rel_str)
@@ -163,6 +232,7 @@ def _make_entry(
     is_image = ext in IMAGE_EXTENSIONS and rel_str.startswith("images/")
 
     size_bytes = full.stat().st_size if full.exists() else 0
+    modified_ts, modified_at = modified_timestamp(project_root, dist_dir, mtime_paths)
     url = f"{base_url}/{rel_str}"
 
     alternates = []
@@ -197,6 +267,8 @@ def _make_entry(
         "folder": folder,
         "category": category,
         "size_bytes": size_bytes,
+        "modified_ts": modified_ts,
+        "modified_at": modified_at,
         "search_text": search_text,
         "alternates": alternates,
     }

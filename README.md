@@ -173,6 +173,7 @@ The site at the repository root URL (`https://assets2.openterface.com/` when dep
 - **Copy** raw URL, markdown link, or markdown image syntax
 - **Preview** images in a lightbox
 - **View toggle** — Comfortable (default) or **Compact** for a denser grid and more items on screen (preference saved in your browser)
+- **Sort** — Name A–Z, **Newest first**, or **Oldest first** (uses last Git commit date per file in `src/` as the upload/update time)
 
 The catalog is generated from built files (not `links/*.md`), so it always matches what GitHub Pages serves. Raster images with both JPEG/PNG and WebP variants appear once (WebP preferred).
 
