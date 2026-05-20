@@ -100,6 +100,23 @@
         return '📄';
     }
 
+    function fileExtLabel(ext) {
+        const labels = {
+            '.json': 'JSON',
+            '.csv': 'CSV',
+            '.apk': 'APK',
+            '.txt': 'TXT',
+            '.xml': 'XML',
+        };
+        if (labels[ext]) return labels[ext];
+        const bare = (ext || '').replace(/^\./, '');
+        return bare ? bare.toUpperCase() : 'FILE';
+    }
+
+    function usesMediaOverlay(asset) {
+        return asset.is_image || asset.category === 'data';
+    }
+
     async function copyText(text, btn) {
         try {
             await navigator.clipboard.writeText(text);
@@ -269,21 +286,35 @@
 
     function buildCard(asset) {
         const isImage = asset.is_image;
+        const useOverlay = usesMediaOverlay(asset);
         const displayPath = '/' + asset.path;
         const sizeLabel = formatSize(asset.size_bytes);
         const catLabel = CATEGORY_LABELS[asset.category] || asset.category;
-        const cardClass = isImage ? 'asset-card asset-card-image' : 'asset-card asset-card-file';
+        let cardClass = 'asset-card';
+        if (isImage) cardClass += ' asset-card-image';
+        else {
+            cardClass += ' asset-card-file';
+            if (asset.category === 'data') cardClass += ' asset-card-data';
+        }
 
         let html = `<article class="${cardClass}" data-path="${escapeHtml(asset.path.toLowerCase())}" data-category="${escapeHtml(asset.category)}" data-search="${escapeHtml(asset.search_text || '')}">`;
 
         const actions = buildActionsHtml(asset, isImage, 'card-actions--inline');
-        const overlayActions = isImage ? buildActionsHtml(asset, isImage, 'card-actions--overlay') : null;
+        const overlayActions = useOverlay ? buildActionsHtml(asset, isImage, 'card-actions--overlay') : null;
 
         if (isImage) {
             html += `<div class="card-media">`;
             html += `<button type="button" class="thumb-wrap" data-preview="${escapeHtml(asset.url)}" aria-label="Preview ${escapeHtml(asset.name)}">`;
             html += `<img class="thumb" src="${escapeHtml(asset.url)}" alt="${escapeHtml(asset.name)}" loading="lazy" decoding="async" onerror="this.classList.add('thumb--error')">`;
             html += `</button>`;
+            html += overlayActions.html;
+            html += `</div>`;
+        } else if (asset.category === 'data') {
+            html += `<div class="card-media card-media--file">`;
+            html += `<div class="file-preview" data-ext="${escapeHtml(asset.ext)}">`;
+            html += `<span class="file-preview-ext">${escapeHtml(fileExtLabel(asset.ext))}</span>`;
+            html += `<span class="file-preview-icon" aria-hidden="true">${fileEmoji(asset.ext)}</span>`;
+            html += `</div>`;
             html += overlayActions.html;
             html += `</div>`;
         } else {
@@ -311,7 +342,9 @@
             html += `<span class="alt-chip"><a href="${escapeHtml(alt.url)}" target="_blank" rel="noopener noreferrer">Also as ${escapeHtml(alt.ext)}</a></span>`;
         }
 
-        html += actions.html;
+        if (!useOverlay) {
+            html += actions.html;
+        }
         html += `</div></article>`;
 
         const el = document.createElement('div');
