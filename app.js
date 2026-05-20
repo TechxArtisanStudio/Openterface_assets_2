@@ -340,5 +340,17 @@
         }
     }
 
-    init();
+    const logoutBtn = document.getElementById('logout-btn');
+    if (logoutBtn && window.AssetGate) {
+        logoutBtn.addEventListener('click', () => {
+            window.AssetGate.logout();
+            location.reload();
+        });
+    }
+
+    if (window.AssetGate) {
+        window.AssetGate.requireAuth(init);
+    } else {
+        init();
+    }
 })();

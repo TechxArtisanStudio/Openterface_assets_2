@@ -23,6 +23,10 @@ body {
     color: #333;
 }
 
+.hidden {
+    display: none !important;
+}
+
 .sr-only {
     position: absolute;
     width: 1px;
@@ -32,6 +36,136 @@ body {
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0;
+}
+
+/* Password gate */
+.gate {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 16px;
+}
+
+.gate.hidden {
+    display: none !important;
+}
+
+.gate-panel {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 140, 66, 0.25);
+    overflow: hidden;
+    text-align: center;
+}
+
+.gate-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: white;
+    padding: 28px 24px 8px;
+    background: linear-gradient(135deg, var(--orange) 0%, var(--orange-light) 100%);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.gate-title .accent {
+    font-weight: 800;
+    background: linear-gradient(90deg, #fff5f0, #ffffff, #fff5f0);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: shimmer 5s linear infinite;
+}
+
+.gate-subtitle {
+    padding: 0 24px 20px;
+    margin-top: -4px;
+    background: linear-gradient(135deg, var(--orange) 0%, var(--orange-light) 100%);
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 0.9em;
+}
+
+.gate-form {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    text-align: left;
+}
+
+.gate-input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    font-size: 1em;
+    background: var(--surface);
+}
+
+.gate-input:focus {
+    outline: none;
+    border-color: var(--orange-light);
+    box-shadow: 0 0 0 3px rgba(255, 140, 66, 0.2);
+    background: #fff;
+}
+
+.gate-remember-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.88em;
+    color: var(--text-muted);
+    cursor: pointer;
+}
+
+.gate-remember-label input {
+    width: 16px;
+    height: 16px;
+    accent-color: var(--orange);
+}
+
+.gate-error {
+    min-height: 1.2em;
+    font-size: 0.85em;
+    color: #c0392b;
+}
+
+.gate-submit {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: var(--radius);
+    background: linear-gradient(135deg, var(--orange), var(--orange-light));
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.2s;
+}
+
+.gate-submit:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 14px rgba(255, 107, 53, 0.4);
+}
+
+.logout-btn {
+    margin-top: 12px;
+    padding: 6px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    font-size: 0.8em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.logout-btn:hover {
+    background: rgba(255, 255, 255, 0.28);
 }
 
 .container {

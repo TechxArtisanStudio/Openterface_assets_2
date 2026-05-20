@@ -1,14 +1,15 @@
 {
   "base_url": "https://assets2.openterface.com",
-  "generated_at": "2026-05-20T07:46:55Z",
-  "commit": "bc8a4aa",
+  "generated_at": "2026-05-20T08:04:57Z",
+  "commit": "18c725c",
   "stats": {
-    "total": 157,
+    "total": 158,
     "images": 147,
     "data": 7,
     "css": 1,
     "js": 1,
-    "md": 1
+    "md": 1,
+    "other": 1
   },
   "categories": [
     {
@@ -2707,6 +2708,24 @@
           "category": "md",
           "size_bytes": 1526,
           "search_text": "readme md/readme.md md md md",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "title": "Other",
+      "assets": [
+        {
+          "name": "gate",
+          "path": "gate.js",
+          "url": "https://assets2.openterface.com/gate.js",
+          "ext": ".js",
+          "is_image": false,
+          "folder": "(root)",
+          "category": "other",
+          "size_bytes": 3657,
+          "search_text": "gate gate.js root js other",
           "alternates": []
         }
       ]
