@@ -80,7 +80,7 @@ FILE_TYPE_MAPPING = {
         'description': 'JavaScript File Links'
     },
     'data': {
-        'extensions': ['.csv', '.json', '.txt', '.xml'],
+        'extensions': ['.csv', '.json', '.txt', '.xml', '.apk'],
         'src_dir': 'src/data',
         'dist_dir': 'dist/data',
         'url_path': 'data',

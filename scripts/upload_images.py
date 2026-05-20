@@ -14,6 +14,7 @@ import sys
 import shutil
 import argparse
 from pathlib import Path
+from PIL import Image
 
 try:
     import tomllib
@@ -26,11 +27,19 @@ DEFAULT_BASE_URL = "https://assets2.openterface.com"
 
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".svg", ".gif", ".webp"}
 WEBP_CONVERT_EXTENSIONS = {".png", ".jpg", ".jpeg"}
+LOSSY_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}
+
+# Optimization thresholds
+MAX_LONG_SIDE = 1920       # Hero/product shots max dimension
+MAX_FILE_SIZE_KB = 500     # Soft target, triggers aggressive compression if exceeded
+JPEG_QUALITY = 85          # Good visual quality, ~80% reduction from raw screenshots
+WEBP_QUALITY = 85
 
 # Subdirectory mapping: keyword → subdir name (checked in order)
 SUBDIR_RULES = [
     ("kvm-go", "kvm-go"),
     ("keymod", "keymod"),
+    ("keycmd", "keymod"),   # KeyCmd app screenshots → keymod/
     ("km-", "keymod"),      # KM-Basic, KM-Pro → keymod/
     ("gamepad", "keymod"),   # KeyMod gamepad presets → keymod/
     ("icon", "icon"),
@@ -72,6 +81,110 @@ def resolve_unique_path(target_dir: Path, filename: str) -> str:
         n += 1
 
 
+def optimize_image(src_path: Path, dest_path: Path) -> dict:
+    """
+    Optimize image for web:
+    1. Resize if long side > MAX_LONG_SIDE
+    2. Save as JPEG (for jpg/jpeg) or WebP (for png/webp) with target quality
+    3. If file size still > MAX_FILE_SIZE_KB, compress further
+    Returns {original_kb, optimized_kb, resized: bool, dimensions: (w,h)}
+    """
+    original_size = src_path.stat().st_size
+    ext = src_path.suffix.lower()
+
+    img = Image.open(src_path)
+
+    # Convert RGBA/P to RGB for JPEG compatibility
+    if ext in (".jpg", ".jpeg"):
+        if img.mode in ("RGBA", "P", "LA"):
+            img = img.convert("RGB")
+
+        # Step 1: Resize if needed
+        resized = False
+        w, h = img.size
+        max_side = max(w, h)
+        if max_side > MAX_LONG_SIDE:
+            ratio = MAX_LONG_SIDE / max_side
+            new_w = int(w * ratio)
+            new_h = int(h * ratio)
+            img = img.resize((new_w, new_h), Image.LANCZOS)
+            resized = True
+
+        # Step 2: Save with target quality
+        img.save(dest_path, "JPEG", quality=JPEG_QUALITY, optimize=True, progressive=True)
+
+        # Step 3: If still too large, compress more
+        dest_size = dest_path.stat().st_size
+        if dest_size > MAX_FILE_SIZE_KB * 1024:
+            # Reduce quality progressively until under target
+            quality = JPEG_QUALITY - 10
+            while quality >= 40:
+                img.save(dest_path, "JPEG", quality=quality, optimize=True, progressive=True)
+                dest_size = dest_path.stat().st_size
+                if dest_size <= MAX_FILE_SIZE_KB * 1024:
+                    break
+                quality -= 10
+
+    elif ext in (".png", ".webp"):
+        # For PNG/WebP, convert to WebP directly with good quality
+        if img.mode == "P" and "transparency" in img.info:
+            img = img.convert("RGBA")
+        elif img.mode not in ("RGBA", "RGB"):
+            img = img.convert("RGB")
+
+        resized = False
+        w, h = img.size
+        max_side = max(w, h)
+        if max_side > MAX_LONG_SIDE:
+            ratio = MAX_LONG_SIDE / max_side
+            new_w = int(w * ratio)
+            new_h = int(h * ratio)
+            img = img.resize((new_w, new_h), Image.LANCZOS)
+            resized = True
+
+        # Save as WebP
+        webp_path = dest_path.with_suffix(".webp")
+        img.save(webp_path, "WEBP", quality=WEBP_QUALITY, method=6)
+
+        dest_size = webp_path.stat().st_size
+        if dest_size > MAX_FILE_SIZE_KB * 1024:
+            quality = WEBP_QUALITY - 10
+            while quality >= 40:
+                img.save(webp_path, "WEBP", quality=quality, method=6)
+                dest_size = webp_path.stat().st_size
+                if dest_size <= MAX_FILE_SIZE_KB * 1024:
+                    break
+                quality -= 10
+
+        return {
+            "original_kb": round(original_size / 1024),
+            "optimized_kb": round(dest_size / 1024),
+            "resized": resized,
+            "dimensions": img.size,
+            "converted": True,
+        }
+
+    else:
+        # SVG, GIF — just copy as-is
+        shutil.copy2(src_path, dest_path)
+        return {
+            "original_kb": round(original_size / 1024),
+            "optimized_kb": round(original_size / 1024),
+            "resized": False,
+            "dimensions": img.size,
+            "converted": False,
+        }
+
+    dest_size = dest_path.stat().st_size
+    return {
+        "original_kb": round(original_size / 1024),
+        "optimized_kb": round(dest_size / 1024),
+        "resized": resized,
+        "dimensions": img.size,
+        "converted": False,
+    }
+
+
 def upload_images(source: Path, base_url: str) -> tuple[list[dict], list[str]]:
     """Copy images and return (results, skipped)."""
     results = []
@@ -101,14 +214,20 @@ def upload_images(source: Path, base_url: str) -> tuple[list[dict], list[str]]:
         final_name = resolve_unique_path(target_dir, src_file.name)
         dest_path = target_dir / final_name
 
-        shutil.copy2(src_file, dest_path)
+        # Optimize for web before copying
+        opt_info = optimize_image(src_file, dest_path)
 
         # Build URL
         url_path = f"images/{subdir}/" if subdir else "images/"
 
         # For PNG/JPG/JPEG, the build converts to .webp
+        # But now we also handle WebP conversion here for PNG/WebP source
         if src_file.suffix.lower() in WEBP_CONVERT_EXTENSIONS:
-            url_name = Path(final_name).stem + ".webp"
+            if opt_info.get("converted"):
+                # Already saved as .webp by optimizer
+                url_name = final_name.rsplit(".", 1)[0] + ".webp"
+            else:
+                url_name = Path(final_name).stem + ".webp"
         else:
             url_name = final_name
 
@@ -122,6 +241,10 @@ def upload_images(source: Path, base_url: str) -> tuple[list[dict], list[str]]:
             "subdir": subdir or "(root)",
             "url": url,
             "renamed": renamed_note,
+            "size_before_kb": opt_info["original_kb"],
+            "size_after_kb": opt_info["optimized_kb"],
+            "resized": opt_info["resized"],
+            "dimensions": opt_info["dimensions"],
         })
 
     return results, skipped
@@ -149,14 +272,23 @@ def write_markdown_output(results: list[dict], output_path: Path):
 def print_summary(results: list[dict], skipped: list[str], output_path: Path):
     """Print summary table to stdout."""
     print(f"\nUploaded {len(results)} image(s) to Openterface_assets_2:\n")
-    print(f"| Original File | Final Name | URL |")
-    print(f"|---|---|---|")
+    print(f"| File | Size Before | Size After | Dimensions | URL |")
+    print(f"|---|---|---|---|---|")
 
     for r in results:
-        final_display = r["final"]
+        name = r["final"]
         if r["renamed"]:
-            final_display = r["final"] + r["renamed"]
-        print(f"| {r['original']} | {final_display} | {r['url']} |")
+            name = f"{r['final']}{r['renamed']}"
+        w, h = r["dimensions"]
+        resize_note = " (resized)" if r["resized"] else ""
+        dims = f"{w}x{h}{resize_note}"
+        size_note = f"{r['size_before_kb']}KB"
+        size_after = f"{r['size_after_kb']}KB"
+        reduction = ""
+        if r["size_before_kb"] > r["size_after_kb"]:
+            pct = round((1 - r["size_after_kb"] / r["size_before_kb"]) * 100)
+            reduction = f" (-{pct}%)"
+        print(f"| {name} | {size_note} | {size_after}{reduction} | {dims} | {r['url']} |")
 
     if skipped:
         print(f"\nSkipped {len(skipped)} non-image file(s): {', '.join(skipped)}")

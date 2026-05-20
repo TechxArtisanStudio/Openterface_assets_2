@@ -1,6 +1,8 @@
-# static-assets-template
+# Openterface Assets (static-assets-template)
 
 A template repository for managing static assets with automated GitHub Actions workflows. This template provides a complete setup for building, optimizing, and deploying static assets (images, CSS, JavaScript, data files) to GitHub Pages with automatic WebP conversion and URL generation.
+
+**Live asset browser:** [https://assets2.openterface.com/](https://assets2.openterface.com/) — search, filter by category, copy CDN links, and preview images.
 
 ## Overview
 
@@ -9,6 +11,7 @@ This template is designed to be cloned and customized for multiple projects. It 
 - **Automated Build Pipeline**: Converts images to WebP, minifies CSS/JS, and prepares assets for deployment
 - **GitHub Actions Workflow**: Automatically builds and deploys to GitHub Pages on push to main
 - **URL Generation**: Automatically generates markdown files with asset URLs
+- **Asset Browser**: Static gallery at the site root with search, categories, and copy-to-clipboard actions
 - **Configurable Base URL**: Easy configuration via `config.toml`
 - **Image Optimization**: Converts PNG/JPG/JPEG images to WebP format for better compression
 
@@ -90,9 +93,11 @@ static-assets-template/
 │   ├── js/                     # JavaScript files
 │   ├── data/                   # Data files
 │   └── md/                     # Markdown files (optional)
+├── src/site/                   # Static asset browser (index.html, styles.css, app.js)
 ├── scripts/
 │   ├── setup.py                # Interactive setup script (run this first!)
 │   ├── generate_url.py         # URL generation script
+│   ├── generate_manifest.py    # Builds dist/assets.json for the browser
 │   └── image_resizer.py        # Image resizing utility
 ├── links/                      # Generated markdown files with URLs
 ├── build.sh                    # Build script
@@ -130,7 +135,8 @@ When you push to the `main` branch, GitHub Actions automatically:
    - Minifies CSS files (creates `.min.css` files)
    - Minifies JavaScript files (creates `.min.js` files)
 4. **Generates** URL markdown files in `links/` directory
-5. **Deploys** `dist/` directory to GitHub Pages
+5. **Builds** `dist/assets.json` catalog for the asset browser
+6. **Deploys** `dist/` directory to GitHub Pages (CDN + browser homepage)
 
 ### Manual Build
 
@@ -149,7 +155,25 @@ brew install webp
 
 # Generate URL links
 python scripts/generate_url.py
+
+# Generate browser catalog (requires dist/ from build)
+python scripts/generate_manifest.py
+
+# Preview the asset browser locally
+python -m http.server 8080 --directory dist
+# Open http://localhost:8080/
 ```
+
+## Asset Browser
+
+The site at the repository root URL (`https://assets2.openterface.com/` when deployed) is a read-only browser for everything in `dist/`:
+
+- **Search** by filename, path, or folder (press `/` to focus the search box)
+- **Filter** by category: Images, Data (including APKs), CSS, JavaScript, Markdown
+- **Copy** raw URL, markdown link, or markdown image syntax
+- **Preview** images in a lightbox
+
+The catalog is generated from built files (not `links/*.md`), so it always matches what GitHub Pages serves. Raster images with both JPEG/PNG and WebP variants appear once (WebP preferred).
 
 ## Adding Assets
 
@@ -200,7 +224,7 @@ Place data files in `src/data/`:
 
 - Files are copied as-is to `dist/data/`
 
-Supported formats: CSV, JSON, TXT, XML
+Supported formats: CSV, JSON, TXT, XML, APK
 
 ## URL Generation
 
