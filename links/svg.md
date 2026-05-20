@@ -13,7 +13,11 @@ Copy and paste these links into your markdown files:
 
 [icon-mail](https://assets2.openterface.com/images/icon/mail.svg)
 
+[icon-openterface](https://assets2.openterface.com/images/icon/openterface.svg)
+
 [icon-raspberry-pi](https://assets2.openterface.com/images/icon/raspberry-pi.svg)
 
 [icon-txa-icon](https://assets2.openterface.com/images/icon/txa-icon.svg)
+
+[keymod-KeyCmd](https://assets2.openterface.com/images/keymod/KeyCmd.svg)
 

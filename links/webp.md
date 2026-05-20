@@ -111,6 +111,8 @@ Copy and paste these links into your markdown files:
 
 [keymod-Gamepad-perset-1](https://assets2.openterface.com/images/keymod/Gamepad-perset-1.webp)
 
+[keymod-Gamepad-perset-1_1](https://assets2.openterface.com/images/keymod/Gamepad-perset-1_1.webp)
+
 [keymod-Gamepad-perset-2](https://assets2.openterface.com/images/keymod/Gamepad-perset-2.webp)
 
 [keymod-Gamepad-perset-3](https://assets2.openterface.com/images/keymod/Gamepad-perset-3.webp)
@@ -119,9 +121,13 @@ Copy and paste these links into your markdown files:
 
 [keymod-Gamepad-perset-minecraft](https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft.webp)
 
+[keymod-Gamepad-perset-minecraft_1](https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft_1.webp)
+
 [keymod-KM-Basic-ComposeSend](https://assets2.openterface.com/images/keymod/KM-Basic-ComposeSend.webp)
 
 [keymod-KM-Basic-Keyboard](https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard.webp)
+
+[keymod-KM-Basic-Keyboard_1](https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard_1.webp)
 
 [keymod-KM-Basic-Numpad](https://assets2.openterface.com/images/keymod/KM-Basic-Numpad.webp)
 
@@ -130,6 +136,8 @@ Copy and paste these links into your markdown files:
 [keymod-KM-Pro-Keyboard-landscape-full](https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-full.webp)
 
 [keymod-KM-Pro-Keyboard-landscape-split](https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split.webp)
+
+[keymod-KM-Pro-Keyboard-landscape-split_1](https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split_1.webp)
 
 [keymod-KM-Pro-Keyboard-portiat-ime](https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-portiat-ime.webp)
 
@@ -141,19 +149,29 @@ Copy and paste these links into your markdown files:
 
 [keymod-KeyCmd-Keyboard-TouchPad-portrait](https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait.webp)
 
+[keymod-KeyCmd-Keyboard-TouchPad-portrait_1](https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait_1.webp)
+
 [keymod-KeyCmd-NumPad-landscape](https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape.webp)
 
+[keymod-KeyCmd-NumPad-landscape_1](https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape_1.webp)
+
 [keymod-KeyCmd-NumPad-portrait](https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-portrait.webp)
+
+[keymod-KeyCmd-Presentation-Google-Slides](https://assets2.openterface.com/images/keymod/KeyCmd-Presentation-Google-Slides.webp)
 
 [keymod-KeyCmd-Remote-Coding-portrait](https://assets2.openterface.com/images/keymod/KeyCmd-Remote-Coding-portrait.webp)
 
 [keymod-KeyCmd-Script-Running-portrait](https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait.webp)
+
+[keymod-KeyCmd-Script-Running-portrait_1](https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait_1.webp)
 
 [keymod-KeyCmd-Settings-screen](https://assets2.openterface.com/images/keymod/KeyCmd-Settings-screen.webp)
 
 [keymod-KeyCmd-Touchpad-landscape](https://assets2.openterface.com/images/keymod/KeyCmd-Touchpad-landscape.webp)
 
 [keymod-KeyCmd-Welcome-Screen-landscape](https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape.webp)
+
+[keymod-KeyCmd-Welcome-Screen-landscape_1](https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape_1.webp)
 
 [keymod-KeyCmd-km-basic-Touchpad](https://assets2.openterface.com/images/keymod/KeyCmd-km-basic-Touchpad.webp)
 
@@ -215,15 +233,35 @@ Copy and paste these links into your markdown files:
 
 [keymod-windows-connect](https://assets2.openterface.com/images/keymod-windows-connect.webp)
 
+[kvm-go-kvm-go-accessory-kits-batch-1](https://assets2.openterface.com/images/kvm-go/kvm-go-accessory-kits-batch-1.webp)
+
+[kvm-go-kvm-go-accessory-kits-batch-2](https://assets2.openterface.com/images/kvm-go/kvm-go-accessory-kits-batch-2.webp)
+
 [kvm-go-kvm-go-compliance-certificates-emc-test-report](https://assets2.openterface.com/images/kvm-go/kvm-go-compliance-certificates-emc-test-report.webp)
+
+[kvm-go-kvm-go-connector-cap-anti-loss-tethers](https://assets2.openterface.com/images/kvm-go/kvm-go-connector-cap-anti-loss-tethers.webp)
 
 [kvm-go-kvm-go-group-3](https://assets2.openterface.com/images/kvm-go/kvm-go-group-3.webp)
 
+[kvm-go-kvm-go-hardware-verification](https://assets2.openterface.com/images/kvm-go/kvm-go-hardware-verification.webp)
+
+[kvm-go-kvm-go-hardware-with-retail-packaging](https://assets2.openterface.com/images/kvm-go/kvm-go-hardware-with-retail-packaging.webp)
+
 [kvm-go-kvm-go-hdmi-dp-vga-km-pcb-lineup](https://assets2.openterface.com/images/kvm-go/kvm-go-hdmi-dp-vga-km-pcb-lineup.webp)
+
+[kvm-go-kvm-go-keycmd-phone-keyboard-setup](https://assets2.openterface.com/images/kvm-go/kvm-go-keycmd-phone-keyboard-setup.webp)
+
+[kvm-go-kvm-go-openterface-kvm-ipad-app](https://assets2.openterface.com/images/kvm-go/kvm-go-openterface-kvm-ipad-app.webp)
 
 [kvm-go-kvm-go-oshwa-certification-cn000022](https://assets2.openterface.com/images/kvm-go/kvm-go-oshwa-certification-cn000022.webp)
 
+[kvm-go-kvm-go-packed-retail-boxes](https://assets2.openterface.com/images/kvm-go/kvm-go-packed-retail-boxes.webp)
+
 [kvm-go-kvm-go-product-page-subscribe](https://assets2.openterface.com/images/kvm-go/kvm-go-product-page-subscribe.webp)
+
+[kvm-go-kvm-go-shipment-us-cartons](https://assets2.openterface.com/images/kvm-go/kvm-go-shipment-us-cartons.webp)
+
+[kvm-go-kvm-go-target-port-laptop-power](https://assets2.openterface.com/images/kvm-go/kvm-go-target-port-laptop-power.webp)
 
 [kvm-go-kvm-go-usb-c-connector-boards-batch-tray](https://assets2.openterface.com/images/kvm-go/kvm-go-usb-c-connector-boards-batch-tray.webp)
 
