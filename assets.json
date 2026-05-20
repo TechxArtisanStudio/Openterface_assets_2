@@ -1,0 +1,2715 @@
+{
+  "base_url": "https://assets2.openterface.com",
+  "generated_at": "2026-05-20T07:46:55Z",
+  "commit": "bc8a4aa",
+  "stats": {
+    "total": 157,
+    "images": 147,
+    "data": 7,
+    "css": 1,
+    "js": 1,
+    "md": 1
+  },
+  "categories": [
+    {
+      "id": "images",
+      "title": "Images",
+      "assets": [
+        {
+          "name": "Back-cover-screw",
+          "path": "images/Back-cover-screw.webp",
+          "url": "https://assets2.openterface.com/images/Back-cover-screw.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 1014204,
+          "search_text": "back-cover-screw images/back-cover-screw.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/Back-cover-screw.jpg",
+              "url": "https://assets2.openterface.com/images/Back-cover-screw.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "Back-cover",
+          "path": "images/Back-cover.webp",
+          "url": "https://assets2.openterface.com/images/Back-cover.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 549756,
+          "search_text": "back-cover images/back-cover.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/Back-cover.jpg",
+              "url": "https://assets2.openterface.com/images/Back-cover.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "background_rm",
+          "path": "images/background_rm.webp",
+          "url": "https://assets2.openterface.com/images/background_rm.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 54028,
+          "search_text": "background_rm images/background_rm.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/background_rm.png",
+              "url": "https://assets2.openterface.com/images/background_rm.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "kvm-go-caps-3_png_gallery-lg",
+          "path": "images/blog/kvm-go-caps-3_png_gallery-lg.webp",
+          "url": "https://assets2.openterface.com/images/blog/kvm-go-caps-3_png_gallery-lg.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog",
+          "category": "images",
+          "size_bytes": 19560,
+          "search_text": "kvm-go-caps-3_png_gallery-lg images/blog/kvm-go-caps-3_png_gallery-lg.webp blog webp images",
+          "alternates": [
+            {
+              "path": "images/blog/kvm-go-caps-3_png_gallery-lg.jpg",
+              "url": "https://assets2.openterface.com/images/blog/kvm-go-caps-3_png_gallery-lg.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "Performance",
+          "path": "images/blog/Performance.webp",
+          "url": "https://assets2.openterface.com/images/blog/Performance.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog",
+          "category": "images",
+          "size_bytes": 9280,
+          "search_text": "performance images/blog/performance.webp blog webp images",
+          "alternates": [
+            {
+              "path": "images/blog/Performance.png",
+              "url": "https://assets2.openterface.com/images/blog/Performance.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "Performance2",
+          "path": "images/blog/Performance2.webp",
+          "url": "https://assets2.openterface.com/images/blog/Performance2.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog",
+          "category": "images",
+          "size_bytes": 9366,
+          "search_text": "performance2 images/blog/performance2.webp blog webp images",
+          "alternates": [
+            {
+              "path": "images/blog/Performance2.png",
+              "url": "https://assets2.openterface.com/images/blog/Performance2.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "plug",
+          "path": "images/blog/plug.webp",
+          "url": "https://assets2.openterface.com/images/blog/plug.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog",
+          "category": "images",
+          "size_bytes": 34822,
+          "search_text": "plug images/blog/plug.webp blog webp images",
+          "alternates": [
+            {
+              "path": "images/blog/plug.jpg",
+              "url": "https://assets2.openterface.com/images/blog/plug.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "SD-card",
+          "path": "images/blog/SD-card.webp",
+          "url": "https://assets2.openterface.com/images/blog/SD-card.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog",
+          "category": "images",
+          "size_bytes": 62514,
+          "search_text": "sd-card images/blog/sd-card.webp blog webp images",
+          "alternates": [
+            {
+              "path": "images/blog/SD-card.jpg",
+              "url": "https://assets2.openterface.com/images/blog/SD-card.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "sdcard",
+          "path": "images/blog/sdcard.webp",
+          "url": "https://assets2.openterface.com/images/blog/sdcard.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog",
+          "category": "images",
+          "size_bytes": 17150,
+          "search_text": "sdcard images/blog/sdcard.webp blog webp images",
+          "alternates": [
+            {
+              "path": "images/blog/sdcard.jpg",
+              "url": "https://assets2.openterface.com/images/blog/sdcard.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "USB",
+          "path": "images/blog/USB.webp",
+          "url": "https://assets2.openterface.com/images/blog/USB.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog",
+          "category": "images",
+          "size_bytes": 27066,
+          "search_text": "usb images/blog/usb.webp blog webp images",
+          "alternates": [
+            {
+              "path": "images/blog/USB.png",
+              "url": "https://assets2.openterface.com/images/blog/USB.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "Casing-temperature-test",
+          "path": "images/Casing-temperature-test.webp",
+          "url": "https://assets2.openterface.com/images/Casing-temperature-test.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 15228,
+          "search_text": "casing-temperature-test images/casing-temperature-test.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/Casing-temperature-test.png",
+              "url": "https://assets2.openterface.com/images/Casing-temperature-test.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "CNC-machining",
+          "path": "images/CNC-machining.webp",
+          "url": "https://assets2.openterface.com/images/CNC-machining.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 13738,
+          "search_text": "cnc-machining images/cnc-machining.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/CNC-machining.png",
+              "url": "https://assets2.openterface.com/images/CNC-machining.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "cnc",
+          "path": "images/cnc.webp",
+          "url": "https://assets2.openterface.com/images/cnc.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 27540,
+          "search_text": "cnc images/cnc.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/cnc.png",
+              "url": "https://assets2.openterface.com/images/cnc.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "cnc2",
+          "path": "images/cnc2.webp",
+          "url": "https://assets2.openterface.com/images/cnc2.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 11992,
+          "search_text": "cnc2 images/cnc2.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/cnc2.png",
+              "url": "https://assets2.openterface.com/images/cnc2.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "compress",
+          "path": "images/compress.webp",
+          "url": "https://assets2.openterface.com/images/compress.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 47416,
+          "search_text": "compress images/compress.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/compress.png",
+              "url": "https://assets2.openterface.com/images/compress.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "connection-cap",
+          "path": "images/connection-cap.webp",
+          "url": "https://assets2.openterface.com/images/connection-cap.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 505464,
+          "search_text": "connection-cap images/connection-cap.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/connection-cap.jpg",
+              "url": "https://assets2.openterface.com/images/connection-cap.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "copy",
+          "path": "images/copy.webp",
+          "url": "https://assets2.openterface.com/images/copy.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 3813554,
+          "search_text": "copy images/copy.webp root webp images",
+          "alternates": []
+        },
+        {
+          "name": "edit-paste",
+          "path": "images/edit-paste.webp",
+          "url": "https://assets2.openterface.com/images/edit-paste.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 1185652,
+          "search_text": "edit-paste images/edit-paste.webp root webp images",
+          "alternates": []
+        },
+        {
+          "name": "Fan-1png",
+          "path": "images/Fan-1png.webp",
+          "url": "https://assets2.openterface.com/images/Fan-1png.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 17658,
+          "search_text": "fan-1png images/fan-1png.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/Fan-1png.png",
+              "url": "https://assets2.openterface.com/images/Fan-1png.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "Fan-2",
+          "path": "images/Fan-2.webp",
+          "url": "https://assets2.openterface.com/images/Fan-2.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 25988,
+          "search_text": "fan-2 images/fan-2.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/Fan-2.png",
+              "url": "https://assets2.openterface.com/images/Fan-2.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "feature",
+          "path": "images/feature.webp",
+          "url": "https://assets2.openterface.com/images/feature.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 33048,
+          "search_text": "feature images/feature.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/feature.jpg",
+              "url": "https://assets2.openterface.com/images/feature.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "Host-plug&play",
+          "path": "images/Host-plug&play.webp",
+          "url": "https://assets2.openterface.com/images/Host-plug&play.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 3201396,
+          "search_text": "host-plug&play images/host-plug&play.webp root webp images",
+          "alternates": []
+        },
+        {
+          "name": "Host_app",
+          "path": "images/Host_app.webp",
+          "url": "https://assets2.openterface.com/images/Host_app.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 15516,
+          "search_text": "host_app images/host_app.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/Host_app.png",
+              "url": "https://assets2.openterface.com/images/Host_app.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "android",
+          "path": "images/icon/android.svg",
+          "url": "https://assets2.openterface.com/images/icon/android.svg",
+          "ext": ".svg",
+          "is_image": true,
+          "folder": "icon",
+          "category": "images",
+          "size_bytes": 1421,
+          "search_text": "android images/icon/android.svg icon svg images",
+          "alternates": []
+        },
+        {
+          "name": "clockwork",
+          "path": "images/icon/clockwork.webp",
+          "url": "https://assets2.openterface.com/images/icon/clockwork.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "icon",
+          "category": "images",
+          "size_bytes": 4116,
+          "search_text": "clockwork images/icon/clockwork.webp icon webp images",
+          "alternates": [
+            {
+              "path": "images/icon/clockwork.png",
+              "url": "https://assets2.openterface.com/images/icon/clockwork.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "FCC_New_Logo",
+          "path": "images/icon/FCC_New_Logo.svg",
+          "url": "https://assets2.openterface.com/images/icon/FCC_New_Logo.svg",
+          "ext": ".svg",
+          "is_image": true,
+          "folder": "icon",
+          "category": "images",
+          "size_bytes": 340,
+          "search_text": "fcc_new_logo images/icon/fcc_new_logo.svg icon svg images",
+          "alternates": []
+        },
+        {
+          "name": "linux",
+          "path": "images/icon/linux.svg",
+          "url": "https://assets2.openterface.com/images/icon/linux.svg",
+          "ext": ".svg",
+          "is_image": true,
+          "folder": "icon",
+          "category": "images",
+          "size_bytes": 14928,
+          "search_text": "linux images/icon/linux.svg icon svg images",
+          "alternates": []
+        },
+        {
+          "name": "mail",
+          "path": "images/icon/mail.svg",
+          "url": "https://assets2.openterface.com/images/icon/mail.svg",
+          "ext": ".svg",
+          "is_image": true,
+          "folder": "icon",
+          "category": "images",
+          "size_bytes": 8727,
+          "search_text": "mail images/icon/mail.svg icon svg images",
+          "alternates": []
+        },
+        {
+          "name": "raspberry-pi",
+          "path": "images/icon/raspberry-pi.svg",
+          "url": "https://assets2.openterface.com/images/icon/raspberry-pi.svg",
+          "ext": ".svg",
+          "is_image": true,
+          "folder": "icon",
+          "category": "images",
+          "size_bytes": 5799,
+          "search_text": "raspberry-pi images/icon/raspberry-pi.svg icon svg images",
+          "alternates": []
+        },
+        {
+          "name": "txa-icon",
+          "path": "images/icon/txa-icon.svg",
+          "url": "https://assets2.openterface.com/images/icon/txa-icon.svg",
+          "ext": ".svg",
+          "is_image": true,
+          "folder": "icon",
+          "category": "images",
+          "size_bytes": 1209,
+          "search_text": "txa-icon images/icon/txa-icon.svg icon svg images",
+          "alternates": []
+        },
+        {
+          "name": "txa-logo",
+          "path": "images/icon/txa-logo.webp",
+          "url": "https://assets2.openterface.com/images/icon/txa-logo.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "icon",
+          "category": "images",
+          "size_bytes": 2168,
+          "search_text": "txa-logo images/icon/txa-logo.webp icon webp images",
+          "alternates": [
+            {
+              "path": "images/icon/txa-logo.png",
+              "url": "https://assets2.openterface.com/images/icon/txa-logo.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "ID+Name",
+          "path": "images/ID+Name.webp",
+          "url": "https://assets2.openterface.com/images/ID+Name.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 3277652,
+          "search_text": "id+name images/id+name.webp root webp images",
+          "alternates": []
+        },
+        {
+          "name": "keychain-cord-2",
+          "path": "images/keychain-cord-2.webp",
+          "url": "https://assets2.openterface.com/images/keychain-cord-2.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 680732,
+          "search_text": "keychain-cord-2 images/keychain-cord-2.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/keychain-cord-2.jpg",
+              "url": "https://assets2.openterface.com/images/keychain-cord-2.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "keymod-connector-a",
+          "path": "images/keymod-connector-a.webp",
+          "url": "https://assets2.openterface.com/images/keymod-connector-a.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 89724,
+          "search_text": "keymod-connector-a images/keymod-connector-a.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/keymod-connector-a.jpg",
+              "url": "https://assets2.openterface.com/images/keymod-connector-a.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "keymod-connector-b",
+          "path": "images/keymod-connector-b.webp",
+          "url": "https://assets2.openterface.com/images/keymod-connector-b.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 62584,
+          "search_text": "keymod-connector-b images/keymod-connector-b.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/keymod-connector-b.jpg",
+              "url": "https://assets2.openterface.com/images/keymod-connector-b.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "keymod-connector-c",
+          "path": "images/keymod-connector-c.webp",
+          "url": "https://assets2.openterface.com/images/keymod-connector-c.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 33784,
+          "search_text": "keymod-connector-c images/keymod-connector-c.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/keymod-connector-c.jpg",
+              "url": "https://assets2.openterface.com/images/keymod-connector-c.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "keymod-connector-d",
+          "path": "images/keymod-connector-d.webp",
+          "url": "https://assets2.openterface.com/images/keymod-connector-d.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 76276,
+          "search_text": "keymod-connector-d images/keymod-connector-d.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/keymod-connector-d.jpg",
+              "url": "https://assets2.openterface.com/images/keymod-connector-d.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "keymod-windows-connect",
+          "path": "images/keymod-windows-connect.webp",
+          "url": "https://assets2.openterface.com/images/keymod-windows-connect.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 123900,
+          "search_text": "keymod-windows-connect images/keymod-windows-connect.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/keymod-windows-connect.jpg",
+              "url": "https://assets2.openterface.com/images/keymod-windows-connect.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "2in1",
+          "path": "images/keymod/2in1.webp",
+          "url": "https://assets2.openterface.com/images/keymod/2in1.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 40532,
+          "search_text": "2in1 images/keymod/2in1.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/2in1.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/2in1.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "demo-keyboard-mouse-landscape-macro-strip",
+          "path": "images/keymod/andorid/demo-keyboard-mouse-landscape-macro-strip.webp",
+          "url": "https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-landscape-macro-strip.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod/andorid",
+          "category": "images",
+          "size_bytes": 20612,
+          "search_text": "demo-keyboard-mouse-landscape-macro-strip images/keymod/andorid/demo-keyboard-mouse-landscape-macro-strip.webp keymod/andorid webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/andorid/demo-keyboard-mouse-landscape-macro-strip.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-landscape-macro-strip.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "demo-keyboard-mouse-landscape-qwerty-touchpad",
+          "path": "images/keymod/andorid/demo-keyboard-mouse-landscape-qwerty-touchpad.webp",
+          "url": "https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-landscape-qwerty-touchpad.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod/andorid",
+          "category": "images",
+          "size_bytes": 19638,
+          "search_text": "demo-keyboard-mouse-landscape-qwerty-touchpad images/keymod/andorid/demo-keyboard-mouse-landscape-qwerty-touchpad.webp keymod/andorid webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/andorid/demo-keyboard-mouse-landscape-qwerty-touchpad.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-landscape-qwerty-touchpad.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "demo-keyboard-mouse-landscape-split-keyboard-touchpad",
+          "path": "images/keymod/andorid/demo-keyboard-mouse-landscape-split-keyboard-touchpad.webp",
+          "url": "https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-landscape-split-keyboard-touchpad.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod/andorid",
+          "category": "images",
+          "size_bytes": 21892,
+          "search_text": "demo-keyboard-mouse-landscape-split-keyboard-touchpad images/keymod/andorid/demo-keyboard-mouse-landscape-split-keyboard-touchpad.webp keymod/andorid webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/andorid/demo-keyboard-mouse-landscape-split-keyboard-touchpad.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-landscape-split-keyboard-touchpad.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "demo-keyboard-mouse-portrait-long-text-compose",
+          "path": "images/keymod/andorid/demo-keyboard-mouse-portrait-long-text-compose.webp",
+          "url": "https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-portrait-long-text-compose.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod/andorid",
+          "category": "images",
+          "size_bytes": 32296,
+          "search_text": "demo-keyboard-mouse-portrait-long-text-compose images/keymod/andorid/demo-keyboard-mouse-portrait-long-text-compose.webp keymod/andorid webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/andorid/demo-keyboard-mouse-portrait-long-text-compose.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-portrait-long-text-compose.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "demo-keyboard-mouse-portrait-touchpad-gestures",
+          "path": "images/keymod/andorid/demo-keyboard-mouse-portrait-touchpad-gestures.webp",
+          "url": "https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-portrait-touchpad-gestures.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod/andorid",
+          "category": "images",
+          "size_bytes": 38534,
+          "search_text": "demo-keyboard-mouse-portrait-touchpad-gestures images/keymod/andorid/demo-keyboard-mouse-portrait-touchpad-gestures.webp keymod/andorid webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/andorid/demo-keyboard-mouse-portrait-touchpad-gestures.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-portrait-touchpad-gestures.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "demo-keyboard-mouse-portrait-touchpad-numpad",
+          "path": "images/keymod/andorid/demo-keyboard-mouse-portrait-touchpad-numpad.webp",
+          "url": "https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-portrait-touchpad-numpad.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod/andorid",
+          "category": "images",
+          "size_bytes": 15552,
+          "search_text": "demo-keyboard-mouse-portrait-touchpad-numpad images/keymod/andorid/demo-keyboard-mouse-portrait-touchpad-numpad.webp keymod/andorid webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/andorid/demo-keyboard-mouse-portrait-touchpad-numpad.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/andorid/demo-keyboard-mouse-portrait-touchpad-numpad.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "demo-navigation-drawer",
+          "path": "images/keymod/andorid/demo-navigation-drawer.webp",
+          "url": "https://assets2.openterface.com/images/keymod/andorid/demo-navigation-drawer.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod/andorid",
+          "category": "images",
+          "size_bytes": 19228,
+          "search_text": "demo-navigation-drawer images/keymod/andorid/demo-navigation-drawer.webp keymod/andorid webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/andorid/demo-navigation-drawer.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/andorid/demo-navigation-drawer.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "demo-presentation-google-slides",
+          "path": "images/keymod/andorid/demo-presentation-google-slides.webp",
+          "url": "https://assets2.openterface.com/images/keymod/andorid/demo-presentation-google-slides.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod/andorid",
+          "category": "images",
+          "size_bytes": 20774,
+          "search_text": "demo-presentation-google-slides images/keymod/andorid/demo-presentation-google-slides.webp keymod/andorid webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/andorid/demo-presentation-google-slides.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/andorid/demo-presentation-google-slides.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "demo-shortcut-hub",
+          "path": "images/keymod/andorid/demo-shortcut-hub.webp",
+          "url": "https://assets2.openterface.com/images/keymod/andorid/demo-shortcut-hub.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod/andorid",
+          "category": "images",
+          "size_bytes": 33126,
+          "search_text": "demo-shortcut-hub images/keymod/andorid/demo-shortcut-hub.webp keymod/andorid webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/andorid/demo-shortcut-hub.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/andorid/demo-shortcut-hub.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "demo-voice-input",
+          "path": "images/keymod/andorid/demo-voice-input.webp",
+          "url": "https://assets2.openterface.com/images/keymod/andorid/demo-voice-input.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod/andorid",
+          "category": "images",
+          "size_bytes": 17980,
+          "search_text": "demo-voice-input images/keymod/andorid/demo-voice-input.webp keymod/andorid webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/andorid/demo-voice-input.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/andorid/demo-voice-input.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "demo-welcome-keymod-mode-selection-landscape",
+          "path": "images/keymod/andorid/demo-welcome-keymod-mode-selection-landscape.webp",
+          "url": "https://assets2.openterface.com/images/keymod/andorid/demo-welcome-keymod-mode-selection-landscape.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod/andorid",
+          "category": "images",
+          "size_bytes": 24672,
+          "search_text": "demo-welcome-keymod-mode-selection-landscape images/keymod/andorid/demo-welcome-keymod-mode-selection-landscape.webp keymod/andorid webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/andorid/demo-welcome-keymod-mode-selection-landscape.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/andorid/demo-welcome-keymod-mode-selection-landscape.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "demo-welcome-mode-selection",
+          "path": "images/keymod/andorid/demo-welcome-mode-selection.webp",
+          "url": "https://assets2.openterface.com/images/keymod/andorid/demo-welcome-mode-selection.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod/andorid",
+          "category": "images",
+          "size_bytes": 27130,
+          "search_text": "demo-welcome-mode-selection images/keymod/andorid/demo-welcome-mode-selection.webp keymod/andorid webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/andorid/demo-welcome-mode-selection.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/andorid/demo-welcome-mode-selection.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "Circuit-board",
+          "path": "images/keymod/Circuit-board.webp",
+          "url": "https://assets2.openterface.com/images/keymod/Circuit-board.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 141156,
+          "search_text": "circuit-board images/keymod/circuit-board.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/Circuit-board.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/Circuit-board.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "feature",
+          "path": "images/keymod/feature.webp",
+          "url": "https://assets2.openterface.com/images/keymod/feature.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 28302,
+          "search_text": "feature images/keymod/feature.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/feature.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/feature.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "Gamepad-perset-1",
+          "path": "images/keymod/Gamepad-perset-1.webp",
+          "url": "https://assets2.openterface.com/images/keymod/Gamepad-perset-1.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 12230,
+          "search_text": "gamepad-perset-1 images/keymod/gamepad-perset-1.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/Gamepad-perset-1.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/Gamepad-perset-1.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "Gamepad-perset-1_1",
+          "path": "images/keymod/Gamepad-perset-1_1.webp",
+          "url": "https://assets2.openterface.com/images/keymod/Gamepad-perset-1_1.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 13652,
+          "search_text": "gamepad-perset-1_1 images/keymod/gamepad-perset-1_1.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/Gamepad-perset-1_1.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/Gamepad-perset-1_1.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "Gamepad-perset-2",
+          "path": "images/keymod/Gamepad-perset-2.webp",
+          "url": "https://assets2.openterface.com/images/keymod/Gamepad-perset-2.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 16762,
+          "search_text": "gamepad-perset-2 images/keymod/gamepad-perset-2.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/Gamepad-perset-2.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/Gamepad-perset-2.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "Gamepad-perset-3",
+          "path": "images/keymod/Gamepad-perset-3.webp",
+          "url": "https://assets2.openterface.com/images/keymod/Gamepad-perset-3.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 19308,
+          "search_text": "gamepad-perset-3 images/keymod/gamepad-perset-3.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/Gamepad-perset-3.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/Gamepad-perset-3.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "Gamepad-perset-4",
+          "path": "images/keymod/Gamepad-perset-4.webp",
+          "url": "https://assets2.openterface.com/images/keymod/Gamepad-perset-4.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 20042,
+          "search_text": "gamepad-perset-4 images/keymod/gamepad-perset-4.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/Gamepad-perset-4.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/Gamepad-perset-4.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "Gamepad-perset-minecraft",
+          "path": "images/keymod/Gamepad-perset-minecraft.webp",
+          "url": "https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 28686,
+          "search_text": "gamepad-perset-minecraft images/keymod/gamepad-perset-minecraft.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/Gamepad-perset-minecraft.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "Gamepad-perset-minecraft_1",
+          "path": "images/keymod/Gamepad-perset-minecraft_1.webp",
+          "url": "https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft_1.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 30364,
+          "search_text": "gamepad-perset-minecraft_1 images/keymod/gamepad-perset-minecraft_1.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/Gamepad-perset-minecraft_1.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft_1.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "gaming-keyboard",
+          "path": "images/keymod/gaming-keyboard.webp",
+          "url": "https://assets2.openterface.com/images/keymod/gaming-keyboard.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 31116,
+          "search_text": "gaming-keyboard images/keymod/gaming-keyboard.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/gaming-keyboard.png",
+              "url": "https://assets2.openterface.com/images/keymod/gaming-keyboard.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "ipad-connect",
+          "path": "images/keymod/ipad-connect.webp",
+          "url": "https://assets2.openterface.com/images/keymod/ipad-connect.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 20772,
+          "search_text": "ipad-connect images/keymod/ipad-connect.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/ipad-connect.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/ipad-connect.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KeyCmd-Full-Keyboard-landscape",
+          "path": "images/keymod/KeyCmd-Full-Keyboard-landscape.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KeyCmd-Full-Keyboard-landscape.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 23750,
+          "search_text": "keycmd-full-keyboard-landscape images/keymod/keycmd-full-keyboard-landscape.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KeyCmd-Full-Keyboard-landscape.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KeyCmd-Full-Keyboard-landscape.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KeyCmd-Keyboard-TouchPad-portrait",
+          "path": "images/keymod/KeyCmd-Keyboard-TouchPad-portrait.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 19150,
+          "search_text": "keycmd-keyboard-touchpad-portrait images/keymod/keycmd-keyboard-touchpad-portrait.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KeyCmd-Keyboard-TouchPad-portrait.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KeyCmd-Keyboard-TouchPad-portrait_1",
+          "path": "images/keymod/KeyCmd-Keyboard-TouchPad-portrait_1.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait_1.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 20624,
+          "search_text": "keycmd-keyboard-touchpad-portrait_1 images/keymod/keycmd-keyboard-touchpad-portrait_1.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KeyCmd-Keyboard-TouchPad-portrait_1.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait_1.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KeyCmd-km-basic-Touchpad",
+          "path": "images/keymod/KeyCmd-km-basic-Touchpad.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KeyCmd-km-basic-Touchpad.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 6684,
+          "search_text": "keycmd-km-basic-touchpad images/keymod/keycmd-km-basic-touchpad.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KeyCmd-km-basic-Touchpad.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KeyCmd-km-basic-Touchpad.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KeyCmd-NumPad-landscape",
+          "path": "images/keymod/KeyCmd-NumPad-landscape.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 19064,
+          "search_text": "keycmd-numpad-landscape images/keymod/keycmd-numpad-landscape.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KeyCmd-NumPad-landscape.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KeyCmd-NumPad-landscape_1",
+          "path": "images/keymod/KeyCmd-NumPad-landscape_1.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape_1.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 20096,
+          "search_text": "keycmd-numpad-landscape_1 images/keymod/keycmd-numpad-landscape_1.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KeyCmd-NumPad-landscape_1.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape_1.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KeyCmd-NumPad-portrait",
+          "path": "images/keymod/KeyCmd-NumPad-portrait.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-portrait.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 17622,
+          "search_text": "keycmd-numpad-portrait images/keymod/keycmd-numpad-portrait.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KeyCmd-NumPad-portrait.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-portrait.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KeyCmd-Presentation-Google-Slides",
+          "path": "images/keymod/KeyCmd-Presentation-Google-Slides.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KeyCmd-Presentation-Google-Slides.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 19858,
+          "search_text": "keycmd-presentation-google-slides images/keymod/keycmd-presentation-google-slides.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KeyCmd-Presentation-Google-Slides.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KeyCmd-Presentation-Google-Slides.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KeyCmd-Remote-Coding-portrait",
+          "path": "images/keymod/KeyCmd-Remote-Coding-portrait.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KeyCmd-Remote-Coding-portrait.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 74770,
+          "search_text": "keycmd-remote-coding-portrait images/keymod/keycmd-remote-coding-portrait.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KeyCmd-Remote-Coding-portrait.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KeyCmd-Remote-Coding-portrait.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KeyCmd-Script-Running-portrait",
+          "path": "images/keymod/KeyCmd-Script-Running-portrait.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 102904,
+          "search_text": "keycmd-script-running-portrait images/keymod/keycmd-script-running-portrait.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KeyCmd-Script-Running-portrait.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KeyCmd-Script-Running-portrait_1",
+          "path": "images/keymod/KeyCmd-Script-Running-portrait_1.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait_1.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 98974,
+          "search_text": "keycmd-script-running-portrait_1 images/keymod/keycmd-script-running-portrait_1.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KeyCmd-Script-Running-portrait_1.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait_1.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KeyCmd-Settings-screen",
+          "path": "images/keymod/KeyCmd-Settings-screen.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KeyCmd-Settings-screen.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 46678,
+          "search_text": "keycmd-settings-screen images/keymod/keycmd-settings-screen.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KeyCmd-Settings-screen.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KeyCmd-Settings-screen.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KeyCmd-Touchpad-landscape",
+          "path": "images/keymod/KeyCmd-Touchpad-landscape.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KeyCmd-Touchpad-landscape.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 6798,
+          "search_text": "keycmd-touchpad-landscape images/keymod/keycmd-touchpad-landscape.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KeyCmd-Touchpad-landscape.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KeyCmd-Touchpad-landscape.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KeyCmd-Welcome-Screen-landscape",
+          "path": "images/keymod/KeyCmd-Welcome-Screen-landscape.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 29250,
+          "search_text": "keycmd-welcome-screen-landscape images/keymod/keycmd-welcome-screen-landscape.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KeyCmd-Welcome-Screen-landscape.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KeyCmd-Welcome-Screen-landscape_1",
+          "path": "images/keymod/KeyCmd-Welcome-Screen-landscape_1.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape_1.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 29658,
+          "search_text": "keycmd-welcome-screen-landscape_1 images/keymod/keycmd-welcome-screen-landscape_1.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KeyCmd-Welcome-Screen-landscape_1.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape_1.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "keymod-connector-a",
+          "path": "images/keymod/keymod-connector-a.webp",
+          "url": "https://assets2.openterface.com/images/keymod/keymod-connector-a.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 89724,
+          "search_text": "keymod-connector-a images/keymod/keymod-connector-a.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/keymod-connector-a.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/keymod-connector-a.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "keymod-connector-b",
+          "path": "images/keymod/keymod-connector-b.webp",
+          "url": "https://assets2.openterface.com/images/keymod/keymod-connector-b.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 62584,
+          "search_text": "keymod-connector-b images/keymod/keymod-connector-b.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/keymod-connector-b.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/keymod-connector-b.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "keymod-connector-c",
+          "path": "images/keymod/keymod-connector-c.webp",
+          "url": "https://assets2.openterface.com/images/keymod/keymod-connector-c.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 33784,
+          "search_text": "keymod-connector-c images/keymod/keymod-connector-c.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/keymod-connector-c.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/keymod-connector-c.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "keymod-connector-d",
+          "path": "images/keymod/keymod-connector-d.webp",
+          "url": "https://assets2.openterface.com/images/keymod/keymod-connector-d.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 76276,
+          "search_text": "keymod-connector-d images/keymod/keymod-connector-d.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/keymod-connector-d.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/keymod-connector-d.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "keymod",
+          "path": "images/keymod/keymod.webp",
+          "url": "https://assets2.openterface.com/images/keymod/keymod.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 22760,
+          "search_text": "keymod images/keymod/keymod.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/keymod.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/keymod.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KM-Basic-ComposeSend",
+          "path": "images/keymod/KM-Basic-ComposeSend.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KM-Basic-ComposeSend.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 10652,
+          "search_text": "km-basic-composesend images/keymod/km-basic-composesend.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KM-Basic-ComposeSend.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KM-Basic-ComposeSend.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KM-Basic-Keyboard",
+          "path": "images/keymod/KM-Basic-Keyboard.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 26162,
+          "search_text": "km-basic-keyboard images/keymod/km-basic-keyboard.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KM-Basic-Keyboard.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KM-Basic-Keyboard_1",
+          "path": "images/keymod/KM-Basic-Keyboard_1.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard_1.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 29310,
+          "search_text": "km-basic-keyboard_1 images/keymod/km-basic-keyboard_1.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KM-Basic-Keyboard_1.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard_1.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KM-Basic-Numpad",
+          "path": "images/keymod/KM-Basic-Numpad.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KM-Basic-Numpad.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 18058,
+          "search_text": "km-basic-numpad images/keymod/km-basic-numpad.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KM-Basic-Numpad.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KM-Basic-Numpad.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KM-Basic-TouchPad",
+          "path": "images/keymod/KM-Basic-TouchPad.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KM-Basic-TouchPad.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 6986,
+          "search_text": "km-basic-touchpad images/keymod/km-basic-touchpad.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KM-Basic-TouchPad.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KM-Basic-TouchPad.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KM-Pro-Keyboard-landscape-full",
+          "path": "images/keymod/KM-Pro-Keyboard-landscape-full.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-full.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 16600,
+          "search_text": "km-pro-keyboard-landscape-full images/keymod/km-pro-keyboard-landscape-full.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KM-Pro-Keyboard-landscape-full.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-full.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KM-Pro-Keyboard-landscape-split",
+          "path": "images/keymod/KM-Pro-Keyboard-landscape-split.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 18694,
+          "search_text": "km-pro-keyboard-landscape-split images/keymod/km-pro-keyboard-landscape-split.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KM-Pro-Keyboard-landscape-split.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KM-Pro-Keyboard-landscape-split_1",
+          "path": "images/keymod/KM-Pro-Keyboard-landscape-split_1.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split_1.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 20338,
+          "search_text": "km-pro-keyboard-landscape-split_1 images/keymod/km-pro-keyboard-landscape-split_1.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KM-Pro-Keyboard-landscape-split_1.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split_1.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KM-Pro-Keyboard-portiat-ime",
+          "path": "images/keymod/KM-Pro-Keyboard-portiat-ime.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-portiat-ime.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 24442,
+          "search_text": "km-pro-keyboard-portiat-ime images/keymod/km-pro-keyboard-portiat-ime.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KM-Pro-Keyboard-portiat-ime.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-portiat-ime.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KM-Pro-Keyboard-portiat-keyboard",
+          "path": "images/keymod/KM-Pro-Keyboard-portiat-keyboard.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-portiat-keyboard.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 33062,
+          "search_text": "km-pro-keyboard-portiat-keyboard images/keymod/km-pro-keyboard-portiat-keyboard.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KM-Pro-Keyboard-portiat-keyboard.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-portiat-keyboard.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KM-Pro-Keyboard-portiat-numpad",
+          "path": "images/keymod/KM-Pro-Keyboard-portiat-numpad.webp",
+          "url": "https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-portiat-numpad.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 12380,
+          "search_text": "km-pro-keyboard-portiat-numpad images/keymod/km-pro-keyboard-portiat-numpad.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/KM-Pro-Keyboard-portiat-numpad.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-portiat-numpad.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "right-side",
+          "path": "images/keymod/right-side.webp",
+          "url": "https://assets2.openterface.com/images/keymod/right-side.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 27272,
+          "search_text": "right-side images/keymod/right-side.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/right-side.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/right-side.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "USB-C",
+          "path": "images/keymod/USB-C.webp",
+          "url": "https://assets2.openterface.com/images/keymod/USB-C.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 27820,
+          "search_text": "usb-c images/keymod/usb-c.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/USB-C.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/USB-C.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "windows-connect",
+          "path": "images/keymod/windows-connect.webp",
+          "url": "https://assets2.openterface.com/images/keymod/windows-connect.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 123900,
+          "search_text": "windows-connect images/keymod/windows-connect.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/windows-connect.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/windows-connect.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "youtube-cover",
+          "path": "images/keymod/youtube-cover.webp",
+          "url": "https://assets2.openterface.com/images/keymod/youtube-cover.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "keymod",
+          "category": "images",
+          "size_bytes": 69112,
+          "search_text": "youtube-cover images/keymod/youtube-cover.webp keymod webp images",
+          "alternates": [
+            {
+              "path": "images/keymod/youtube-cover.jpg",
+              "url": "https://assets2.openterface.com/images/keymod/youtube-cover.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KVM-Go-tructure",
+          "path": "images/KVM-Go-tructure.webp",
+          "url": "https://assets2.openterface.com/images/KVM-Go-tructure.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 15974,
+          "search_text": "kvm-go-tructure images/kvm-go-tructure.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/KVM-Go-tructure.png",
+              "url": "https://assets2.openterface.com/images/KVM-Go-tructure.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "kvm-go-accessory-kits-batch-1",
+          "path": "images/kvm-go/kvm-go-accessory-kits-batch-1.webp",
+          "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-accessory-kits-batch-1.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "kvm-go",
+          "category": "images",
+          "size_bytes": 300670,
+          "search_text": "kvm-go-accessory-kits-batch-1 images/kvm-go/kvm-go-accessory-kits-batch-1.webp kvm-go webp images",
+          "alternates": [
+            {
+              "path": "images/kvm-go/kvm-go-accessory-kits-batch-1.jpg",
+              "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-accessory-kits-batch-1.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "kvm-go-accessory-kits-batch-2",
+          "path": "images/kvm-go/kvm-go-accessory-kits-batch-2.webp",
+          "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-accessory-kits-batch-2.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "kvm-go",
+          "category": "images",
+          "size_bytes": 79130,
+          "search_text": "kvm-go-accessory-kits-batch-2 images/kvm-go/kvm-go-accessory-kits-batch-2.webp kvm-go webp images",
+          "alternates": [
+            {
+              "path": "images/kvm-go/kvm-go-accessory-kits-batch-2.jpg",
+              "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-accessory-kits-batch-2.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "kvm-go-compliance-certificates-emc-test-report",
+          "path": "images/kvm-go/kvm-go-compliance-certificates-emc-test-report.webp",
+          "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-compliance-certificates-emc-test-report.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "kvm-go",
+          "category": "images",
+          "size_bytes": 554448,
+          "search_text": "kvm-go-compliance-certificates-emc-test-report images/kvm-go/kvm-go-compliance-certificates-emc-test-report.webp kvm-go webp images",
+          "alternates": [
+            {
+              "path": "images/kvm-go/kvm-go-compliance-certificates-emc-test-report.jpg",
+              "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-compliance-certificates-emc-test-report.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "kvm-go-connector-cap-anti-loss-tethers",
+          "path": "images/kvm-go/kvm-go-connector-cap-anti-loss-tethers.webp",
+          "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-connector-cap-anti-loss-tethers.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "kvm-go",
+          "category": "images",
+          "size_bytes": 286290,
+          "search_text": "kvm-go-connector-cap-anti-loss-tethers images/kvm-go/kvm-go-connector-cap-anti-loss-tethers.webp kvm-go webp images",
+          "alternates": [
+            {
+              "path": "images/kvm-go/kvm-go-connector-cap-anti-loss-tethers.jpg",
+              "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-connector-cap-anti-loss-tethers.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "kvm-go-group-3",
+          "path": "images/kvm-go/kvm-go-group-3.webp",
+          "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-group-3.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "kvm-go",
+          "category": "images",
+          "size_bytes": 61178,
+          "search_text": "kvm-go-group-3 images/kvm-go/kvm-go-group-3.webp kvm-go webp images",
+          "alternates": [
+            {
+              "path": "images/kvm-go/kvm-go-group-3.jpg",
+              "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-group-3.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "kvm-go-hardware-verification",
+          "path": "images/kvm-go/kvm-go-hardware-verification.webp",
+          "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-hardware-verification.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "kvm-go",
+          "category": "images",
+          "size_bytes": 154430,
+          "search_text": "kvm-go-hardware-verification images/kvm-go/kvm-go-hardware-verification.webp kvm-go webp images",
+          "alternates": [
+            {
+              "path": "images/kvm-go/kvm-go-hardware-verification.jpg",
+              "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-hardware-verification.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "kvm-go-hardware-with-retail-packaging",
+          "path": "images/kvm-go/kvm-go-hardware-with-retail-packaging.webp",
+          "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-hardware-with-retail-packaging.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "kvm-go",
+          "category": "images",
+          "size_bytes": 516310,
+          "search_text": "kvm-go-hardware-with-retail-packaging images/kvm-go/kvm-go-hardware-with-retail-packaging.webp kvm-go webp images",
+          "alternates": [
+            {
+              "path": "images/kvm-go/kvm-go-hardware-with-retail-packaging.jpg",
+              "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-hardware-with-retail-packaging.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "kvm-go-hdmi-dp-vga-km-pcb-lineup",
+          "path": "images/kvm-go/kvm-go-hdmi-dp-vga-km-pcb-lineup.webp",
+          "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-hdmi-dp-vga-km-pcb-lineup.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "kvm-go",
+          "category": "images",
+          "size_bytes": 71520,
+          "search_text": "kvm-go-hdmi-dp-vga-km-pcb-lineup images/kvm-go/kvm-go-hdmi-dp-vga-km-pcb-lineup.webp kvm-go webp images",
+          "alternates": [
+            {
+              "path": "images/kvm-go/kvm-go-hdmi-dp-vga-km-pcb-lineup.jpeg",
+              "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-hdmi-dp-vga-km-pcb-lineup.jpeg",
+              "ext": ".jpeg"
+            }
+          ]
+        },
+        {
+          "name": "kvm-go-keycmd-phone-keyboard-setup",
+          "path": "images/kvm-go/kvm-go-keycmd-phone-keyboard-setup.webp",
+          "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-keycmd-phone-keyboard-setup.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "kvm-go",
+          "category": "images",
+          "size_bytes": 118460,
+          "search_text": "kvm-go-keycmd-phone-keyboard-setup images/kvm-go/kvm-go-keycmd-phone-keyboard-setup.webp kvm-go webp images",
+          "alternates": [
+            {
+              "path": "images/kvm-go/kvm-go-keycmd-phone-keyboard-setup.jpg",
+              "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-keycmd-phone-keyboard-setup.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "kvm-go-openterface-kvm-ipad-app",
+          "path": "images/kvm-go/kvm-go-openterface-kvm-ipad-app.webp",
+          "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-openterface-kvm-ipad-app.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "kvm-go",
+          "category": "images",
+          "size_bytes": 98322,
+          "search_text": "kvm-go-openterface-kvm-ipad-app images/kvm-go/kvm-go-openterface-kvm-ipad-app.webp kvm-go webp images",
+          "alternates": [
+            {
+              "path": "images/kvm-go/kvm-go-openterface-kvm-ipad-app.jpg",
+              "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-openterface-kvm-ipad-app.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "kvm-go-oshwa-certification-cn000022",
+          "path": "images/kvm-go/kvm-go-oshwa-certification-cn000022.webp",
+          "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-oshwa-certification-cn000022.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "kvm-go",
+          "category": "images",
+          "size_bytes": 30336,
+          "search_text": "kvm-go-oshwa-certification-cn000022 images/kvm-go/kvm-go-oshwa-certification-cn000022.webp kvm-go webp images",
+          "alternates": [
+            {
+              "path": "images/kvm-go/kvm-go-oshwa-certification-cn000022.jpg",
+              "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-oshwa-certification-cn000022.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "kvm-go-packed-retail-boxes",
+          "path": "images/kvm-go/kvm-go-packed-retail-boxes.webp",
+          "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-packed-retail-boxes.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "kvm-go",
+          "category": "images",
+          "size_bytes": 266492,
+          "search_text": "kvm-go-packed-retail-boxes images/kvm-go/kvm-go-packed-retail-boxes.webp kvm-go webp images",
+          "alternates": [
+            {
+              "path": "images/kvm-go/kvm-go-packed-retail-boxes.jpg",
+              "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-packed-retail-boxes.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "kvm-go-product-page-subscribe",
+          "path": "images/kvm-go/kvm-go-product-page-subscribe.webp",
+          "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-product-page-subscribe.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "kvm-go",
+          "category": "images",
+          "size_bytes": 110432,
+          "search_text": "kvm-go-product-page-subscribe images/kvm-go/kvm-go-product-page-subscribe.webp kvm-go webp images",
+          "alternates": [
+            {
+              "path": "images/kvm-go/kvm-go-product-page-subscribe.jpg",
+              "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-product-page-subscribe.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "kvm-go-shipment-us-cartons",
+          "path": "images/kvm-go/kvm-go-shipment-us-cartons.webp",
+          "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-shipment-us-cartons.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "kvm-go",
+          "category": "images",
+          "size_bytes": 128540,
+          "search_text": "kvm-go-shipment-us-cartons images/kvm-go/kvm-go-shipment-us-cartons.webp kvm-go webp images",
+          "alternates": [
+            {
+              "path": "images/kvm-go/kvm-go-shipment-us-cartons.jpg",
+              "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-shipment-us-cartons.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "kvm-go-target-port-laptop-power",
+          "path": "images/kvm-go/kvm-go-target-port-laptop-power.webp",
+          "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-target-port-laptop-power.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "kvm-go",
+          "category": "images",
+          "size_bytes": 205968,
+          "search_text": "kvm-go-target-port-laptop-power images/kvm-go/kvm-go-target-port-laptop-power.webp kvm-go webp images",
+          "alternates": [
+            {
+              "path": "images/kvm-go/kvm-go-target-port-laptop-power.jpg",
+              "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-target-port-laptop-power.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "kvm-go-usb-c-connector-boards-batch-tray",
+          "path": "images/kvm-go/kvm-go-usb-c-connector-boards-batch-tray.webp",
+          "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-usb-c-connector-boards-batch-tray.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "kvm-go",
+          "category": "images",
+          "size_bytes": 1783260,
+          "search_text": "kvm-go-usb-c-connector-boards-batch-tray images/kvm-go/kvm-go-usb-c-connector-boards-batch-tray.webp kvm-go webp images",
+          "alternates": [
+            {
+              "path": "images/kvm-go/kvm-go-usb-c-connector-boards-batch-tray.jpg",
+              "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-usb-c-connector-boards-batch-tray.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "kvm-go-v1-0-boards-four-units",
+          "path": "images/kvm-go/kvm-go-v1-0-boards-four-units.webp",
+          "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-v1-0-boards-four-units.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "kvm-go",
+          "category": "images",
+          "size_bytes": 123736,
+          "search_text": "kvm-go-v1-0-boards-four-units images/kvm-go/kvm-go-v1-0-boards-four-units.webp kvm-go webp images",
+          "alternates": [
+            {
+              "path": "images/kvm-go/kvm-go-v1-0-boards-four-units.jpg",
+              "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-v1-0-boards-four-units.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "kvm-go-vga-dp-hdmi-exploded-assembly",
+          "path": "images/kvm-go/kvm-go-vga-dp-hdmi-exploded-assembly.webp",
+          "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-vga-dp-hdmi-exploded-assembly.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "kvm-go",
+          "category": "images",
+          "size_bytes": 163188,
+          "search_text": "kvm-go-vga-dp-hdmi-exploded-assembly images/kvm-go/kvm-go-vga-dp-hdmi-exploded-assembly.webp kvm-go webp images",
+          "alternates": [
+            {
+              "path": "images/kvm-go/kvm-go-vga-dp-hdmi-exploded-assembly.jpg",
+              "url": "https://assets2.openterface.com/images/kvm-go/kvm-go-vga-dp-hdmi-exploded-assembly.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KVM-GO_prototypes",
+          "path": "images/KVM-GO_prototypes.webp",
+          "url": "https://assets2.openterface.com/images/KVM-GO_prototypes.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 47042,
+          "search_text": "kvm-go_prototypes images/kvm-go_prototypes.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/KVM-GO_prototypes.png",
+              "url": "https://assets2.openterface.com/images/KVM-GO_prototypes.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "KVM-GO_VGA-angled-view",
+          "path": "images/KVM-GO_VGA-angled-view.webp",
+          "url": "https://assets2.openterface.com/images/KVM-GO_VGA-angled-view.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 149848,
+          "search_text": "kvm-go_vga-angled-view images/kvm-go_vga-angled-view.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/KVM-GO_VGA-angled-view.jpg",
+              "url": "https://assets2.openterface.com/images/KVM-GO_VGA-angled-view.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "KVM-GO_VGA-screw-positions",
+          "path": "images/KVM-GO_VGA-screw-positions.webp",
+          "url": "https://assets2.openterface.com/images/KVM-GO_VGA-screw-positions.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 242238,
+          "search_text": "kvm-go_vga-screw-positions images/kvm-go_vga-screw-positions.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/KVM-GO_VGA-screw-positions.jpg",
+              "url": "https://assets2.openterface.com/images/KVM-GO_VGA-screw-positions.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "list",
+          "path": "images/list.webp",
+          "url": "https://assets2.openterface.com/images/list.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 35684,
+          "search_text": "list images/list.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/list.png",
+              "url": "https://assets2.openterface.com/images/list.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "Metal_shell",
+          "path": "images/Metal_shell.webp",
+          "url": "https://assets2.openterface.com/images/Metal_shell.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 42466,
+          "search_text": "metal_shell images/metal_shell.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/Metal_shell.png",
+              "url": "https://assets2.openterface.com/images/Metal_shell.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "Modified-fever-symptoms",
+          "path": "images/Modified-fever-symptoms.webp",
+          "url": "https://assets2.openterface.com/images/Modified-fever-symptoms.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 5690,
+          "search_text": "modified-fever-symptoms images/modified-fever-symptoms.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/Modified-fever-symptoms.png",
+              "url": "https://assets2.openterface.com/images/Modified-fever-symptoms.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "New-PCB-ayout",
+          "path": "images/New-PCB-ayout.webp",
+          "url": "https://assets2.openterface.com/images/New-PCB-ayout.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 12406,
+          "search_text": "new-pcb-ayout images/new-pcb-ayout.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/New-PCB-ayout.png",
+              "url": "https://assets2.openterface.com/images/New-PCB-ayout.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "New-Version",
+          "path": "images/New-Version.webp",
+          "url": "https://assets2.openterface.com/images/New-Version.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 352474,
+          "search_text": "new-version images/new-version.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/New-Version.jpg",
+              "url": "https://assets2.openterface.com/images/New-Version.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "New-vga-version-screwdrivers",
+          "path": "images/New-vga-version-screwdrivers.webp",
+          "url": "https://assets2.openterface.com/images/New-vga-version-screwdrivers.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 381752,
+          "search_text": "new-vga-version-screwdrivers images/new-vga-version-screwdrivers.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/New-vga-version-screwdrivers.jpg",
+              "url": "https://assets2.openterface.com/images/New-vga-version-screwdrivers.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "next",
+          "path": "images/next.webp",
+          "url": "https://assets2.openterface.com/images/next.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 118510,
+          "search_text": "next images/next.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/next.png",
+              "url": "https://assets2.openterface.com/images/next.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "Open-source",
+          "path": "images/Open-source.webp",
+          "url": "https://assets2.openterface.com/images/Open-source.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 394390,
+          "search_text": "open-source images/open-source.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/Open-source.jpg",
+              "url": "https://assets2.openterface.com/images/Open-source.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "Orange_cover",
+          "path": "images/Orange_cover.webp",
+          "url": "https://assets2.openterface.com/images/Orange_cover.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 42452,
+          "search_text": "orange_cover images/orange_cover.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/Orange_cover.png",
+              "url": "https://assets2.openterface.com/images/Orange_cover.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "Original-emperature-test",
+          "path": "images/Original-emperature-test.webp",
+          "url": "https://assets2.openterface.com/images/Original-emperature-test.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 7540,
+          "search_text": "original-emperature-test images/original-emperature-test.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/Original-emperature-test.png",
+              "url": "https://assets2.openterface.com/images/Original-emperature-test.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "Original-PCB-layout",
+          "path": "images/Original-PCB-layout.webp",
+          "url": "https://assets2.openterface.com/images/Original-PCB-layout.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 9092,
+          "search_text": "original-pcb-layout images/original-pcb-layout.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/Original-PCB-layout.png",
+              "url": "https://assets2.openterface.com/images/Original-PCB-layout.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "original-Wiring",
+          "path": "images/original-Wiring.webp",
+          "url": "https://assets2.openterface.com/images/original-Wiring.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 22882,
+          "search_text": "original-wiring images/original-wiring.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/original-Wiring.png",
+              "url": "https://assets2.openterface.com/images/original-Wiring.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "PCB-ayout-modifications",
+          "path": "images/PCB-ayout-modifications.webp",
+          "url": "https://assets2.openterface.com/images/PCB-ayout-modifications.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 20386,
+          "search_text": "pcb-ayout-modifications images/pcb-ayout-modifications.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/PCB-ayout-modifications.png",
+              "url": "https://assets2.openterface.com/images/PCB-ayout-modifications.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "setting",
+          "path": "images/setting.webp",
+          "url": "https://assets2.openterface.com/images/setting.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 1356076,
+          "search_text": "setting images/setting.webp root webp images",
+          "alternates": []
+        },
+        {
+          "name": "Side-screw-detail",
+          "path": "images/Side-screw-detail.webp",
+          "url": "https://assets2.openterface.com/images/Side-screw-detail.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 96368,
+          "search_text": "side-screw-detail images/side-screw-detail.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/Side-screw-detail.jpg",
+              "url": "https://assets2.openterface.com/images/Side-screw-detail.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "stress-test",
+          "path": "images/stress-test.webp",
+          "url": "https://assets2.openterface.com/images/stress-test.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 1722140,
+          "search_text": "stress-test images/stress-test.webp root webp images",
+          "alternates": []
+        },
+        {
+          "name": "Target-plug&play",
+          "path": "images/Target-plug&play.webp",
+          "url": "https://assets2.openterface.com/images/Target-plug&play.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 2656046,
+          "search_text": "target-plug&play images/target-plug&play.webp root webp images",
+          "alternates": []
+        },
+        {
+          "name": "Temperature-measurement-after-adding-CNC",
+          "path": "images/Temperature-measurement-after-adding-CNC.webp",
+          "url": "https://assets2.openterface.com/images/Temperature-measurement-after-adding-CNC.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 4164,
+          "search_text": "temperature-measurement-after-adding-cnc images/temperature-measurement-after-adding-cnc.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/Temperature-measurement-after-adding-CNC.png",
+              "url": "https://assets2.openterface.com/images/Temperature-measurement-after-adding-CNC.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "Temperature-test-fan",
+          "path": "images/Temperature-test-fan.webp",
+          "url": "https://assets2.openterface.com/images/Temperature-test-fan.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 14042,
+          "search_text": "temperature-test-fan images/temperature-test-fan.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/Temperature-test-fan.png",
+              "url": "https://assets2.openterface.com/images/Temperature-test-fan.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "Thermal_solution",
+          "path": "images/Thermal_solution.webp",
+          "url": "https://assets2.openterface.com/images/Thermal_solution.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 35184,
+          "search_text": "thermal_solution images/thermal_solution.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/Thermal_solution.png",
+              "url": "https://assets2.openterface.com/images/Thermal_solution.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "Various-versions-of-interface-nylon-front-covers",
+          "path": "images/Various-versions-of-interface-nylon-front-covers.webp",
+          "url": "https://assets2.openterface.com/images/Various-versions-of-interface-nylon-front-covers.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 1847038,
+          "search_text": "various-versions-of-interface-nylon-front-covers images/various-versions-of-interface-nylon-front-covers.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/Various-versions-of-interface-nylon-front-covers.jpg",
+              "url": "https://assets2.openterface.com/images/Various-versions-of-interface-nylon-front-covers.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "VGA-connector-and-thumbscrews",
+          "path": "images/VGA-connector-and-thumbscrews.webp",
+          "url": "https://assets2.openterface.com/images/VGA-connector-and-thumbscrews.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 93786,
+          "search_text": "vga-connector-and-thumbscrews images/vga-connector-and-thumbscrews.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/VGA-connector-and-thumbscrews.jpg",
+              "url": "https://assets2.openterface.com/images/VGA-connector-and-thumbscrews.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        },
+        {
+          "name": "win-ctrl+v",
+          "path": "images/win-ctrl+v.webp",
+          "url": "https://assets2.openterface.com/images/win-ctrl+v.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 2549562,
+          "search_text": "win-ctrl+v images/win-ctrl+v.webp root webp images",
+          "alternates": []
+        },
+        {
+          "name": "win-mode",
+          "path": "images/win-mode.webp",
+          "url": "https://assets2.openterface.com/images/win-mode.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 800566,
+          "search_text": "win-mode images/win-mode.webp root webp images",
+          "alternates": []
+        },
+        {
+          "name": "Wiring-layout-modification-2",
+          "path": "images/Wiring-layout-modification-2.webp",
+          "url": "https://assets2.openterface.com/images/Wiring-layout-modification-2.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 10920,
+          "search_text": "wiring-layout-modification-2 images/wiring-layout-modification-2.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/Wiring-layout-modification-2.png",
+              "url": "https://assets2.openterface.com/images/Wiring-layout-modification-2.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "Wiring-layout-modification",
+          "path": "images/Wiring-layout-modification.webp",
+          "url": "https://assets2.openterface.com/images/Wiring-layout-modification.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 15104,
+          "search_text": "wiring-layout-modification images/wiring-layout-modification.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/Wiring-layout-modification.png",
+              "url": "https://assets2.openterface.com/images/Wiring-layout-modification.png",
+              "ext": ".png"
+            }
+          ]
+        },
+        {
+          "name": "workaround",
+          "path": "images/workaround.webp",
+          "url": "https://assets2.openterface.com/images/workaround.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 958932,
+          "search_text": "workaround images/workaround.webp root webp images",
+          "alternates": []
+        },
+        {
+          "name": "youtube-cover",
+          "path": "images/youtube-cover.webp",
+          "url": "https://assets2.openterface.com/images/youtube-cover.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "(root)",
+          "category": "images",
+          "size_bytes": 69112,
+          "search_text": "youtube-cover images/youtube-cover.webp root webp images",
+          "alternates": [
+            {
+              "path": "images/youtube-cover.jpg",
+              "url": "https://assets2.openterface.com/images/youtube-cover.jpg",
+              "ext": ".jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "title": "Data",
+      "assets": [
+        {
+          "name": "config",
+          "path": "data/config.txt",
+          "url": "https://assets2.openterface.com/data/config.txt",
+          "ext": ".txt",
+          "is_image": false,
+          "folder": "data",
+          "category": "data",
+          "size_bytes": 573,
+          "search_text": "config data/config.txt data txt data",
+          "alternates": []
+        },
+        {
+          "name": "KeyCmd-release-0.19",
+          "path": "data/KeyCmd-release-0.19.apk",
+          "url": "https://assets2.openterface.com/data/KeyCmd-release-0.19.apk",
+          "ext": ".apk",
+          "is_image": false,
+          "folder": "data",
+          "category": "data",
+          "size_bytes": 9015392,
+          "search_text": "keycmd-release-0.19 data/keycmd-release-0.19.apk data apk data",
+          "alternates": []
+        },
+        {
+          "name": "KeyMod-release-0.14",
+          "path": "data/KeyMod-release-0.14.apk",
+          "url": "https://assets2.openterface.com/data/KeyMod-release-0.14.apk",
+          "ext": ".apk",
+          "is_image": false,
+          "folder": "data",
+          "category": "data",
+          "size_bytes": 8034827,
+          "search_text": "keymod-release-0.14 data/keymod-release-0.14.apk data apk data",
+          "alternates": []
+        },
+        {
+          "name": "KeyMod-release-0.15",
+          "path": "data/KeyMod-release-0.15.apk",
+          "url": "https://assets2.openterface.com/data/KeyMod-release-0.15.apk",
+          "ext": ".apk",
+          "is_image": false,
+          "folder": "data",
+          "category": "data",
+          "size_bytes": 8258252,
+          "search_text": "keymod-release-0.15 data/keymod-release-0.15.apk data apk data",
+          "alternates": []
+        },
+        {
+          "name": "KeyMod-release-0.5",
+          "path": "data/KeyMod-release-0.5.apk",
+          "url": "https://assets2.openterface.com/data/KeyMod-release-0.5.apk",
+          "ext": ".apk",
+          "is_image": false,
+          "folder": "data",
+          "category": "data",
+          "size_bytes": 7419544,
+          "search_text": "keymod-release-0.5 data/keymod-release-0.5.apk data apk data",
+          "alternates": []
+        },
+        {
+          "name": "sample",
+          "path": "data/sample.csv",
+          "url": "https://assets2.openterface.com/data/sample.csv",
+          "ext": ".csv",
+          "is_image": false,
+          "folder": "data",
+          "category": "data",
+          "size_bytes": 161,
+          "search_text": "sample data/sample.csv data csv data",
+          "alternates": []
+        },
+        {
+          "name": "sample",
+          "path": "data/sample.json",
+          "url": "https://assets2.openterface.com/data/sample.json",
+          "ext": ".json",
+          "is_image": false,
+          "folder": "data",
+          "category": "data",
+          "size_bytes": 675,
+          "search_text": "sample data/sample.json data json data",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "css",
+      "title": "CSS",
+      "assets": [
+        {
+          "name": "style.min",
+          "path": "css/style.min.css",
+          "url": "https://assets2.openterface.com/css/style.min.css",
+          "ext": ".css",
+          "is_image": false,
+          "folder": "css",
+          "category": "css",
+          "size_bytes": 790,
+          "search_text": "style.min css/style.min.css css css css",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "js",
+      "title": "JavaScript",
+      "assets": [
+        {
+          "name": "app.min",
+          "path": "js/app.min.js",
+          "url": "https://assets2.openterface.com/js/app.min.js",
+          "ext": ".js",
+          "is_image": false,
+          "folder": "js",
+          "category": "js",
+          "size_bytes": 1517,
+          "search_text": "app.min js/app.min.js js js js",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "md",
+      "title": "Markdown",
+      "assets": [
+        {
+          "name": "README",
+          "path": "md/README.md",
+          "url": "https://assets2.openterface.com/md/README.md",
+          "ext": ".md",
+          "is_image": false,
+          "folder": "md",
+          "category": "md",
+          "size_bytes": 1526,
+          "search_text": "readme md/readme.md md md md",
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

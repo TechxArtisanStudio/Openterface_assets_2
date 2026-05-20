@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Openterface Assets</title>
+    <meta name="description" content="Browse and search Openterface static assets">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Openterface <span class="accent">Assets</span></h1>
+            <p class="subtitle">
+                Browse, search, and copy CDN links
+                <span id="domain-link" class="domain-link"></span>
+            </p>
+            <div id="stats-bar" class="stats-bar" aria-live="polite"></div>
+        </header>
+
+        <main>
+            <div class="toolbar-sticky">
+                <div class="toolbar">
+                    <div class="search-wrap">
+                        <span class="search-icon" aria-hidden="true">⌕</span>
+                        <label for="search-input" class="sr-only">Search assets</label>
+                        <input
+                            type="search"
+                            id="search-input"
+                            class="search-input"
+                            placeholder="Search name, path, folder…"
+                            autocomplete="off"
+                        >
+                        <button type="button" id="search-clear" class="search-clear hidden" aria-label="Clear search">×</button>
+                    </div>
+                    <div id="category-tabs" class="category-tabs" role="tablist" aria-label="Asset categories"></div>
+                </div>
+                <div id="status" class="status" role="status"></div>
+            </div>
+
+            <div id="grid" class="asset-grid"></div>
+            <p id="empty-state" class="empty-state hidden">No assets match your filters.</p>
+        </main>
+    </div>
+
+    <button type="button" id="scroll-top" class="scroll-top hidden" aria-label="Scroll to top">↑</button>
+
+    <div id="lightbox" class="lightbox hidden" role="dialog" aria-modal="true" aria-label="Image preview">
+        <button type="button" class="lightbox-close" aria-label="Close preview">&times;</button>
+        <img id="lightbox-img" src="" alt="">
+        <p id="lightbox-caption" class="lightbox-caption"></p>
+        <div class="lightbox-actions">
+            <button type="button" id="lightbox-copy" class="lightbox-btn">Copy URL</button>
+            <a id="lightbox-open" class="lightbox-btn lightbox-btn-outline" href="#" target="_blank" rel="noopener noreferrer">Open full size</a>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
