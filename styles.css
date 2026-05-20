@@ -288,7 +288,7 @@ main {
 .toolbar {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 10px;
 }
 
 .toolbar-row {
@@ -489,6 +489,7 @@ main {
 }
 
 .tab-btn .count {
+    margin-left: 0.35em;
     opacity: 0.9;
     font-size: 0.9em;
 }
@@ -720,6 +721,7 @@ main {
 
 .category-badge {
     flex-shrink: 0;
+    align-self: center;
     font-size: 0.68em;
     font-weight: 600;
     text-transform: uppercase;
@@ -749,9 +751,8 @@ main {
     font-family: ui-monospace, 'SF Mono', Monaco, monospace;
     font-size: 0.72em;
     color: #3c4043;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    line-height: 1.35;
+    word-break: break-all;
 }
 
 .alt-chip {
@@ -771,7 +772,8 @@ main {
     display: flex;
     align-items: center;
     gap: 6px;
-    margin-top: 2px;
+    margin-top: auto;
+    padding-top: 4px;
 }
 
 .icon-btn {
@@ -980,18 +982,19 @@ main {
 
 .asset-grid.view-compact .asset-card {
     border-radius: 8px;
-}
-
-.asset-grid.view-compact .asset-card:hover,
-.asset-grid.view-compact .asset-card:focus-within {
-    border-color: rgba(255, 140, 66, 0.55);
-    box-shadow: 0 2px 12px rgba(255, 107, 53, 0.15);
+    min-height: 0;
 }
 
 .asset-grid.view-compact .asset-card-image,
 .asset-grid.view-compact .asset-card-data {
     display: flex;
     flex-direction: column;
+}
+
+.asset-grid.view-compact .asset-card:hover,
+.asset-grid.view-compact .asset-card:focus-within {
+    border-color: rgba(255, 140, 66, 0.55);
+    box-shadow: 0 2px 12px rgba(255, 107, 53, 0.15);
 }
 
 .asset-grid.view-compact .asset-card-image .thumb-wrap {
@@ -1026,6 +1029,16 @@ main {
 .asset-grid.view-compact .card-body {
     padding: 6px 8px 8px;
     gap: 4px;
+    flex: 1;
+    min-height: 3.2em;
+}
+
+.asset-grid.view-compact .asset-card-file:not(.asset-card-data) .card-body {
+    min-height: 4.5em;
+}
+
+.asset-grid.view-compact .asset-card-data .card-body {
+    min-height: 3.2em;
 }
 
 .asset-grid.view-compact .card-header-row {

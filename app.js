@@ -158,6 +158,22 @@
         }
     }
 
+    function syncCardActionVisibility() {
+        const compact = viewMode === 'compact';
+        gridEl.querySelectorAll('.asset-card-image .card-actions--overlay, .asset-card-data .card-actions--overlay').forEach((el) => {
+            el.hidden = false;
+            el.setAttribute('aria-hidden', 'false');
+        });
+        gridEl.querySelectorAll('.asset-card-image .card-actions--inline, .asset-card-data .card-actions--inline').forEach((el) => {
+            el.hidden = true;
+            el.setAttribute('aria-hidden', 'true');
+        });
+        gridEl.querySelectorAll('.asset-card-file:not(.asset-card-data) .card-actions--inline').forEach((el) => {
+            el.hidden = compact;
+            el.setAttribute('aria-hidden', compact ? 'true' : 'false');
+        });
+    }
+
     function setViewMode(mode) {
         viewMode = mode === 'compact' ? 'compact' : 'comfortable';
         try {
@@ -166,6 +182,7 @@
             /* ignore */
         }
         gridEl.classList.toggle('view-compact', viewMode === 'compact');
+        syncCardActionVisibility();
         if (viewToggle) {
             viewToggle.querySelectorAll('.view-btn').forEach((btn) => {
                 const active = btn.dataset.view === viewMode;
@@ -425,6 +442,7 @@
         });
 
         gridEl.appendChild(fragment);
+        syncCardActionVisibility();
         applyFilters(false);
     }
 
