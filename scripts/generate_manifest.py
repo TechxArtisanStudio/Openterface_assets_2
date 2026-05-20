@@ -27,7 +27,15 @@ except ImportError:
 
 DEFAULT_BASE_URL = "https://assets2.openterface.com"
 
-EXCLUDE_NAMES = {"CNAME", "assets.json", "index.html", "styles.css", "app.js", "favicon.svg"}
+EXCLUDE_NAMES = {
+    "CNAME",
+    "assets.json",
+    "index.html",
+    "styles.css",
+    "app.js",
+    "gate.js",
+    "favicon.svg",
+}
 
 IMAGE_EXTENSIONS = {".webp", ".svg", ".png", ".jpg", ".jpeg", ".gif"}
 RASTER_DEDUPE_EXTENSIONS = {".png", ".jpg", ".jpeg"}
