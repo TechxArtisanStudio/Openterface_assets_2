@@ -1172,8 +1172,8 @@ main {
 }
 
 .asset-grid.view-masonry .asset-card-image .thumb-wrap {
-    aspect-ratio: auto;
-    min-height: 80px;
+    aspect-ratio: unset;
+    min-height: 0;
 }
 
 .asset-grid.view-masonry .asset-card-image .thumb {
@@ -1190,6 +1190,7 @@ main {
 }
 
 .asset-grid.view-masonry .card-body {
+    flex: none;
     padding: 8px 10px 10px;
 }
 
@@ -1199,12 +1200,10 @@ main {
 }
 
 .asset-grid.view-masonry .card-meta,
-.asset-grid.view-masonry .card-path {
-    font-size: 0.6875rem;
-}
-
-.asset-grid.view-masonry .card-path {
-    -webkit-line-clamp: 1;
+.asset-grid.view-masonry .card-path,
+.asset-grid.view-masonry .alt-chip,
+.asset-grid.view-masonry .category-badge {
+    display: none;
 }
 
 .masonry-measure {
@@ -1213,7 +1212,13 @@ main {
     top: 0;
     visibility: hidden;
     pointer-events: none;
-    width: 260px;
+    overflow: hidden;
+}
+
+.masonry-measure .asset-grid.view-masonry {
+    display: block;
+    padding: 0;
+    position: static;
 }
 
 @media (max-width: 960px) {
