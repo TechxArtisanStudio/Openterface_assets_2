@@ -28,7 +28,7 @@
     const MASONRY_GAP = 18;
     const MASONRY_MIN_COL = 200;
     const MASONRY_MAX_COL = 300;
-    const MASONRY_BODY_SLIM = 128;
+    const MASONRY_BODY_FALLBACK = 52;
     const MASONRY_FILE_ASPECT = 0.75;
 
     let manifest = null;
@@ -107,9 +107,13 @@
     function applyThumbPlaceholder(img, asset) {
         const wrap = img.closest('.thumb-wrap');
         if (wrap && asset.is_image) {
-            const w = asset.width || 16;
-            const h = asset.height || 9;
-            wrap.style.aspectRatio = `${w} / ${h}`;
+            if (viewMode === 'masonry') {
+                wrap.style.aspectRatio = '';
+            } else {
+                const w = asset.width || 16;
+                const h = asset.height || 9;
+                wrap.style.aspectRatio = `${w} / ${h}`;
+            }
         }
         img.classList.add('thumb--loading');
         img.removeAttribute('src');
@@ -218,58 +222,75 @@
     function estimateCardHeightFromCard(card, colWidth) {
         const w = parseInt(card.dataset.imgWidth, 10);
         const h = parseInt(card.dataset.imgHeight, 10);
+        let bodyH = MASONRY_BODY_FALLBACK;
+        const bodyEl = card.querySelector('.card-body');
+        if (bodyEl && bodyEl.offsetHeight > 0) {
+            bodyH = bodyEl.offsetHeight;
+        }
         if (card.classList.contains('asset-card-image')) {
             if (w > 0 && h > 0) {
                 let imgH = colWidth * (h / w);
                 const maxH = window.innerHeight * 0.55;
                 if (imgH > maxH) imgH = maxH;
-                return imgH + MASONRY_BODY_SLIM;
+                return imgH + bodyH;
             }
-            return colWidth * (9 / 16) + MASONRY_BODY_SLIM;
+            return colWidth * (9 / 16) + bodyH;
         }
-        return colWidth * MASONRY_FILE_ASPECT + MASONRY_BODY_SLIM;
+        return colWidth * MASONRY_FILE_ASPECT + bodyH;
     }
 
-    function measureCardHeight(card, colWidth) {
-        const measurer = document.getElementById('masonry-measure');
-        if (!measurer) {
-            return estimateCardHeightFromCard(card, colWidth);
-        }
-        measurer.style.width = colWidth + 'px';
-        measurer.innerHTML = '';
+    function getMasonryMeasureGrid() {
+        return document.getElementById('masonry-measure-grid');
+    }
+
+    function prepareMasonryMeasureClone(card, colWidth) {
         const clone = card.cloneNode(true);
         clone.style.position = 'static';
         clone.style.left = '';
         clone.style.top = '';
         clone.style.width = '100%';
         clone.classList.remove('hidden');
-        measurer.appendChild(clone);
-        const h = clone.offsetHeight || estimateCardHeightFromCard(card, colWidth);
-        measurer.innerHTML = '';
-        return h;
-    }
-
-    function scheduleMasonryLayout() {
-        if (viewMode !== 'masonry') return;
-        clearTimeout(masonryLayoutTimer);
-        masonryLayoutTimer = setTimeout(layoutMasonry, 50);
-    }
-
-    function layoutMasonry() {
-        if (viewMode !== 'masonry' || !manifest) return;
-        const cards = [...gridEl.querySelectorAll('.asset-card:not(.hidden)')];
-        if (!cards.length) {
-            gridEl.style.height = '0px';
-            return;
+        const wrap = clone.querySelector('.thumb-wrap');
+        if (wrap) {
+            wrap.style.aspectRatio = '';
+            if (card.classList.contains('asset-card-image')) {
+                const w = parseInt(card.dataset.imgWidth, 10);
+                const h = parseInt(card.dataset.imgHeight, 10);
+                if (w > 0 && h > 0 && colWidth > 0) {
+                    let imgH = colWidth * (h / w);
+                    const maxH = window.innerHeight * 0.55;
+                    if (imgH > maxH) imgH = maxH;
+                    wrap.style.minHeight = Math.round(imgH) + 'px';
+                }
+            }
         }
+        const thumb = clone.querySelector('.thumb');
+        if (thumb) thumb.classList.remove('thumb--loading', 'thumb--error');
+        return clone;
+    }
 
-        const { colWidth, cols, gap } = getMasonryLayout();
+    function measureCardHeight(card, colWidth) {
+        const grid = getMasonryMeasureGrid();
+        if (!grid) {
+            return estimateCardHeightFromCard(card, colWidth);
+        }
+        grid.style.width = colWidth + 'px';
+        grid.innerHTML = '';
+        const clone = prepareMasonryMeasureClone(card, colWidth);
+        grid.appendChild(clone);
+        const h = clone.offsetHeight;
+        grid.innerHTML = '';
+        if (h > 0) return h;
+        return estimateCardHeightFromCard(card, colWidth);
+    }
+
+    function positionMasonryCards(cards, colWidth, cols, gap, heightForCard) {
         const colHeights = new Array(cols).fill(0);
         const totalWidth = cols * colWidth + (cols - 1) * gap;
         const offsetX = Math.max(0, (gridEl.clientWidth - totalWidth) / 2);
 
         cards.forEach((card) => {
-            const h = measureCardHeight(card, colWidth);
+            const h = heightForCard(card);
 
             let col = 0;
             for (let i = 1; i < cols; i++) {
@@ -288,6 +309,62 @@
         });
 
         gridEl.style.height = Math.max(...colHeights, 0) + 'px';
+        return colHeights;
+    }
+
+    function scheduleMasonryLayout() {
+        if (viewMode !== 'masonry') return;
+        clearTimeout(masonryLayoutTimer);
+        masonryLayoutTimer = setTimeout(layoutMasonry, 50);
+    }
+
+    function layoutMasonry() {
+        if (viewMode !== 'masonry' || !manifest) return;
+        const cards = [...gridEl.querySelectorAll('.asset-card:not(.hidden)')];
+        if (!cards.length) {
+            gridEl.style.height = '0px';
+            return;
+        }
+
+        const { colWidth, cols, gap } = getMasonryLayout();
+        const measuredHeights = new Map();
+        positionMasonryCards(cards, colWidth, cols, gap, (card) => {
+            const h = measureCardHeight(card, colWidth);
+            measuredHeights.set(card, h);
+            return h;
+        });
+
+        let needsRetry = false;
+        const liveHeights = new Map();
+        cards.forEach((card) => {
+            const live = card.offsetHeight;
+            if (live <= 0) return;
+            liveHeights.set(card, live);
+            const used = measuredHeights.get(card) || 0;
+            if (Math.abs(live - used) > 8) needsRetry = true;
+        });
+
+        if (needsRetry) {
+            positionMasonryCards(cards, colWidth, cols, gap, (card) => {
+                const live = liveHeights.get(card);
+                if (live && live > 0) return live;
+                return measureCardHeight(card, colWidth);
+            });
+        }
+    }
+
+    function refreshThumbAspectRatios() {
+        gridEl.querySelectorAll('.thumb-wrap').forEach((wrap) => {
+            const card = wrap.closest('.asset-card');
+            if (!card || !card.classList.contains('asset-card-image')) return;
+            if (viewMode === 'masonry') {
+                wrap.style.aspectRatio = '';
+            } else {
+                const w = parseInt(card.dataset.imgWidth, 10) || 16;
+                const h = parseInt(card.dataset.imgHeight, 10) || 9;
+                wrap.style.aspectRatio = `${w} / ${h}`;
+            }
+        });
     }
 
     function initGridResizeObserver() {
@@ -433,6 +510,7 @@
                 btn.setAttribute('aria-pressed', active ? 'true' : 'false');
             });
         }
+        refreshThumbAspectRatios();
         refreshThumbObservation();
     }
 
