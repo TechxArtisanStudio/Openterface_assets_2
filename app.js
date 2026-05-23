@@ -44,7 +44,7 @@
     let masonryHeightCache = new WeakMap();
     let thumbObserver = null;
     let gridResizeObserver = null;
-    let viewMode = 'comfortable';
+    let viewMode = 'masonry';
     let sortMode = 'name';
     let activeCategory = 'all';
     let searchQuery = '';
@@ -88,8 +88,24 @@
         }
     }
 
-    /** Prefer manifest primary URL (usually WebP); alternates only on load error. */
+    /** Grid thumbnails: small preview first, then full URL on error. */
     function thumbCandidateUrls(asset) {
+        const seen = new Set();
+        const list = [];
+        const add = (url) => {
+            if (url && !seen.has(url)) {
+                seen.add(url);
+                list.push(url);
+            }
+        };
+        add(asset.thumb_url);
+        add(asset.url);
+        (asset.alternates || []).forEach((a) => add(a.url));
+        return list;
+    }
+
+    /** Lightbox / full preview: always prefer full-size CDN URL. */
+    function previewCandidateUrls(asset) {
         const seen = new Set();
         const list = [];
         const add = (url) => {
@@ -555,7 +571,7 @@
     }
 
     function setViewMode(mode) {
-        if (!VIEW_MODES.includes(mode)) mode = 'comfortable';
+        if (!VIEW_MODES.includes(mode)) mode = 'masonry';
         const prev = viewMode;
         viewMode = mode;
         try {
@@ -777,8 +793,14 @@
         const previewBtn = card.querySelector('[data-preview]');
         if (previewBtn) {
             previewBtn.addEventListener('click', () => {
-                const urls = thumbCandidateUrls(asset);
-                openLightbox(urls[0] || asset.url, asset.name, displayPath, urls.slice(1));
+                const urls = previewCandidateUrls(asset);
+                openLightbox(
+                    urls[0] || asset.url,
+                    asset.name,
+                    displayPath,
+                    urls.slice(1),
+                    asset.thumb_url
+                );
             });
         }
 
@@ -847,29 +869,48 @@
         if (viewMode === 'masonry') scheduleMasonryLayout();
     }
 
-    function openLightbox(url, name, path, moreUrls) {
+    function openLightbox(url, name, path, moreUrls, thumbUrl) {
         const candidates = [url, ...(moreUrls || [])]
             .filter(Boolean)
             .map(toMediaUrl);
+        const fullUrl = candidates[0] || toMediaUrl(url);
         lightboxUrl = url;
         lightboxImg.alt = name || '';
         lightboxCaption.textContent = path ? name + ' — ' + path : name;
-        lightboxOpen.href = toMediaUrl(url);
+        lightboxOpen.href = fullUrl;
         lightbox.classList.remove('hidden');
         document.body.style.overflow = 'hidden';
+
         let attempt = 0;
-        lightboxImg.onerror = () => {
+        const tryNext = () => {
+            attempt += 1;
             if (attempt < candidates.length) {
-                const next = candidates[attempt++];
-                lightboxImg.src = next;
-                lightboxOpen.href = next;
+                lightboxImg.src = candidates[attempt];
+                lightboxOpen.href = candidates[attempt];
             }
         };
+
+        lightboxImg.onerror = tryNext;
         lightboxImg.onload = () => {
-            lightboxImg.onerror = null;
+            if (lightboxImg.src === fullUrl) {
+                lightboxImg.onerror = null;
+            }
         };
-        if (candidates.length) {
-            lightboxImg.src = candidates[attempt++];
+
+        const previewThumb = thumbUrl && thumbUrl !== url ? toMediaUrl(thumbUrl) : null;
+        if (previewThumb) {
+            lightboxImg.src = previewThumb;
+            const fullImg = new Image();
+            fullImg.onload = () => {
+                lightboxImg.src = fullUrl;
+                lightboxImg.onerror = tryNext;
+            };
+            fullImg.onerror = () => {
+                lightboxImg.src = fullUrl;
+            };
+            fullImg.src = fullUrl;
+        } else if (candidates.length) {
+            lightboxImg.src = fullUrl;
         }
     }
 

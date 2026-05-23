@@ -1,7 +1,7 @@
 {
   "base_url": "https://assets2.openterface.com",
-  "generated_at": "2026-05-23T12:34:22Z",
-  "commit": "7204973",
+  "generated_at": "2026-05-23T14:39:35Z",
+  "commit": "b1d998d",
   "stats": {
     "total": 159,
     "images": 149,
@@ -24,8 +24,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 1014204,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "back-cover-screw images/back-cover-screw.webp root webp images",
           "alternates": [
             {
@@ -35,7 +35,11 @@
             }
           ],
           "width": 3024,
-          "height": 4032
+          "height": 4032,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/Back-cover-screw.webp",
+          "thumb_bytes": 74144,
+          "thumb_width": 560,
+          "thumb_height": 747
         },
         {
           "name": "Back-cover",
@@ -46,8 +50,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 549756,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "back-cover images/back-cover.webp root webp images",
           "alternates": [
             {
@@ -57,7 +61,11 @@
             }
           ],
           "width": 4080,
-          "height": 2296
+          "height": 2296,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/Back-cover.webp",
+          "thumb_bytes": 32584,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "background_rm",
@@ -68,8 +76,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 54028,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "background_rm images/background_rm.webp root webp images",
           "alternates": [
             {
@@ -79,7 +87,11 @@
             }
           ],
           "width": 1280,
-          "height": 853
+          "height": 853,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/background_rm.webp",
+          "thumb_bytes": 10486,
+          "thumb_width": 560,
+          "thumb_height": 373
         },
         {
           "name": "kvm-go-caps-3_png_gallery-lg",
@@ -90,8 +102,8 @@
           "folder": "blog",
           "category": "images",
           "size_bytes": 19560,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "kvm-go-caps-3_png_gallery-lg images/blog/kvm-go-caps-3_png_gallery-lg.webp blog webp images",
           "alternates": [
             {
@@ -101,7 +113,11 @@
             }
           ],
           "width": 800,
-          "height": 450
+          "height": 450,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/blog/kvm-go-caps-3_png_gallery-lg.webp",
+          "thumb_bytes": 12384,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "Performance",
@@ -112,8 +128,8 @@
           "folder": "blog",
           "category": "images",
           "size_bytes": 9280,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "performance images/blog/performance.webp blog webp images",
           "alternates": [
             {
@@ -134,8 +150,8 @@
           "folder": "blog",
           "category": "images",
           "size_bytes": 9366,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "performance2 images/blog/performance2.webp blog webp images",
           "alternates": [
             {
@@ -156,8 +172,8 @@
           "folder": "blog",
           "category": "images",
           "size_bytes": 34822,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "plug images/blog/plug.webp blog webp images",
           "alternates": [
             {
@@ -167,7 +183,11 @@
             }
           ],
           "width": 1046,
-          "height": 600
+          "height": 600,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/blog/plug.webp",
+          "thumb_bytes": 15326,
+          "thumb_width": 560,
+          "thumb_height": 321
         },
         {
           "name": "SD-card",
@@ -178,8 +198,8 @@
           "folder": "blog",
           "category": "images",
           "size_bytes": 62514,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "sd-card images/blog/sd-card.webp blog webp images",
           "alternates": [
             {
@@ -189,7 +209,11 @@
             }
           ],
           "width": 2048,
-          "height": 1152
+          "height": 1152,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/blog/SD-card.webp",
+          "thumb_bytes": 13524,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "sdcard",
@@ -200,8 +224,8 @@
           "folder": "blog",
           "category": "images",
           "size_bytes": 17150,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "sdcard images/blog/sdcard.webp blog webp images",
           "alternates": [
             {
@@ -211,7 +235,11 @@
             }
           ],
           "width": 642,
-          "height": 578
+          "height": 578,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/blog/sdcard.webp",
+          "thumb_bytes": 15680,
+          "thumb_width": 560,
+          "thumb_height": 504
         },
         {
           "name": "USB",
@@ -222,8 +250,8 @@
           "folder": "blog",
           "category": "images",
           "size_bytes": 27066,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "usb images/blog/usb.webp blog webp images",
           "alternates": [
             {
@@ -233,7 +261,11 @@
             }
           ],
           "width": 1483,
-          "height": 165
+          "height": 165,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/blog/USB.webp",
+          "thumb_bytes": 6750,
+          "thumb_width": 560,
+          "thumb_height": 62
         },
         {
           "name": "Casing-temperature-test",
@@ -244,8 +276,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 15228,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "casing-temperature-test images/casing-temperature-test.webp root webp images",
           "alternates": [
             {
@@ -255,7 +287,11 @@
             }
           ],
           "width": 634,
-          "height": 475
+          "height": 475,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/Casing-temperature-test.webp",
+          "thumb_bytes": 13380,
+          "thumb_width": 560,
+          "thumb_height": 420
         },
         {
           "name": "CNC-machining",
@@ -266,8 +302,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 13738,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "cnc-machining images/cnc-machining.webp root webp images",
           "alternates": [
             {
@@ -277,7 +313,11 @@
             }
           ],
           "width": 634,
-          "height": 475
+          "height": 475,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/CNC-machining.webp",
+          "thumb_bytes": 11976,
+          "thumb_width": 560,
+          "thumb_height": 420
         },
         {
           "name": "cnc",
@@ -288,8 +328,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 27540,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "cnc images/cnc.webp root webp images",
           "alternates": [
             {
@@ -299,7 +339,11 @@
             }
           ],
           "width": 634,
-          "height": 634
+          "height": 634,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/cnc.webp",
+          "thumb_bytes": 23322,
+          "thumb_width": 560,
+          "thumb_height": 560
         },
         {
           "name": "cnc2",
@@ -310,8 +354,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 11992,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "cnc2 images/cnc2.webp root webp images",
           "alternates": [
             {
@@ -321,7 +365,11 @@
             }
           ],
           "width": 629,
-          "height": 240
+          "height": 240,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/cnc2.webp",
+          "thumb_bytes": 10144,
+          "thumb_width": 560,
+          "thumb_height": 214
         },
         {
           "name": "compress",
@@ -332,8 +380,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 47416,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "compress images/compress.webp root webp images",
           "alternates": [
             {
@@ -343,7 +391,11 @@
             }
           ],
           "width": 1108,
-          "height": 553
+          "height": 553,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/compress.webp",
+          "thumb_bytes": 17694,
+          "thumb_width": 560,
+          "thumb_height": 279
         },
         {
           "name": "connection-cap",
@@ -354,8 +406,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 505464,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "connection-cap images/connection-cap.webp root webp images",
           "alternates": [
             {
@@ -365,7 +417,11 @@
             }
           ],
           "width": 4080,
-          "height": 2296
+          "height": 2296,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/connection-cap.webp",
+          "thumb_bytes": 27998,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "copy",
@@ -376,12 +432,16 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 3813554,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "copy images/copy.webp root webp images",
           "alternates": [],
           "width": 1000,
-          "height": 563
+          "height": 563,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/copy.webp",
+          "thumb_bytes": 21262,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "edit-paste",
@@ -392,12 +452,16 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 1185652,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "edit-paste images/edit-paste.webp root webp images",
           "alternates": [],
           "width": 1000,
-          "height": 563
+          "height": 563,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/edit-paste.webp",
+          "thumb_bytes": 16194,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "Fan-1png",
@@ -408,8 +472,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 17658,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "fan-1png images/fan-1png.webp root webp images",
           "alternates": [
             {
@@ -419,7 +483,11 @@
             }
           ],
           "width": 634,
-          "height": 475
+          "height": 475,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/Fan-1png.webp",
+          "thumb_bytes": 15268,
+          "thumb_width": 560,
+          "thumb_height": 420
         },
         {
           "name": "Fan-2",
@@ -430,8 +498,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 25988,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "fan-2 images/fan-2.webp root webp images",
           "alternates": [
             {
@@ -441,7 +509,11 @@
             }
           ],
           "width": 632,
-          "height": 474
+          "height": 474,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/Fan-2.webp",
+          "thumb_bytes": 22652,
+          "thumb_width": 560,
+          "thumb_height": 420
         },
         {
           "name": "feature",
@@ -452,8 +524,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 33048,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "feature images/feature.webp root webp images",
           "alternates": [
             {
@@ -463,7 +535,11 @@
             }
           ],
           "width": 1600,
-          "height": 1200
+          "height": 1200,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/feature.webp",
+          "thumb_bytes": 10772,
+          "thumb_width": 560,
+          "thumb_height": 420
         },
         {
           "name": "Host-plug&play",
@@ -474,12 +550,16 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 3201396,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "host-plug&play images/host-plug&play.webp root webp images",
           "alternates": [],
           "width": 1000,
-          "height": 563
+          "height": 563,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/Host-plug&play.webp",
+          "thumb_bytes": 22878,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "Host_app",
@@ -490,8 +570,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 15516,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "host_app images/host_app.webp root webp images",
           "alternates": [
             {
@@ -501,7 +581,11 @@
             }
           ],
           "width": 600,
-          "height": 380
+          "height": 380,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/Host_app.webp",
+          "thumb_bytes": 13830,
+          "thumb_width": 560,
+          "thumb_height": 355
         },
         {
           "name": "android",
@@ -512,8 +596,8 @@
           "folder": "icon",
           "category": "images",
           "size_bytes": 1421,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "android images/icon/android.svg icon svg images",
           "alternates": []
         },
@@ -526,8 +610,8 @@
           "folder": "icon",
           "category": "images",
           "size_bytes": 4116,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "clockwork images/icon/clockwork.webp icon webp images",
           "alternates": [
             {
@@ -548,8 +632,8 @@
           "folder": "icon",
           "category": "images",
           "size_bytes": 340,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "fcc_new_logo images/icon/fcc_new_logo.svg icon svg images",
           "alternates": []
         },
@@ -562,8 +646,8 @@
           "folder": "icon",
           "category": "images",
           "size_bytes": 14928,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "linux images/icon/linux.svg icon svg images",
           "alternates": []
         },
@@ -576,8 +660,8 @@
           "folder": "icon",
           "category": "images",
           "size_bytes": 8727,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "mail images/icon/mail.svg icon svg images",
           "alternates": []
         },
@@ -590,8 +674,8 @@
           "folder": "icon",
           "category": "images",
           "size_bytes": 4261,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "openterface images/icon/openterface.svg icon svg images",
           "alternates": []
         },
@@ -604,8 +688,8 @@
           "folder": "icon",
           "category": "images",
           "size_bytes": 5799,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "raspberry-pi images/icon/raspberry-pi.svg icon svg images",
           "alternates": []
         },
@@ -618,8 +702,8 @@
           "folder": "icon",
           "category": "images",
           "size_bytes": 1209,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "txa-icon images/icon/txa-icon.svg icon svg images",
           "alternates": []
         },
@@ -632,8 +716,8 @@
           "folder": "icon",
           "category": "images",
           "size_bytes": 2168,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "txa-logo images/icon/txa-logo.webp icon webp images",
           "alternates": [
             {
@@ -654,12 +738,16 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 3277652,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "id+name images/id+name.webp root webp images",
           "alternates": [],
           "width": 1000,
-          "height": 563
+          "height": 563,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/ID+Name.webp",
+          "thumb_bytes": 20832,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "keychain-cord-2",
@@ -670,8 +758,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 680732,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keychain-cord-2 images/keychain-cord-2.webp root webp images",
           "alternates": [
             {
@@ -681,7 +769,11 @@
             }
           ],
           "width": 4080,
-          "height": 2296
+          "height": 2296,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keychain-cord-2.webp",
+          "thumb_bytes": 23552,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "keymod-connector-a",
@@ -692,8 +784,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 89724,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keymod-connector-a images/keymod-connector-a.webp root webp images",
           "alternates": [
             {
@@ -703,7 +795,11 @@
             }
           ],
           "width": 755,
-          "height": 1080
+          "height": 1080,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod-connector-a.webp",
+          "thumb_bytes": 56250,
+          "thumb_width": 560,
+          "thumb_height": 801
         },
         {
           "name": "keymod-connector-b",
@@ -714,8 +810,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 62584,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keymod-connector-b images/keymod-connector-b.webp root webp images",
           "alternates": [
             {
@@ -725,7 +821,11 @@
             }
           ],
           "width": 1080,
-          "height": 608
+          "height": 608,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod-connector-b.webp",
+          "thumb_bytes": 26760,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "keymod-connector-c",
@@ -736,8 +836,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 33784,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keymod-connector-c images/keymod-connector-c.webp root webp images",
           "alternates": [
             {
@@ -747,7 +847,11 @@
             }
           ],
           "width": 1080,
-          "height": 608
+          "height": 608,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod-connector-c.webp",
+          "thumb_bytes": 15392,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "keymod-connector-d",
@@ -758,8 +862,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 76276,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keymod-connector-d images/keymod-connector-d.webp root webp images",
           "alternates": [
             {
@@ -769,7 +873,11 @@
             }
           ],
           "width": 1080,
-          "height": 608
+          "height": 608,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod-connector-d.webp",
+          "thumb_bytes": 31350,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "keymod-windows-connect",
@@ -780,8 +888,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 123900,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keymod-windows-connect images/keymod-windows-connect.webp root webp images",
           "alternates": [
             {
@@ -791,7 +899,11 @@
             }
           ],
           "width": 4108,
-          "height": 2312
+          "height": 2312,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod-windows-connect.webp",
+          "thumb_bytes": 7674,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "2in1",
@@ -802,8 +914,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 40532,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "2in1 images/keymod/2in1.webp keymod webp images",
           "alternates": [
             {
@@ -813,7 +925,11 @@
             }
           ],
           "width": 1080,
-          "height": 1080
+          "height": 1080,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/2in1.webp",
+          "thumb_bytes": 12990,
+          "thumb_width": 560,
+          "thumb_height": 560
         },
         {
           "name": "demo-keyboard-mouse-landscape-macro-strip",
@@ -824,8 +940,8 @@
           "folder": "keymod/andorid",
           "category": "images",
           "size_bytes": 20612,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "demo-keyboard-mouse-landscape-macro-strip images/keymod/andorid/demo-keyboard-mouse-landscape-macro-strip.webp keymod/andorid webp images",
           "alternates": [
             {
@@ -835,7 +951,11 @@
             }
           ],
           "width": 1560,
-          "height": 758
+          "height": 758,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/andorid/demo-keyboard-mouse-landscape-macro-strip.webp",
+          "thumb_bytes": 7578,
+          "thumb_width": 560,
+          "thumb_height": 272
         },
         {
           "name": "demo-keyboard-mouse-landscape-qwerty-touchpad",
@@ -846,8 +966,8 @@
           "folder": "keymod/andorid",
           "category": "images",
           "size_bytes": 19638,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "demo-keyboard-mouse-landscape-qwerty-touchpad images/keymod/andorid/demo-keyboard-mouse-landscape-qwerty-touchpad.webp keymod/andorid webp images",
           "alternates": [
             {
@@ -857,7 +977,11 @@
             }
           ],
           "width": 1520,
-          "height": 682
+          "height": 682,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/andorid/demo-keyboard-mouse-landscape-qwerty-touchpad.webp",
+          "thumb_bytes": 7300,
+          "thumb_width": 560,
+          "thumb_height": 251
         },
         {
           "name": "demo-keyboard-mouse-landscape-split-keyboard-touchpad",
@@ -868,8 +992,8 @@
           "folder": "keymod/andorid",
           "category": "images",
           "size_bytes": 21892,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "demo-keyboard-mouse-landscape-split-keyboard-touchpad images/keymod/andorid/demo-keyboard-mouse-landscape-split-keyboard-touchpad.webp keymod/andorid webp images",
           "alternates": [
             {
@@ -879,7 +1003,11 @@
             }
           ],
           "width": 1560,
-          "height": 758
+          "height": 758,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/andorid/demo-keyboard-mouse-landscape-split-keyboard-touchpad.webp",
+          "thumb_bytes": 8026,
+          "thumb_width": 560,
+          "thumb_height": 272
         },
         {
           "name": "demo-keyboard-mouse-portrait-long-text-compose",
@@ -890,8 +1018,8 @@
           "folder": "keymod/andorid",
           "category": "images",
           "size_bytes": 32296,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "demo-keyboard-mouse-portrait-long-text-compose images/keymod/andorid/demo-keyboard-mouse-portrait-long-text-compose.webp keymod/andorid webp images",
           "alternates": [
             {
@@ -901,7 +1029,11 @@
             }
           ],
           "width": 702,
-          "height": 1616
+          "height": 1616,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/andorid/demo-keyboard-mouse-portrait-long-text-compose.webp",
+          "thumb_bytes": 26970,
+          "thumb_width": 560,
+          "thumb_height": 1289
         },
         {
           "name": "demo-keyboard-mouse-portrait-touchpad-gestures",
@@ -912,8 +1044,8 @@
           "folder": "keymod/andorid",
           "category": "images",
           "size_bytes": 38534,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "demo-keyboard-mouse-portrait-touchpad-gestures images/keymod/andorid/demo-keyboard-mouse-portrait-touchpad-gestures.webp keymod/andorid webp images",
           "alternates": [
             {
@@ -923,7 +1055,11 @@
             }
           ],
           "width": 702,
-          "height": 1616
+          "height": 1616,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/andorid/demo-keyboard-mouse-portrait-touchpad-gestures.webp",
+          "thumb_bytes": 32380,
+          "thumb_width": 560,
+          "thumb_height": 1289
         },
         {
           "name": "demo-keyboard-mouse-portrait-touchpad-numpad",
@@ -934,8 +1070,8 @@
           "folder": "keymod/andorid",
           "category": "images",
           "size_bytes": 15552,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "demo-keyboard-mouse-portrait-touchpad-numpad images/keymod/andorid/demo-keyboard-mouse-portrait-touchpad-numpad.webp keymod/andorid webp images",
           "alternates": [
             {
@@ -945,7 +1081,11 @@
             }
           ],
           "width": 702,
-          "height": 1616
+          "height": 1616,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/andorid/demo-keyboard-mouse-portrait-touchpad-numpad.webp",
+          "thumb_bytes": 13222,
+          "thumb_width": 560,
+          "thumb_height": 1289
         },
         {
           "name": "demo-navigation-drawer",
@@ -956,8 +1096,8 @@
           "folder": "keymod/andorid",
           "category": "images",
           "size_bytes": 19228,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "demo-navigation-drawer images/keymod/andorid/demo-navigation-drawer.webp keymod/andorid webp images",
           "alternates": [
             {
@@ -967,7 +1107,11 @@
             }
           ],
           "width": 702,
-          "height": 1616
+          "height": 1616,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/andorid/demo-navigation-drawer.webp",
+          "thumb_bytes": 15722,
+          "thumb_width": 560,
+          "thumb_height": 1289
         },
         {
           "name": "demo-presentation-google-slides",
@@ -978,8 +1122,8 @@
           "folder": "keymod/andorid",
           "category": "images",
           "size_bytes": 20774,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "demo-presentation-google-slides images/keymod/andorid/demo-presentation-google-slides.webp keymod/andorid webp images",
           "alternates": [
             {
@@ -989,7 +1133,11 @@
             }
           ],
           "width": 702,
-          "height": 1616
+          "height": 1616,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/andorid/demo-presentation-google-slides.webp",
+          "thumb_bytes": 17706,
+          "thumb_width": 560,
+          "thumb_height": 1289
         },
         {
           "name": "demo-shortcut-hub",
@@ -1000,8 +1148,8 @@
           "folder": "keymod/andorid",
           "category": "images",
           "size_bytes": 33126,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "demo-shortcut-hub images/keymod/andorid/demo-shortcut-hub.webp keymod/andorid webp images",
           "alternates": [
             {
@@ -1011,7 +1159,11 @@
             }
           ],
           "width": 702,
-          "height": 1616
+          "height": 1616,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/andorid/demo-shortcut-hub.webp",
+          "thumb_bytes": 27790,
+          "thumb_width": 560,
+          "thumb_height": 1289
         },
         {
           "name": "demo-voice-input",
@@ -1022,8 +1174,8 @@
           "folder": "keymod/andorid",
           "category": "images",
           "size_bytes": 17980,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "demo-voice-input images/keymod/andorid/demo-voice-input.webp keymod/andorid webp images",
           "alternates": [
             {
@@ -1033,7 +1185,11 @@
             }
           ],
           "width": 702,
-          "height": 1616
+          "height": 1616,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/andorid/demo-voice-input.webp",
+          "thumb_bytes": 14756,
+          "thumb_width": 560,
+          "thumb_height": 1289
         },
         {
           "name": "demo-welcome-keymod-mode-selection-landscape",
@@ -1044,8 +1200,8 @@
           "folder": "keymod/andorid",
           "category": "images",
           "size_bytes": 24672,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "demo-welcome-keymod-mode-selection-landscape images/keymod/andorid/demo-welcome-keymod-mode-selection-landscape.webp keymod/andorid webp images",
           "alternates": [
             {
@@ -1055,7 +1211,11 @@
             }
           ],
           "width": 1516,
-          "height": 672
+          "height": 672,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/andorid/demo-welcome-keymod-mode-selection-landscape.webp",
+          "thumb_bytes": 8632,
+          "thumb_width": 560,
+          "thumb_height": 248
         },
         {
           "name": "demo-welcome-mode-selection",
@@ -1066,8 +1226,8 @@
           "folder": "keymod/andorid",
           "category": "images",
           "size_bytes": 27130,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "demo-welcome-mode-selection images/keymod/andorid/demo-welcome-mode-selection.webp keymod/andorid webp images",
           "alternates": [
             {
@@ -1077,7 +1237,11 @@
             }
           ],
           "width": 704,
-          "height": 1622
+          "height": 1622,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/andorid/demo-welcome-mode-selection.webp",
+          "thumb_bytes": 22222,
+          "thumb_width": 560,
+          "thumb_height": 1290
         },
         {
           "name": "Circuit-board",
@@ -1088,8 +1252,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 141156,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "circuit-board images/keymod/circuit-board.webp keymod webp images",
           "alternates": [
             {
@@ -1099,7 +1263,11 @@
             }
           ],
           "width": 4096,
-          "height": 2304
+          "height": 2304,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/Circuit-board.webp",
+          "thumb_bytes": 11314,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "feature",
@@ -1110,8 +1278,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 28302,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "feature images/keymod/feature.webp keymod webp images",
           "alternates": [
             {
@@ -1121,7 +1289,11 @@
             }
           ],
           "width": 1080,
-          "height": 1080
+          "height": 1080,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/feature.webp",
+          "thumb_bytes": 13120,
+          "thumb_width": 560,
+          "thumb_height": 560
         },
         {
           "name": "Gamepad-perset-1",
@@ -1132,8 +1304,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 12230,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "gamepad-perset-1 images/keymod/gamepad-perset-1.webp keymod webp images",
           "alternates": [
             {
@@ -1143,7 +1315,11 @@
             }
           ],
           "width": 1564,
-          "height": 698
+          "height": 698,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/Gamepad-perset-1.webp",
+          "thumb_bytes": 3728,
+          "thumb_width": 560,
+          "thumb_height": 250
         },
         {
           "name": "Gamepad-perset-1_1",
@@ -1154,8 +1330,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 13652,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "gamepad-perset-1_1 images/keymod/gamepad-perset-1_1.webp keymod webp images",
           "alternates": [
             {
@@ -1165,7 +1341,11 @@
             }
           ],
           "width": 1564,
-          "height": 698
+          "height": 698,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/Gamepad-perset-1_1.webp",
+          "thumb_bytes": 3792,
+          "thumb_width": 560,
+          "thumb_height": 250
         },
         {
           "name": "Gamepad-perset-2",
@@ -1176,8 +1356,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 16762,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "gamepad-perset-2 images/keymod/gamepad-perset-2.webp keymod webp images",
           "alternates": [
             {
@@ -1187,7 +1367,11 @@
             }
           ],
           "width": 1564,
-          "height": 698
+          "height": 698,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/Gamepad-perset-2.webp",
+          "thumb_bytes": 4024,
+          "thumb_width": 560,
+          "thumb_height": 250
         },
         {
           "name": "Gamepad-perset-3",
@@ -1198,8 +1382,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 19308,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "gamepad-perset-3 images/keymod/gamepad-perset-3.webp keymod webp images",
           "alternates": [
             {
@@ -1209,7 +1393,11 @@
             }
           ],
           "width": 1564,
-          "height": 698
+          "height": 698,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/Gamepad-perset-3.webp",
+          "thumb_bytes": 6210,
+          "thumb_width": 560,
+          "thumb_height": 250
         },
         {
           "name": "Gamepad-perset-4",
@@ -1220,8 +1408,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 20042,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "gamepad-perset-4 images/keymod/gamepad-perset-4.webp keymod webp images",
           "alternates": [
             {
@@ -1231,7 +1419,11 @@
             }
           ],
           "width": 1564,
-          "height": 698
+          "height": 698,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/Gamepad-perset-4.webp",
+          "thumb_bytes": 6056,
+          "thumb_width": 560,
+          "thumb_height": 250
         },
         {
           "name": "Gamepad-perset-minecraft",
@@ -1242,8 +1434,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 28686,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "gamepad-perset-minecraft images/keymod/gamepad-perset-minecraft.webp keymod webp images",
           "alternates": [
             {
@@ -1253,7 +1445,11 @@
             }
           ],
           "width": 1564,
-          "height": 698
+          "height": 698,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/Gamepad-perset-minecraft.webp",
+          "thumb_bytes": 9350,
+          "thumb_width": 560,
+          "thumb_height": 250
         },
         {
           "name": "Gamepad-perset-minecraft_1",
@@ -1264,8 +1460,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 30364,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "gamepad-perset-minecraft_1 images/keymod/gamepad-perset-minecraft_1.webp keymod webp images",
           "alternates": [
             {
@@ -1275,7 +1471,11 @@
             }
           ],
           "width": 1564,
-          "height": 698
+          "height": 698,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/Gamepad-perset-minecraft_1.webp",
+          "thumb_bytes": 9254,
+          "thumb_width": 560,
+          "thumb_height": 250
         },
         {
           "name": "gaming-keyboard",
@@ -1286,8 +1486,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 31116,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "gaming-keyboard images/keymod/gaming-keyboard.webp keymod webp images",
           "alternates": [
             {
@@ -1297,7 +1497,11 @@
             }
           ],
           "width": 2556,
-          "height": 1179
+          "height": 1179,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/gaming-keyboard.webp",
+          "thumb_bytes": 6136,
+          "thumb_width": 560,
+          "thumb_height": 258
         },
         {
           "name": "ipad-connect",
@@ -1308,8 +1512,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 20772,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "ipad-connect images/keymod/ipad-connect.webp keymod webp images",
           "alternates": [
             {
@@ -1319,7 +1523,11 @@
             }
           ],
           "width": 1080,
-          "height": 1080
+          "height": 1080,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/ipad-connect.webp",
+          "thumb_bytes": 8352,
+          "thumb_width": 560,
+          "thumb_height": 560
         },
         {
           "name": "KeyCmd-Full-Keyboard-landscape",
@@ -1330,8 +1538,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 23750,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keycmd-full-keyboard-landscape images/keymod/keycmd-full-keyboard-landscape.webp keymod webp images",
           "alternates": [
             {
@@ -1341,7 +1549,11 @@
             }
           ],
           "width": 1564,
-          "height": 690
+          "height": 690,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KeyCmd-Full-Keyboard-landscape.webp",
+          "thumb_bytes": 9544,
+          "thumb_width": 560,
+          "thumb_height": 247
         },
         {
           "name": "KeyCmd-Keyboard-TouchPad-portrait",
@@ -1352,8 +1564,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 19150,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keycmd-keyboard-touchpad-portrait images/keymod/keycmd-keyboard-touchpad-portrait.webp keymod webp images",
           "alternates": [
             {
@@ -1363,7 +1575,11 @@
             }
           ],
           "width": 688,
-          "height": 1548
+          "height": 1548,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KeyCmd-Keyboard-TouchPad-portrait.webp",
+          "thumb_bytes": 16680,
+          "thumb_width": 560,
+          "thumb_height": 1260
         },
         {
           "name": "KeyCmd-Keyboard-TouchPad-portrait_1",
@@ -1374,8 +1590,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 20624,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keycmd-keyboard-touchpad-portrait_1 images/keymod/keycmd-keyboard-touchpad-portrait_1.webp keymod webp images",
           "alternates": [
             {
@@ -1385,7 +1601,11 @@
             }
           ],
           "width": 688,
-          "height": 1548
+          "height": 1548,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KeyCmd-Keyboard-TouchPad-portrait_1.webp",
+          "thumb_bytes": 16880,
+          "thumb_width": 560,
+          "thumb_height": 1260
         },
         {
           "name": "KeyCmd-km-basic-Touchpad",
@@ -1396,8 +1616,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 6684,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keycmd-km-basic-touchpad images/keymod/keycmd-km-basic-touchpad.webp keymod webp images",
           "alternates": [
             {
@@ -1407,7 +1627,11 @@
             }
           ],
           "width": 690,
-          "height": 1564
+          "height": 1564,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KeyCmd-km-basic-Touchpad.webp",
+          "thumb_bytes": 5440,
+          "thumb_width": 560,
+          "thumb_height": 1269
         },
         {
           "name": "KeyCmd-NumPad-landscape",
@@ -1418,8 +1642,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 19064,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keycmd-numpad-landscape images/keymod/keycmd-numpad-landscape.webp keymod webp images",
           "alternates": [
             {
@@ -1429,7 +1653,11 @@
             }
           ],
           "width": 1564,
-          "height": 690
+          "height": 690,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KeyCmd-NumPad-landscape.webp",
+          "thumb_bytes": 7018,
+          "thumb_width": 560,
+          "thumb_height": 247
         },
         {
           "name": "KeyCmd-NumPad-landscape_1",
@@ -1440,8 +1668,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 20096,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keycmd-numpad-landscape_1 images/keymod/keycmd-numpad-landscape_1.webp keymod webp images",
           "alternates": [
             {
@@ -1451,7 +1679,11 @@
             }
           ],
           "width": 1564,
-          "height": 690
+          "height": 690,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KeyCmd-NumPad-landscape_1.webp",
+          "thumb_bytes": 7046,
+          "thumb_width": 560,
+          "thumb_height": 247
         },
         {
           "name": "KeyCmd-NumPad-portrait",
@@ -1462,8 +1694,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 17622,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keycmd-numpad-portrait images/keymod/keycmd-numpad-portrait.webp keymod webp images",
           "alternates": [
             {
@@ -1473,7 +1705,11 @@
             }
           ],
           "width": 688,
-          "height": 1548
+          "height": 1548,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KeyCmd-NumPad-portrait.webp",
+          "thumb_bytes": 15506,
+          "thumb_width": 560,
+          "thumb_height": 1260
         },
         {
           "name": "KeyCmd-Presentation-Google-Slides",
@@ -1484,8 +1720,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 19858,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keycmd-presentation-google-slides images/keymod/keycmd-presentation-google-slides.webp keymod webp images",
           "alternates": [
             {
@@ -1495,7 +1731,11 @@
             }
           ],
           "width": 696,
-          "height": 1558
+          "height": 1558,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KeyCmd-Presentation-Google-Slides.webp",
+          "thumb_bytes": 15890,
+          "thumb_width": 560,
+          "thumb_height": 1254
         },
         {
           "name": "KeyCmd-Remote-Coding-portrait",
@@ -1506,8 +1746,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 74770,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keycmd-remote-coding-portrait images/keymod/keycmd-remote-coding-portrait.webp keymod webp images",
           "alternates": [
             {
@@ -1517,7 +1757,11 @@
             }
           ],
           "width": 1200,
-          "height": 1600
+          "height": 1600,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KeyCmd-Remote-Coding-portrait.webp",
+          "thumb_bytes": 31890,
+          "thumb_width": 560,
+          "thumb_height": 747
         },
         {
           "name": "KeyCmd-Script-Running-portrait",
@@ -1528,8 +1772,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 102904,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keycmd-script-running-portrait images/keymod/keycmd-script-running-portrait.webp keymod webp images",
           "alternates": [
             {
@@ -1539,7 +1783,11 @@
             }
           ],
           "width": 1200,
-          "height": 1600
+          "height": 1600,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KeyCmd-Script-Running-portrait.webp",
+          "thumb_bytes": 47920,
+          "thumb_width": 560,
+          "thumb_height": 747
         },
         {
           "name": "KeyCmd-Script-Running-portrait_1",
@@ -1550,8 +1798,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 98974,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keycmd-script-running-portrait_1 images/keymod/keycmd-script-running-portrait_1.webp keymod webp images",
           "alternates": [
             {
@@ -1561,7 +1809,11 @@
             }
           ],
           "width": 1200,
-          "height": 1600
+          "height": 1600,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KeyCmd-Script-Running-portrait_1.webp",
+          "thumb_bytes": 46326,
+          "thumb_width": 560,
+          "thumb_height": 747
         },
         {
           "name": "KeyCmd-Settings-screen",
@@ -1572,8 +1824,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 46678,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keycmd-settings-screen images/keymod/keycmd-settings-screen.webp keymod webp images",
           "alternates": [
             {
@@ -1583,7 +1835,11 @@
             }
           ],
           "width": 696,
-          "height": 1560
+          "height": 1560,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KeyCmd-Settings-screen.webp",
+          "thumb_bytes": 38522,
+          "thumb_width": 560,
+          "thumb_height": 1255
         },
         {
           "name": "KeyCmd-Touchpad-landscape",
@@ -1594,8 +1850,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 6798,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keycmd-touchpad-landscape images/keymod/keycmd-touchpad-landscape.webp keymod webp images",
           "alternates": [
             {
@@ -1605,7 +1861,11 @@
             }
           ],
           "width": 1564,
-          "height": 690
+          "height": 690,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KeyCmd-Touchpad-landscape.webp",
+          "thumb_bytes": 2062,
+          "thumb_width": 560,
+          "thumb_height": 247
         },
         {
           "name": "KeyCmd-Welcome-Screen-landscape",
@@ -1616,8 +1876,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 29250,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keycmd-welcome-screen-landscape images/keymod/keycmd-welcome-screen-landscape.webp keymod webp images",
           "alternates": [
             {
@@ -1627,7 +1887,11 @@
             }
           ],
           "width": 1564,
-          "height": 690
+          "height": 690,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KeyCmd-Welcome-Screen-landscape.webp",
+          "thumb_bytes": 9996,
+          "thumb_width": 560,
+          "thumb_height": 247
         },
         {
           "name": "KeyCmd-Welcome-Screen-landscape_1",
@@ -1638,8 +1902,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 29658,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keycmd-welcome-screen-landscape_1 images/keymod/keycmd-welcome-screen-landscape_1.webp keymod webp images",
           "alternates": [
             {
@@ -1649,7 +1913,11 @@
             }
           ],
           "width": 1564,
-          "height": 690
+          "height": 690,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KeyCmd-Welcome-Screen-landscape_1.webp",
+          "thumb_bytes": 9706,
+          "thumb_width": 560,
+          "thumb_height": 247
         },
         {
           "name": "KeyCmd",
@@ -1660,8 +1928,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 2610,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keycmd images/keymod/keycmd.svg keymod svg images",
           "alternates": []
         },
@@ -1674,8 +1942,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 89724,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keymod-connector-a images/keymod/keymod-connector-a.webp keymod webp images",
           "alternates": [
             {
@@ -1685,7 +1953,11 @@
             }
           ],
           "width": 755,
-          "height": 1080
+          "height": 1080,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/keymod-connector-a.webp",
+          "thumb_bytes": 56250,
+          "thumb_width": 560,
+          "thumb_height": 801
         },
         {
           "name": "keymod-connector-b",
@@ -1696,8 +1968,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 62584,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keymod-connector-b images/keymod/keymod-connector-b.webp keymod webp images",
           "alternates": [
             {
@@ -1707,7 +1979,11 @@
             }
           ],
           "width": 1080,
-          "height": 608
+          "height": 608,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/keymod-connector-b.webp",
+          "thumb_bytes": 26760,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "keymod-connector-c",
@@ -1718,8 +1994,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 33784,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keymod-connector-c images/keymod/keymod-connector-c.webp keymod webp images",
           "alternates": [
             {
@@ -1729,7 +2005,11 @@
             }
           ],
           "width": 1080,
-          "height": 608
+          "height": 608,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/keymod-connector-c.webp",
+          "thumb_bytes": 15392,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "keymod-connector-d",
@@ -1740,8 +2020,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 76276,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keymod-connector-d images/keymod/keymod-connector-d.webp keymod webp images",
           "alternates": [
             {
@@ -1751,7 +2031,11 @@
             }
           ],
           "width": 1080,
-          "height": 608
+          "height": 608,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/keymod-connector-d.webp",
+          "thumb_bytes": 31350,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "keymod",
@@ -1762,8 +2046,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 22760,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keymod images/keymod/keymod.webp keymod webp images",
           "alternates": [
             {
@@ -1773,7 +2057,11 @@
             }
           ],
           "width": 1080,
-          "height": 1080
+          "height": 1080,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/keymod.webp",
+          "thumb_bytes": 6912,
+          "thumb_width": 560,
+          "thumb_height": 560
         },
         {
           "name": "KM-Basic-ComposeSend",
@@ -1784,8 +2072,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 10652,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "km-basic-composesend images/keymod/km-basic-composesend.webp keymod webp images",
           "alternates": [
             {
@@ -1795,7 +2083,11 @@
             }
           ],
           "width": 1564,
-          "height": 698
+          "height": 698,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KM-Basic-ComposeSend.webp",
+          "thumb_bytes": 3024,
+          "thumb_width": 560,
+          "thumb_height": 250
         },
         {
           "name": "KM-Basic-Keyboard",
@@ -1806,8 +2098,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 26162,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "km-basic-keyboard images/keymod/km-basic-keyboard.webp keymod webp images",
           "alternates": [
             {
@@ -1817,7 +2109,11 @@
             }
           ],
           "width": 1564,
-          "height": 698
+          "height": 698,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KM-Basic-Keyboard.webp",
+          "thumb_bytes": 10168,
+          "thumb_width": 560,
+          "thumb_height": 250
         },
         {
           "name": "KM-Basic-Keyboard_1",
@@ -1828,8 +2124,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 29310,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "km-basic-keyboard_1 images/keymod/km-basic-keyboard_1.webp keymod webp images",
           "alternates": [
             {
@@ -1839,7 +2135,11 @@
             }
           ],
           "width": 1564,
-          "height": 698
+          "height": 698,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KM-Basic-Keyboard_1.webp",
+          "thumb_bytes": 10150,
+          "thumb_width": 560,
+          "thumb_height": 250
         },
         {
           "name": "KM-Basic-Numpad",
@@ -1850,8 +2150,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 18058,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "km-basic-numpad images/keymod/km-basic-numpad.webp keymod webp images",
           "alternates": [
             {
@@ -1861,7 +2161,11 @@
             }
           ],
           "width": 1564,
-          "height": 698
+          "height": 698,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KM-Basic-Numpad.webp",
+          "thumb_bytes": 6420,
+          "thumb_width": 560,
+          "thumb_height": 250
         },
         {
           "name": "KM-Basic-TouchPad",
@@ -1872,8 +2176,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 6986,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "km-basic-touchpad images/keymod/km-basic-touchpad.webp keymod webp images",
           "alternates": [
             {
@@ -1883,7 +2187,11 @@
             }
           ],
           "width": 1564,
-          "height": 698
+          "height": 698,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KM-Basic-TouchPad.webp",
+          "thumb_bytes": 1964,
+          "thumb_width": 560,
+          "thumb_height": 250
         },
         {
           "name": "KM-Pro-Keyboard-landscape-full",
@@ -1894,8 +2202,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 16600,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "km-pro-keyboard-landscape-full images/keymod/km-pro-keyboard-landscape-full.webp keymod webp images",
           "alternates": [
             {
@@ -1905,7 +2213,11 @@
             }
           ],
           "width": 1564,
-          "height": 698
+          "height": 698,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KM-Pro-Keyboard-landscape-full.webp",
+          "thumb_bytes": 6018,
+          "thumb_width": 560,
+          "thumb_height": 250
         },
         {
           "name": "KM-Pro-Keyboard-landscape-split",
@@ -1916,8 +2228,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 18694,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "km-pro-keyboard-landscape-split images/keymod/km-pro-keyboard-landscape-split.webp keymod webp images",
           "alternates": [
             {
@@ -1927,7 +2239,11 @@
             }
           ],
           "width": 1564,
-          "height": 698
+          "height": 698,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KM-Pro-Keyboard-landscape-split.webp",
+          "thumb_bytes": 6768,
+          "thumb_width": 560,
+          "thumb_height": 250
         },
         {
           "name": "KM-Pro-Keyboard-landscape-split_1",
@@ -1938,8 +2254,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 20338,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "km-pro-keyboard-landscape-split_1 images/keymod/km-pro-keyboard-landscape-split_1.webp keymod webp images",
           "alternates": [
             {
@@ -1949,7 +2265,11 @@
             }
           ],
           "width": 1564,
-          "height": 698
+          "height": 698,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KM-Pro-Keyboard-landscape-split_1.webp",
+          "thumb_bytes": 6772,
+          "thumb_width": 560,
+          "thumb_height": 250
         },
         {
           "name": "KM-Pro-Keyboard-portiat-ime",
@@ -1960,8 +2280,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 24442,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "km-pro-keyboard-portiat-ime images/keymod/km-pro-keyboard-portiat-ime.webp keymod webp images",
           "alternates": [
             {
@@ -1971,7 +2291,11 @@
             }
           ],
           "width": 692,
-          "height": 1540
+          "height": 1540,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KM-Pro-Keyboard-portiat-ime.webp",
+          "thumb_bytes": 21030,
+          "thumb_width": 560,
+          "thumb_height": 1246
         },
         {
           "name": "KM-Pro-Keyboard-portiat-keyboard",
@@ -1982,8 +2306,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 33062,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "km-pro-keyboard-portiat-keyboard images/keymod/km-pro-keyboard-portiat-keyboard.webp keymod webp images",
           "alternates": [
             {
@@ -1993,7 +2317,11 @@
             }
           ],
           "width": 692,
-          "height": 1540
+          "height": 1540,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KM-Pro-Keyboard-portiat-keyboard.webp",
+          "thumb_bytes": 28150,
+          "thumb_width": 560,
+          "thumb_height": 1246
         },
         {
           "name": "KM-Pro-Keyboard-portiat-numpad",
@@ -2004,8 +2332,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 12380,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "km-pro-keyboard-portiat-numpad images/keymod/km-pro-keyboard-portiat-numpad.webp keymod webp images",
           "alternates": [
             {
@@ -2015,7 +2343,11 @@
             }
           ],
           "width": 692,
-          "height": 1540
+          "height": 1540,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/KM-Pro-Keyboard-portiat-numpad.webp",
+          "thumb_bytes": 10358,
+          "thumb_width": 560,
+          "thumb_height": 1246
         },
         {
           "name": "right-side",
@@ -2026,8 +2358,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 27272,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "right-side images/keymod/right-side.webp keymod webp images",
           "alternates": [
             {
@@ -2037,7 +2369,11 @@
             }
           ],
           "width": 1080,
-          "height": 1080
+          "height": 1080,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/right-side.webp",
+          "thumb_bytes": 9124,
+          "thumb_width": 560,
+          "thumb_height": 560
         },
         {
           "name": "USB-C",
@@ -2048,8 +2384,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 27820,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "usb-c images/keymod/usb-c.webp keymod webp images",
           "alternates": [
             {
@@ -2059,7 +2395,11 @@
             }
           ],
           "width": 1080,
-          "height": 1080
+          "height": 1080,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/USB-C.webp",
+          "thumb_bytes": 9336,
+          "thumb_width": 560,
+          "thumb_height": 560
         },
         {
           "name": "windows-connect",
@@ -2070,8 +2410,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 123900,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "windows-connect images/keymod/windows-connect.webp keymod webp images",
           "alternates": [
             {
@@ -2081,7 +2421,11 @@
             }
           ],
           "width": 4108,
-          "height": 2312
+          "height": 2312,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/windows-connect.webp",
+          "thumb_bytes": 7674,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "youtube-cover",
@@ -2092,8 +2436,8 @@
           "folder": "keymod",
           "category": "images",
           "size_bytes": 69112,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "youtube-cover images/keymod/youtube-cover.webp keymod webp images",
           "alternates": [
             {
@@ -2103,7 +2447,11 @@
             }
           ],
           "width": 720,
-          "height": 1280
+          "height": 1280,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/keymod/youtube-cover.webp",
+          "thumb_bytes": 50884,
+          "thumb_width": 560,
+          "thumb_height": 996
         },
         {
           "name": "KVM-Go-tructure",
@@ -2114,8 +2462,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 15974,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "kvm-go-tructure images/kvm-go-tructure.webp root webp images",
           "alternates": [
             {
@@ -2136,8 +2484,8 @@
           "folder": "kvm-go",
           "category": "images",
           "size_bytes": 300670,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "kvm-go-accessory-kits-batch-1 images/kvm-go/kvm-go-accessory-kits-batch-1.webp kvm-go webp images",
           "alternates": [
             {
@@ -2147,7 +2495,11 @@
             }
           ],
           "width": 2048,
-          "height": 1152
+          "height": 1152,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/kvm-go/kvm-go-accessory-kits-batch-1.webp",
+          "thumb_bytes": 21872,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "kvm-go-accessory-kits-batch-2",
@@ -2158,8 +2510,8 @@
           "folder": "kvm-go",
           "category": "images",
           "size_bytes": 79130,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "kvm-go-accessory-kits-batch-2 images/kvm-go/kvm-go-accessory-kits-batch-2.webp kvm-go webp images",
           "alternates": [
             {
@@ -2169,7 +2521,11 @@
             }
           ],
           "width": 2048,
-          "height": 1152
+          "height": 1152,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/kvm-go/kvm-go-accessory-kits-batch-2.webp",
+          "thumb_bytes": 14520,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "kvm-go-compliance-certificates-emc-test-report",
@@ -2180,8 +2536,8 @@
           "folder": "kvm-go",
           "category": "images",
           "size_bytes": 554448,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "kvm-go-compliance-certificates-emc-test-report images/kvm-go/kvm-go-compliance-certificates-emc-test-report.webp kvm-go webp images",
           "alternates": [
             {
@@ -2191,7 +2547,11 @@
             }
           ],
           "width": 3508,
-          "height": 2480
+          "height": 2480,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/kvm-go/kvm-go-compliance-certificates-emc-test-report.webp",
+          "thumb_bytes": 31246,
+          "thumb_width": 560,
+          "thumb_height": 396
         },
         {
           "name": "kvm-go-connector-cap-anti-loss-tethers",
@@ -2202,8 +2562,8 @@
           "folder": "kvm-go",
           "category": "images",
           "size_bytes": 286290,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "kvm-go-connector-cap-anti-loss-tethers images/kvm-go/kvm-go-connector-cap-anti-loss-tethers.webp kvm-go webp images",
           "alternates": [
             {
@@ -2213,7 +2573,11 @@
             }
           ],
           "width": 2048,
-          "height": 1152
+          "height": 1152,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/kvm-go/kvm-go-connector-cap-anti-loss-tethers.webp",
+          "thumb_bytes": 26782,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "kvm-go-group-3",
@@ -2224,8 +2588,8 @@
           "folder": "kvm-go",
           "category": "images",
           "size_bytes": 61178,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "kvm-go-group-3 images/kvm-go/kvm-go-group-3.webp kvm-go webp images",
           "alternates": [
             {
@@ -2235,7 +2599,11 @@
             }
           ],
           "width": 1920,
-          "height": 1440
+          "height": 1440,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/kvm-go/kvm-go-group-3.webp",
+          "thumb_bytes": 9638,
+          "thumb_width": 560,
+          "thumb_height": 420
         },
         {
           "name": "kvm-go-hardware-verification",
@@ -2246,8 +2614,8 @@
           "folder": "kvm-go",
           "category": "images",
           "size_bytes": 154430,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "kvm-go-hardware-verification images/kvm-go/kvm-go-hardware-verification.webp kvm-go webp images",
           "alternates": [
             {
@@ -2257,7 +2625,11 @@
             }
           ],
           "width": 2048,
-          "height": 1152
+          "height": 1152,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/kvm-go/kvm-go-hardware-verification.webp",
+          "thumb_bytes": 20876,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "kvm-go-hardware-with-retail-packaging",
@@ -2268,8 +2640,8 @@
           "folder": "kvm-go",
           "category": "images",
           "size_bytes": 516310,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "kvm-go-hardware-with-retail-packaging images/kvm-go/kvm-go-hardware-with-retail-packaging.webp kvm-go webp images",
           "alternates": [
             {
@@ -2279,7 +2651,11 @@
             }
           ],
           "width": 2048,
-          "height": 1423
+          "height": 1423,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/kvm-go/kvm-go-hardware-with-retail-packaging.webp",
+          "thumb_bytes": 49692,
+          "thumb_width": 560,
+          "thumb_height": 389
         },
         {
           "name": "kvm-go-hdmi-dp-vga-km-pcb-lineup",
@@ -2290,8 +2666,8 @@
           "folder": "kvm-go",
           "category": "images",
           "size_bytes": 71520,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "kvm-go-hdmi-dp-vga-km-pcb-lineup images/kvm-go/kvm-go-hdmi-dp-vga-km-pcb-lineup.webp kvm-go webp images",
           "alternates": [
             {
@@ -2301,7 +2677,11 @@
             }
           ],
           "width": 1280,
-          "height": 724
+          "height": 724,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/kvm-go/kvm-go-hdmi-dp-vga-km-pcb-lineup.webp",
+          "thumb_bytes": 23226,
+          "thumb_width": 560,
+          "thumb_height": 317
         },
         {
           "name": "kvm-go-keycmd-phone-keyboard-setup",
@@ -2312,8 +2692,8 @@
           "folder": "kvm-go",
           "category": "images",
           "size_bytes": 118460,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "kvm-go-keycmd-phone-keyboard-setup images/kvm-go/kvm-go-keycmd-phone-keyboard-setup.webp kvm-go webp images",
           "alternates": [
             {
@@ -2323,7 +2703,11 @@
             }
           ],
           "width": 1200,
-          "height": 900
+          "height": 900,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/kvm-go/kvm-go-keycmd-phone-keyboard-setup.webp",
+          "thumb_bytes": 35956,
+          "thumb_width": 560,
+          "thumb_height": 420
         },
         {
           "name": "kvm-go-openterface-kvm-ipad-app",
@@ -2334,8 +2718,8 @@
           "folder": "kvm-go",
           "category": "images",
           "size_bytes": 98322,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "kvm-go-openterface-kvm-ipad-app images/kvm-go/kvm-go-openterface-kvm-ipad-app.webp kvm-go webp images",
           "alternates": [
             {
@@ -2345,7 +2729,11 @@
             }
           ],
           "width": 2048,
-          "height": 1152
+          "height": 1152,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/kvm-go/kvm-go-openterface-kvm-ipad-app.webp",
+          "thumb_bytes": 17360,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "kvm-go-oshwa-certification-cn000022",
@@ -2356,8 +2744,8 @@
           "folder": "kvm-go",
           "category": "images",
           "size_bytes": 30336,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "kvm-go-oshwa-certification-cn000022 images/kvm-go/kvm-go-oshwa-certification-cn000022.webp kvm-go webp images",
           "alternates": [
             {
@@ -2367,7 +2755,11 @@
             }
           ],
           "width": 1900,
-          "height": 1068
+          "height": 1068,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/kvm-go/kvm-go-oshwa-certification-cn000022.webp",
+          "thumb_bytes": 10976,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "kvm-go-packed-retail-boxes",
@@ -2378,8 +2770,8 @@
           "folder": "kvm-go",
           "category": "images",
           "size_bytes": 266492,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "kvm-go-packed-retail-boxes images/kvm-go/kvm-go-packed-retail-boxes.webp kvm-go webp images",
           "alternates": [
             {
@@ -2389,7 +2781,11 @@
             }
           ],
           "width": 2048,
-          "height": 1152
+          "height": 1152,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/kvm-go/kvm-go-packed-retail-boxes.webp",
+          "thumb_bytes": 39508,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "kvm-go-product-page-subscribe",
@@ -2400,8 +2796,8 @@
           "folder": "kvm-go",
           "category": "images",
           "size_bytes": 110432,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "kvm-go-product-page-subscribe images/kvm-go/kvm-go-product-page-subscribe.webp kvm-go webp images",
           "alternates": [
             {
@@ -2411,7 +2807,11 @@
             }
           ],
           "width": 2340,
-          "height": 1550
+          "height": 1550,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/kvm-go/kvm-go-product-page-subscribe.webp",
+          "thumb_bytes": 17392,
+          "thumb_width": 560,
+          "thumb_height": 371
         },
         {
           "name": "kvm-go-shipment-us-cartons",
@@ -2422,8 +2822,8 @@
           "folder": "kvm-go",
           "category": "images",
           "size_bytes": 128540,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "kvm-go-shipment-us-cartons images/kvm-go/kvm-go-shipment-us-cartons.webp kvm-go webp images",
           "alternates": [
             {
@@ -2433,7 +2833,11 @@
             }
           ],
           "width": 1448,
-          "height": 1086
+          "height": 1086,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/kvm-go/kvm-go-shipment-us-cartons.webp",
+          "thumb_bytes": 22802,
+          "thumb_width": 560,
+          "thumb_height": 420
         },
         {
           "name": "kvm-go-target-port-laptop-power",
@@ -2444,8 +2848,8 @@
           "folder": "kvm-go",
           "category": "images",
           "size_bytes": 205968,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "kvm-go-target-port-laptop-power images/kvm-go/kvm-go-target-port-laptop-power.webp kvm-go webp images",
           "alternates": [
             {
@@ -2455,7 +2859,11 @@
             }
           ],
           "width": 1440,
-          "height": 1920
+          "height": 1920,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/kvm-go/kvm-go-target-port-laptop-power.webp",
+          "thumb_bytes": 43212,
+          "thumb_width": 560,
+          "thumb_height": 747
         },
         {
           "name": "kvm-go-usb-c-connector-boards-batch-tray",
@@ -2466,8 +2874,8 @@
           "folder": "kvm-go",
           "category": "images",
           "size_bytes": 1783260,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "kvm-go-usb-c-connector-boards-batch-tray images/kvm-go/kvm-go-usb-c-connector-boards-batch-tray.webp kvm-go webp images",
           "alternates": [
             {
@@ -2477,7 +2885,11 @@
             }
           ],
           "width": 5712,
-          "height": 4284
+          "height": 4284,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/kvm-go/kvm-go-usb-c-connector-boards-batch-tray.webp",
+          "thumb_bytes": 43920,
+          "thumb_width": 560,
+          "thumb_height": 420
         },
         {
           "name": "kvm-go-v1-0-boards-four-units",
@@ -2488,8 +2900,8 @@
           "folder": "kvm-go",
           "category": "images",
           "size_bytes": 123736,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "kvm-go-v1-0-boards-four-units images/kvm-go/kvm-go-v1-0-boards-four-units.webp kvm-go webp images",
           "alternates": [
             {
@@ -2499,7 +2911,11 @@
             }
           ],
           "width": 3402,
-          "height": 1914
+          "height": 1914,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/kvm-go/kvm-go-v1-0-boards-four-units.webp",
+          "thumb_bytes": 8386,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "kvm-go-vga-dp-hdmi-exploded-assembly",
@@ -2510,8 +2926,8 @@
           "folder": "kvm-go",
           "category": "images",
           "size_bytes": 163188,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "kvm-go-vga-dp-hdmi-exploded-assembly images/kvm-go/kvm-go-vga-dp-hdmi-exploded-assembly.webp kvm-go webp images",
           "alternates": [
             {
@@ -2521,7 +2937,11 @@
             }
           ],
           "width": 4080,
-          "height": 2295
+          "height": 2295,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/kvm-go/kvm-go-vga-dp-hdmi-exploded-assembly.webp",
+          "thumb_bytes": 12110,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "KVM-GO_prototypes",
@@ -2532,8 +2952,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 47042,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "kvm-go_prototypes images/kvm-go_prototypes.webp root webp images",
           "alternates": [
             {
@@ -2543,7 +2963,11 @@
             }
           ],
           "width": 600,
-          "height": 449
+          "height": 449,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/KVM-GO_prototypes.webp",
+          "thumb_bytes": 42448,
+          "thumb_width": 560,
+          "thumb_height": 419
         },
         {
           "name": "KVM-GO_VGA-angled-view",
@@ -2554,8 +2978,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 149848,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "kvm-go_vga-angled-view images/kvm-go_vga-angled-view.webp root webp images",
           "alternates": [
             {
@@ -2565,7 +2989,11 @@
             }
           ],
           "width": 4073,
-          "height": 3036
+          "height": 3036,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/KVM-GO_VGA-angled-view.webp",
+          "thumb_bytes": 9534,
+          "thumb_width": 560,
+          "thumb_height": 417
         },
         {
           "name": "KVM-GO_VGA-screw-positions",
@@ -2576,8 +3004,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 242238,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "kvm-go_vga-screw-positions images/kvm-go_vga-screw-positions.webp root webp images",
           "alternates": [
             {
@@ -2587,7 +3015,11 @@
             }
           ],
           "width": 5712,
-          "height": 4296
+          "height": 4296,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/KVM-GO_VGA-screw-positions.webp",
+          "thumb_bytes": 11224,
+          "thumb_width": 560,
+          "thumb_height": 421
         },
         {
           "name": "list",
@@ -2598,8 +3030,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 35684,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "list images/list.webp root webp images",
           "alternates": [
             {
@@ -2609,7 +3041,11 @@
             }
           ],
           "width": 891,
-          "height": 625
+          "height": 625,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/list.webp",
+          "thumb_bytes": 19300,
+          "thumb_width": 560,
+          "thumb_height": 393
         },
         {
           "name": "Metal_shell",
@@ -2620,8 +3056,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 42466,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "metal_shell images/metal_shell.webp root webp images",
           "alternates": [
             {
@@ -2631,7 +3067,11 @@
             }
           ],
           "width": 600,
-          "height": 449
+          "height": 449,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/Metal_shell.webp",
+          "thumb_bytes": 39156,
+          "thumb_width": 560,
+          "thumb_height": 419
         },
         {
           "name": "Modified-fever-symptoms",
@@ -2642,8 +3082,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 5690,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "modified-fever-symptoms images/modified-fever-symptoms.webp root webp images",
           "alternates": [
             {
@@ -2653,7 +3093,11 @@
             }
           ],
           "width": 634,
-          "height": 307
+          "height": 307,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/Modified-fever-symptoms.webp",
+          "thumb_bytes": 4612,
+          "thumb_width": 560,
+          "thumb_height": 271
         },
         {
           "name": "New-PCB-ayout",
@@ -2664,8 +3108,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 12406,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "new-pcb-ayout images/new-pcb-ayout.webp root webp images",
           "alternates": [
             {
@@ -2675,7 +3119,11 @@
             }
           ],
           "width": 581,
-          "height": 311
+          "height": 311,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/New-PCB-ayout.webp",
+          "thumb_bytes": 11366,
+          "thumb_width": 560,
+          "thumb_height": 300
         },
         {
           "name": "New-Version",
@@ -2686,8 +3134,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 352474,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "new-version images/new-version.webp root webp images",
           "alternates": [
             {
@@ -2697,7 +3145,11 @@
             }
           ],
           "width": 4080,
-          "height": 2296
+          "height": 2296,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/New-Version.webp",
+          "thumb_bytes": 14464,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "New-vga-version-screwdrivers",
@@ -2708,8 +3160,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 381752,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "new-vga-version-screwdrivers images/new-vga-version-screwdrivers.webp root webp images",
           "alternates": [
             {
@@ -2719,7 +3171,11 @@
             }
           ],
           "width": 4080,
-          "height": 2296
+          "height": 2296,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/New-vga-version-screwdrivers.webp",
+          "thumb_bytes": 16462,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "next",
@@ -2730,8 +3186,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 118510,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "next images/next.webp root webp images",
           "alternates": [
             {
@@ -2741,7 +3197,11 @@
             }
           ],
           "width": 1920,
-          "height": 1080
+          "height": 1080,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/next.webp",
+          "thumb_bytes": 18956,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "Open-source",
@@ -2752,8 +3212,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 394390,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "open-source images/open-source.webp root webp images",
           "alternates": [
             {
@@ -2763,7 +3223,11 @@
             }
           ],
           "width": 4080,
-          "height": 2296
+          "height": 2296,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/Open-source.webp",
+          "thumb_bytes": 14494,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "Orange_cover",
@@ -2774,8 +3238,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 42452,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "orange_cover images/orange_cover.webp root webp images",
           "alternates": [
             {
@@ -2785,7 +3249,11 @@
             }
           ],
           "width": 600,
-          "height": 449
+          "height": 449,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/Orange_cover.webp",
+          "thumb_bytes": 37772,
+          "thumb_width": 560,
+          "thumb_height": 419
         },
         {
           "name": "Original-emperature-test",
@@ -2796,8 +3264,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 7540,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "original-emperature-test images/original-emperature-test.webp root webp images",
           "alternates": [
             {
@@ -2807,7 +3275,11 @@
             }
           ],
           "width": 947,
-          "height": 377
+          "height": 377,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/Original-emperature-test.webp",
+          "thumb_bytes": 4372,
+          "thumb_width": 560,
+          "thumb_height": 223
         },
         {
           "name": "Original-PCB-layout",
@@ -2818,8 +3290,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 9092,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "original-pcb-layout images/original-pcb-layout.webp root webp images",
           "alternates": [
             {
@@ -2840,8 +3312,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 22882,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "original-wiring images/original-wiring.webp root webp images",
           "alternates": [
             {
@@ -2862,8 +3334,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 20386,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "pcb-ayout-modifications images/pcb-ayout-modifications.webp root webp images",
           "alternates": [
             {
@@ -2873,7 +3345,11 @@
             }
           ],
           "width": 587,
-          "height": 440
+          "height": 440,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/PCB-ayout-modifications.webp",
+          "thumb_bytes": 18106,
+          "thumb_width": 560,
+          "thumb_height": 420
         },
         {
           "name": "setting",
@@ -2884,12 +3360,16 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 1356076,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "setting images/setting.webp root webp images",
           "alternates": [],
           "width": 1000,
-          "height": 563
+          "height": 563,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/setting.webp",
+          "thumb_bytes": 18102,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "Side-screw-detail",
@@ -2900,8 +3380,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 96368,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "side-screw-detail images/side-screw-detail.webp root webp images",
           "alternates": [
             {
@@ -2911,7 +3391,11 @@
             }
           ],
           "width": 4032,
-          "height": 3024
+          "height": 3024,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/Side-screw-detail.webp",
+          "thumb_bytes": 6368,
+          "thumb_width": 560,
+          "thumb_height": 420
         },
         {
           "name": "stress-test",
@@ -2922,12 +3406,16 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 1722140,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "stress-test images/stress-test.webp root webp images",
           "alternates": [],
           "width": 1000,
-          "height": 563
+          "height": 563,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/stress-test.webp",
+          "thumb_bytes": 23380,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "Target-plug&play",
@@ -2938,12 +3426,16 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 2656046,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "target-plug&play images/target-plug&play.webp root webp images",
           "alternates": [],
           "width": 1000,
-          "height": 563
+          "height": 563,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/Target-plug&play.webp",
+          "thumb_bytes": 23916,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "Temperature-measurement-after-adding-CNC",
@@ -2954,8 +3446,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 4164,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "temperature-measurement-after-adding-cnc images/temperature-measurement-after-adding-cnc.webp root webp images",
           "alternates": [
             {
@@ -2965,7 +3457,11 @@
             }
           ],
           "width": 634,
-          "height": 317
+          "height": 317,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/Temperature-measurement-after-adding-CNC.webp",
+          "thumb_bytes": 3604,
+          "thumb_width": 560,
+          "thumb_height": 280
         },
         {
           "name": "Temperature-test-fan",
@@ -2976,8 +3472,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 14042,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "temperature-test-fan images/temperature-test-fan.webp root webp images",
           "alternates": [
             {
@@ -2987,7 +3483,11 @@
             }
           ],
           "width": 935,
-          "height": 379
+          "height": 379,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/Temperature-test-fan.webp",
+          "thumb_bytes": 7968,
+          "thumb_width": 560,
+          "thumb_height": 227
         },
         {
           "name": "Thermal_solution",
@@ -2998,8 +3498,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 35184,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "thermal_solution images/thermal_solution.webp root webp images",
           "alternates": [
             {
@@ -3009,7 +3509,11 @@
             }
           ],
           "width": 600,
-          "height": 362
+          "height": 362,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/Thermal_solution.webp",
+          "thumb_bytes": 30102,
+          "thumb_width": 560,
+          "thumb_height": 338
         },
         {
           "name": "Various-versions-of-interface-nylon-front-covers",
@@ -3020,8 +3524,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 1847038,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "various-versions-of-interface-nylon-front-covers images/various-versions-of-interface-nylon-front-covers.webp root webp images",
           "alternates": [
             {
@@ -3031,7 +3535,11 @@
             }
           ],
           "width": 4284,
-          "height": 5712
+          "height": 5712,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/Various-versions-of-interface-nylon-front-covers.webp",
+          "thumb_bytes": 56500,
+          "thumb_width": 560,
+          "thumb_height": 747
         },
         {
           "name": "VGA-connector-and-thumbscrews",
@@ -3042,8 +3550,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 93786,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "vga-connector-and-thumbscrews images/vga-connector-and-thumbscrews.webp root webp images",
           "alternates": [
             {
@@ -3053,7 +3561,11 @@
             }
           ],
           "width": 4064,
-          "height": 3053
+          "height": 3053,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/VGA-connector-and-thumbscrews.webp",
+          "thumb_bytes": 6240,
+          "thumb_width": 560,
+          "thumb_height": 421
         },
         {
           "name": "win-ctrl+v",
@@ -3064,12 +3576,16 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 2549562,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "win-ctrl+v images/win-ctrl+v.webp root webp images",
           "alternates": [],
           "width": 1000,
-          "height": 563
+          "height": 563,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/win-ctrl+v.webp",
+          "thumb_bytes": 19012,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "win-mode",
@@ -3080,12 +3596,16 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 800566,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "win-mode images/win-mode.webp root webp images",
           "alternates": [],
           "width": 1000,
-          "height": 563
+          "height": 563,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/win-mode.webp",
+          "thumb_bytes": 20938,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "Wiring-layout-modification-2",
@@ -3096,8 +3616,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 10920,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "wiring-layout-modification-2 images/wiring-layout-modification-2.webp root webp images",
           "alternates": [
             {
@@ -3118,8 +3638,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 15104,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "wiring-layout-modification images/wiring-layout-modification.webp root webp images",
           "alternates": [
             {
@@ -3140,12 +3660,16 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 958932,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "workaround images/workaround.webp root webp images",
           "alternates": [],
           "width": 1000,
-          "height": 563
+          "height": 563,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/workaround.webp",
+          "thumb_bytes": 18776,
+          "thumb_width": 560,
+          "thumb_height": 315
         },
         {
           "name": "youtube-cover",
@@ -3156,8 +3680,8 @@
           "folder": "(root)",
           "category": "images",
           "size_bytes": 69112,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "youtube-cover images/youtube-cover.webp root webp images",
           "alternates": [
             {
@@ -3167,7 +3691,11 @@
             }
           ],
           "width": 720,
-          "height": 1280
+          "height": 1280,
+          "thumb_url": "https://assets2.openterface.com/images/_thumbs/youtube-cover.webp",
+          "thumb_bytes": 50884,
+          "thumb_width": 560,
+          "thumb_height": 996
         }
       ]
     },
@@ -3184,8 +3712,8 @@
           "folder": "data",
           "category": "data",
           "size_bytes": 573,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "config data/config.txt data txt data",
           "alternates": []
         },
@@ -3198,8 +3726,8 @@
           "folder": "data",
           "category": "data",
           "size_bytes": 9015392,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keycmd-release-0.19 data/keycmd-release-0.19.apk data apk data",
           "alternates": []
         },
@@ -3212,8 +3740,8 @@
           "folder": "data",
           "category": "data",
           "size_bytes": 8034827,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keymod-release-0.14 data/keymod-release-0.14.apk data apk data",
           "alternates": []
         },
@@ -3226,8 +3754,8 @@
           "folder": "data",
           "category": "data",
           "size_bytes": 8258252,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keymod-release-0.15 data/keymod-release-0.15.apk data apk data",
           "alternates": []
         },
@@ -3240,8 +3768,8 @@
           "folder": "data",
           "category": "data",
           "size_bytes": 7419544,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "keymod-release-0.5 data/keymod-release-0.5.apk data apk data",
           "alternates": []
         },
@@ -3254,8 +3782,8 @@
           "folder": "data",
           "category": "data",
           "size_bytes": 161,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "sample data/sample.csv data csv data",
           "alternates": []
         },
@@ -3268,8 +3796,8 @@
           "folder": "data",
           "category": "data",
           "size_bytes": 675,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "sample data/sample.json data json data",
           "alternates": []
         }
@@ -3288,8 +3816,8 @@
           "folder": "css",
           "category": "css",
           "size_bytes": 790,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "style.min css/style.min.css css css css",
           "alternates": []
         }
@@ -3308,8 +3836,8 @@
           "folder": "js",
           "category": "js",
           "size_bytes": 1517,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "app.min js/app.min.js js js js",
           "alternates": []
         }
@@ -3328,8 +3856,8 @@
           "folder": "md",
           "category": "md",
           "size_bytes": 1526,
-          "modified_ts": 1779539596,
-          "modified_at": "2026-05-23T12:33:16Z",
+          "modified_ts": 1779547094,
+          "modified_at": "2026-05-23T14:38:14Z",
           "search_text": "readme md/readme.md md md md",
           "alternates": []
         }
