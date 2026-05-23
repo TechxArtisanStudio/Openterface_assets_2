@@ -15,7 +15,7 @@
         other: 'Other',
     };
 
-    const VIEW_STORAGE_KEY = 'openterface_assets_view';
+    const VIEW_STORAGE_KEY = 'openterface_assets_view_v2';
     const SORT_STORAGE_KEY = 'openterface_assets_sort';
 
     const SORT_LABELS = {
@@ -24,7 +24,7 @@
         'date-asc': 'Oldest first',
     };
 
-    const VIEW_MODES = ['comfortable', 'compact', 'masonry'];
+    const VIEW_MODES = ['masonry', 'comfortable', 'compact'];
     const MASONRY_GAP = 18;
     const MASONRY_MIN_COL = 200;
     const MASONRY_MAX_COL = 300;
