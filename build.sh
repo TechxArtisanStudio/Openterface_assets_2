@@ -95,6 +95,12 @@ else
     echo "No images found for WebP conversion, skipping..."
 fi
 
+# Generate grid preview thumbnails (dist/images/_thumbs/, build output only)
+if [ -d dist/images ] && [ "$(ls -A dist/images 2>/dev/null)" ]; then
+    echo "Generating preview thumbnails..."
+    python3 scripts/generate_thumbs.py
+fi
+
 # Generate a list of CSS files to minify
 echo "Generating list of CSS files to minify..."
 css_files=$(find src/css -type f -name "*.css" 2>/dev/null || true)

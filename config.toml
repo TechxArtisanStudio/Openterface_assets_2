@@ -17,3 +17,8 @@ css_dirs = ["css"]
 js_dirs = ["js"]
 data_dirs = ["data"]
 md_dirs = ["md"]
+
+# Grid preview thumbnails (generated at build into dist/images/_thumbs/, not committed)
+thumb_max_width = 560
+thumb_webp_quality = 78
+thumb_skip_if_smaller = true

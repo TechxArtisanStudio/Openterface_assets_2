@@ -41,6 +41,18 @@ EXCLUDE_NAMES = {
 IMAGE_EXTENSIONS = {".webp", ".svg", ".png", ".jpg", ".jpeg", ".gif"}
 RASTER_DEDUPE_EXTENSIONS = {".png", ".jpg", ".jpeg"}
 PREFERRED_RASTER = ".webp"
+THUMBS_DIR_PREFIX = "images/_thumbs/"
+
+
+def is_thumb_asset_path(rel_str: str) -> bool:
+    return rel_str.startswith(THUMBS_DIR_PREFIX)
+
+
+def thumb_path_for_asset(rel_str: str) -> Optional[str]:
+    """images/foo/bar.webp -> images/_thumbs/foo/bar.webp"""
+    if not rel_str.startswith("images/") or is_thumb_asset_path(rel_str):
+        return None
+    return f"images/_thumbs/{rel_str[len('images/'):]}"
 
 CATEGORY_ORDER = [
     ("images", "Images", IMAGE_EXTENSIONS),
@@ -250,6 +262,9 @@ def scan_dist(dist_dir: Path) -> List[Path]:
                 rel = full.relative_to(dist_dir)
             except ValueError:
                 continue
+            rel_str = rel.as_posix()
+            if is_thumb_asset_path(rel_str):
+                continue
             # Skip site assets at dist root (handled separately)
             if len(rel.parts) == 1 and rel.suffix.lower() in {".html", ".css", ".js", ".json"}:
                 if rel.name in EXCLUDE_NAMES:
@@ -358,6 +373,19 @@ def _make_entry(
     if width and height:
         entry["width"] = width
         entry["height"] = height
+
+    if is_image and ext in RASTER_DEDUPE_EXTENSIONS | {".webp"}:
+        thumb_rel = thumb_path_for_asset(rel_str)
+        if thumb_rel:
+            thumb_file = dist_dir / thumb_rel
+            if thumb_file.exists():
+                tw, th = image_dimensions(thumb_file)
+                entry["thumb_url"] = f"{base_url}/{thumb_rel}"
+                entry["thumb_bytes"] = thumb_file.stat().st_size
+                if tw and th:
+                    entry["thumb_width"] = tw
+                    entry["thumb_height"] = th
+
     return entry
 
 

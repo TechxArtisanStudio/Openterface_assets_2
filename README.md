@@ -132,6 +132,7 @@ When you push to the `main` branch, GitHub Actions automatically:
 3. **Builds** assets:
    - Copies files from `src/` to `dist/`
    - Converts PNG/JPG/JPEG images to WebP format
+   - Generates grid preview thumbnails under `dist/images/_thumbs/` (build output only)
    - Minifies CSS files (creates `.min.css` files)
    - Minifies JavaScript files (creates `.min.js` files)
 4. **Generates** URL markdown files in `links/` directory
@@ -171,9 +172,9 @@ The site at the repository root URL (`https://assets2.openterface.com/` when dep
 - **Search** by filename, path, or folder (press `/` to focus the search box)
 - **Filter** by category: Images, Data (including APKs), CSS, JavaScript, Markdown
 - **Copy** raw URL, markdown link, or markdown image syntax
-- **Preview** images in a lightbox
-- **View toggle** — **Comfortable** (default grid), **Compact** (denser grid), or **Masonry** (Pinterest-style columns sized by each image’s aspect ratio; preference saved in your browser)
-- **Lazy loading** — thumbnails load as you scroll (all three views) via `IntersectionObserver`, with shimmer placeholders sized from manifest dimensions
+- **Preview** images in a lightbox (full-size CDN URL; grid uses smaller `_thumbs/` previews)
+- **View toggle** — **Masonry** (default; Pinterest-style columns sized by each image’s aspect ratio), **Comfortable**, or **Compact** (preference saved in your browser)
+- **Lazy loading** — grid previews load as you scroll (all three views) via `IntersectionObserver`, with shimmer placeholders sized from manifest dimensions. Copy URL / markdown always uses the full-size `asset.url`.
 - **Sort** — Name A–Z, **Newest first**, or **Oldest first** (uses last Git commit date per file in `src/` as the upload/update time)
 
 The catalog is generated from built files (not `links/*.md`), so it always matches what GitHub Pages serves. Raster images with both JPEG/PNG and WebP variants appear once (WebP preferred).
@@ -285,6 +286,19 @@ PNG, JPG, and JPEG images are automatically converted to WebP format during the 
 - Original: `https://your-domain.com/images/photo.jpg`
 - WebP: `https://your-domain.com/images/photo.webp`
 
+### Preview Thumbnails (`_thumbs/`)
+
+During `./build.sh`, `scripts/generate_thumbs.py` creates smaller WebP previews under `dist/images/_thumbs/` (mirroring the full-size layout). These files are **build output only** — not stored in `src/` or git.
+
+| URL | Purpose |
+|-----|---------|
+| `images/foo.webp` | Full-size CDN asset (`asset.url`) — use in docs, Copy URL, lightbox |
+| `images/_thumbs/foo.webp` | Grid preview only (`asset.thumb_url`) — ~560px wide, much smaller bytes |
+
+Settings in `config.toml` under `[build]`: `thumb_max_width` (default 560), `thumb_webp_quality` (default 78), `thumb_skip_if_smaller` (skip when source width ≤ max). SVG and GIF are unchanged; images already ≤560px wide have no separate thumb (frontend falls back to `asset.url`).
+
+The asset browser grid loads `thumb_url` first; lightbox and copy actions always use the full-size URL.
+
 ### Image Resizing
 
 Use the included `image_resizer.py` script to resize images:
@@ -308,7 +322,7 @@ python scripts/image_resizer.py src/images/photo.jpg
 
 ### Python Dependencies
 
-- **Pillow** - Image processing (for `image_resizer.py`)
+- **Pillow** - Image processing (`image_resizer.py`, `generate_thumbs.py`, manifest dimensions)
 
 Install Python dependencies:
 
