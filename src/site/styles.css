@@ -545,6 +545,11 @@ main {
     transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
 }
 
+.asset-grid:not(.view-masonry) .asset-card {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 320px;
+}
+
 .asset-card:hover {
     transform: translateY(-1px);
     box-shadow: var(--shadow-hover);
