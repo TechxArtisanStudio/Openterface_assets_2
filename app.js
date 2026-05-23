@@ -30,9 +30,18 @@
     const MASONRY_MAX_COL = 300;
     const MASONRY_BODY_FALLBACK = 52;
     const MASONRY_FILE_ASPECT = 0.75;
+    const THUMB_ROOT_MARGIN = {
+        compact: '150px 0px',
+        comfortable: '250px 0px',
+        masonry: '400px 0px',
+    };
 
     let manifest = null;
-    let masonryLayoutTimer = null;
+    let masonryLayoutRaf = null;
+    let masonryPendingMinIdx = null;
+    let masonryCards = [];
+    let masonryGeometry = null;
+    let masonryHeightCache = new WeakMap();
     let thumbObserver = null;
     let gridResizeObserver = null;
     let viewMode = 'comfortable';
@@ -79,7 +88,7 @@
         }
     }
 
-    /** Prefer JPEG/PNG for grid thumbnails; try WebP and other alternates on error. */
+    /** Prefer manifest primary URL (usually WebP); alternates only on load error. */
     function thumbCandidateUrls(asset) {
         const seen = new Set();
         const list = [];
@@ -89,14 +98,13 @@
                 list.push(url);
             }
         };
-        const ext = (e) => (e || '').toLowerCase();
-        const raster = (asset.alternates || []).find((a) =>
-            ['.jpg', '.jpeg', '.png'].includes(ext(a.ext))
-        );
-        if (raster) add(raster.url);
         add(asset.url);
         (asset.alternates || []).forEach((a) => add(a.url));
         return list;
+    }
+
+    function getThumbRootMargin() {
+        return THUMB_ROOT_MARGIN[viewMode] || THUMB_ROOT_MARGIN.comfortable;
     }
 
     function assetAspectRatio(asset) {
@@ -152,7 +160,9 @@
     }
 
     function onThumbLoaded(img) {
-        if (viewMode === 'masonry') scheduleMasonryLayout();
+        if (viewMode !== 'masonry') return;
+        const card = img.closest('.asset-card');
+        if (card) scheduleMasonryLayout(card);
     }
 
     function resetThumbObserver() {
@@ -175,7 +185,7 @@
                     }
                 });
             },
-            { root: null, rootMargin: '300px 0px', threshold: 0.01 }
+            { root: null, rootMargin: getThumbRootMargin(), threshold: 0.01 }
         );
     }
 
@@ -207,6 +217,138 @@
             card.style.width = '';
         });
         gridEl.style.height = '';
+        masonryCards = [];
+        masonryGeometry = null;
+        masonryHeightCache = new WeakMap();
+    }
+
+    function getMasonryOffsetX(colWidth, cols, gap) {
+        const totalWidth = cols * colWidth + (cols - 1) * gap;
+        return Math.max(0, (gridEl.clientWidth - totalWidth) / 2);
+    }
+
+    function getCardHeightForLayout(card, colWidth, preferLive) {
+        if (preferLive) {
+            const live = card.offsetHeight;
+            if (live > 0) {
+                masonryHeightCache.set(card, live);
+                return live;
+            }
+        }
+        const cached = masonryHeightCache.get(card);
+        if (cached) return cached;
+        const h = measureCardHeight(card, colWidth);
+        masonryHeightCache.set(card, h);
+        return h;
+    }
+
+    function positionMasonryRange(cards, startIdx, colWidth, cols, gap, offsetX, colHeights) {
+        for (let i = startIdx; i < cards.length; i++) {
+            const card = cards[i];
+            const preferLive = i === startIdx;
+            const h = getCardHeightForLayout(card, colWidth, preferLive);
+
+            let col = 0;
+            for (let j = 1; j < cols; j++) {
+                if (colHeights[j] < colHeights[col]) col = j;
+            }
+
+            const left = offsetX + col * (colWidth + gap);
+            const top = colHeights[col];
+
+            card.style.position = 'absolute';
+            card.style.width = colWidth + 'px';
+            card.style.left = left + 'px';
+            card.style.top = top + 'px';
+
+            colHeights[col] += h + gap;
+        }
+        gridEl.style.height = Math.max(...colHeights, 0) + 'px';
+    }
+
+    function layoutMasonryFull() {
+        if (viewMode !== 'masonry' || !manifest) return;
+        const cards = [...gridEl.querySelectorAll('.asset-card:not(.hidden)')];
+        masonryCards = cards;
+        if (!cards.length) {
+            gridEl.style.height = '0px';
+            masonryGeometry = null;
+            return;
+        }
+
+        const { colWidth, cols, gap } = getMasonryLayout();
+        const offsetX = getMasonryOffsetX(colWidth, cols, gap);
+        masonryGeometry = { colWidth, cols, gap, offsetX };
+        masonryHeightCache = new WeakMap();
+        positionMasonryRange(cards, 0, colWidth, cols, gap, offsetX, new Array(cols).fill(0));
+    }
+
+    function relayoutMasonryFromIndex(startIdx) {
+        if (viewMode !== 'masonry' || !manifest) return;
+        const cards = [...gridEl.querySelectorAll('.asset-card:not(.hidden)')];
+        masonryCards = cards;
+        if (!cards.length) {
+            gridEl.style.height = '0px';
+            masonryGeometry = null;
+            return;
+        }
+
+        const { colWidth, cols, gap } = getMasonryLayout();
+        if (startIdx < 0 || !masonryGeometry || masonryGeometry.colWidth !== colWidth) {
+            layoutMasonryFull();
+            return;
+        }
+
+        const offsetX = getMasonryOffsetX(colWidth, cols, gap);
+        masonryGeometry = { colWidth, cols, gap, offsetX };
+        const colHeights = new Array(cols).fill(0);
+
+        for (let i = 0; i < startIdx; i++) {
+            const h = getCardHeightForLayout(cards[i], colWidth);
+            let col = 0;
+            for (let j = 1; j < cols; j++) {
+                if (colHeights[j] < colHeights[col]) col = j;
+            }
+            colHeights[col] += h + gap;
+        }
+
+        positionMasonryRange(cards, startIdx, colWidth, cols, gap, offsetX, colHeights);
+    }
+
+    function relayoutMasonryFromCard(changedCard) {
+        const cards = masonryCards.length
+            ? masonryCards
+            : [...gridEl.querySelectorAll('.asset-card:not(.hidden)')];
+        relayoutMasonryFromIndex(cards.indexOf(changedCard));
+    }
+
+    function scheduleMasonryLayout(changedCard) {
+        if (viewMode !== 'masonry') return;
+        if (changedCard) {
+            const cards = masonryCards.length
+                ? masonryCards
+                : [...gridEl.querySelectorAll('.asset-card:not(.hidden)')];
+            const idx = cards.indexOf(changedCard);
+            if (idx >= 0) {
+                masonryPendingMinIdx =
+                    masonryPendingMinIdx === null ? idx : Math.min(masonryPendingMinIdx, idx);
+            }
+        }
+        if (masonryLayoutRaf) return;
+        masonryLayoutRaf = requestAnimationFrame(() => {
+            masonryLayoutRaf = null;
+            const startIdx = masonryPendingMinIdx;
+            masonryPendingMinIdx = null;
+            if (startIdx !== null && masonryCards.length) {
+                relayoutMasonryFromIndex(startIdx);
+            } else {
+                layoutMasonryFull();
+            }
+        });
+    }
+
+    function layoutMasonry() {
+        layoutMasonryFull();
     }
 
     function getMasonryLayout() {
@@ -282,75 +424,6 @@
         grid.innerHTML = '';
         if (h > 0) return h;
         return estimateCardHeightFromCard(card, colWidth);
-    }
-
-    function positionMasonryCards(cards, colWidth, cols, gap, heightForCard) {
-        const colHeights = new Array(cols).fill(0);
-        const totalWidth = cols * colWidth + (cols - 1) * gap;
-        const offsetX = Math.max(0, (gridEl.clientWidth - totalWidth) / 2);
-
-        cards.forEach((card) => {
-            const h = heightForCard(card);
-
-            let col = 0;
-            for (let i = 1; i < cols; i++) {
-                if (colHeights[i] < colHeights[col]) col = i;
-            }
-
-            const left = offsetX + col * (colWidth + gap);
-            const top = colHeights[col];
-
-            card.style.position = 'absolute';
-            card.style.width = colWidth + 'px';
-            card.style.left = left + 'px';
-            card.style.top = top + 'px';
-
-            colHeights[col] += h + gap;
-        });
-
-        gridEl.style.height = Math.max(...colHeights, 0) + 'px';
-        return colHeights;
-    }
-
-    function scheduleMasonryLayout() {
-        if (viewMode !== 'masonry') return;
-        clearTimeout(masonryLayoutTimer);
-        masonryLayoutTimer = setTimeout(layoutMasonry, 50);
-    }
-
-    function layoutMasonry() {
-        if (viewMode !== 'masonry' || !manifest) return;
-        const cards = [...gridEl.querySelectorAll('.asset-card:not(.hidden)')];
-        if (!cards.length) {
-            gridEl.style.height = '0px';
-            return;
-        }
-
-        const { colWidth, cols, gap } = getMasonryLayout();
-        const measuredHeights = new Map();
-        positionMasonryCards(cards, colWidth, cols, gap, (card) => {
-            const h = measureCardHeight(card, colWidth);
-            measuredHeights.set(card, h);
-            return h;
-        });
-
-        let needsRetry = false;
-        const liveHeights = new Map();
-        cards.forEach((card) => {
-            const live = card.offsetHeight;
-            if (live <= 0) return;
-            liveHeights.set(card, live);
-            const used = measuredHeights.get(card) || 0;
-            if (Math.abs(live - used) > 8) needsRetry = true;
-        });
-
-        if (needsRetry) {
-            positionMasonryCards(cards, colWidth, cols, gap, (card) => {
-                const live = liveHeights.get(card);
-                if (live && live > 0) return live;
-                return measureCardHeight(card, colWidth);
-            });
-        }
     }
 
     function refreshThumbAspectRatios() {
@@ -511,6 +584,7 @@
             });
         }
         refreshThumbAspectRatios();
+        initThumbObserver();
         refreshThumbObservation();
     }
 
@@ -643,7 +717,7 @@
         if (isImage) {
             html += `<div class="card-media">`;
             html += `<button type="button" class="thumb-wrap" data-preview="${escapeHtml(asset.url)}" aria-label="Preview ${escapeHtml(asset.name)}">`;
-            html += `<img class="thumb" alt="${escapeHtml(asset.name)}" decoding="async">`;
+            html += `<img class="thumb" alt="${escapeHtml(asset.name)}" loading="lazy" decoding="async">`;
             html += `</button>`;
             html += overlayActions.html;
             html += `</div>`;
