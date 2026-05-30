@@ -43,6 +43,7 @@ SUBDIR_RULES = [
     ("km-", "keymod"),      # KM-Basic, KM-Pro → keymod/
     ("gamepad", "keymod"),   # KeyMod gamepad presets → keymod/
     ("icon", "icon"),
+    ("op-", "icon"),        # op-docs, op-forum, etc. → icon/
     ("blog", "blog"),
 ]
 
@@ -92,31 +93,46 @@ def optimize_image(src_path: Path, dest_path: Path) -> dict:
     original_size = src_path.stat().st_size
     ext = src_path.suffix.lower()
 
+    # Skip raster optimization for vector/animated formats
+    if ext in (".svg", ".gif"):
+        shutil.copy2(src_path, dest_path)
+        # Try to get dimensions for SVG if possible, else 0,0
+        try:
+            img = Image.open(src_path)
+            dims = img.size
+        except:
+            dims = (0, 0)
+            
+        return {
+            "original_kb": round(original_size / 1024),
+            "optimized_kb": round(original_size / 1024),
+            "resized": False,
+            "dimensions": dims,
+            "converted": False,
+        }
+
     img = Image.open(src_path)
+    resized = False
+    w, h = img.size
+    max_side = max(w, h)
+    if max_side > MAX_LONG_SIDE:
+        ratio = MAX_LONG_SIDE / max_side
+        new_w = int(w * ratio)
+        new_h = int(h * ratio)
+        img = img.resize((new_w, new_h), Image.LANCZOS)
+        resized = True
 
     # Convert RGBA/P to RGB for JPEG compatibility
     if ext in (".jpg", ".jpeg"):
         if img.mode in ("RGBA", "P", "LA"):
             img = img.convert("RGB")
 
-        # Step 1: Resize if needed
-        resized = False
-        w, h = img.size
-        max_side = max(w, h)
-        if max_side > MAX_LONG_SIDE:
-            ratio = MAX_LONG_SIDE / max_side
-            new_w = int(w * ratio)
-            new_h = int(h * ratio)
-            img = img.resize((new_w, new_h), Image.LANCZOS)
-            resized = True
-
-        # Step 2: Save with target quality
+        # Save with target quality
         img.save(dest_path, "JPEG", quality=JPEG_QUALITY, optimize=True, progressive=True)
 
-        # Step 3: If still too large, compress more
+        # If still too large, compress more
         dest_size = dest_path.stat().st_size
         if dest_size > MAX_FILE_SIZE_KB * 1024:
-            # Reduce quality progressively until under target
             quality = JPEG_QUALITY - 10
             while quality >= 40:
                 img.save(dest_path, "JPEG", quality=quality, optimize=True, progressive=True)
@@ -124,6 +140,14 @@ def optimize_image(src_path: Path, dest_path: Path) -> dict:
                 if dest_size <= MAX_FILE_SIZE_KB * 1024:
                     break
                 quality -= 10
+        
+        return {
+            "original_kb": round(original_size / 1024),
+            "optimized_kb": round(dest_size / 1024),
+            "resized": resized,
+            "dimensions": img.size,
+            "converted": False,
+        }
 
     elif ext in (".png", ".webp"):
         # For PNG/WebP, convert to WebP directly with good quality
@@ -131,16 +155,6 @@ def optimize_image(src_path: Path, dest_path: Path) -> dict:
             img = img.convert("RGBA")
         elif img.mode not in ("RGBA", "RGB"):
             img = img.convert("RGB")
-
-        resized = False
-        w, h = img.size
-        max_side = max(w, h)
-        if max_side > MAX_LONG_SIDE:
-            ratio = MAX_LONG_SIDE / max_side
-            new_w = int(w * ratio)
-            new_h = int(h * ratio)
-            img = img.resize((new_w, new_h), Image.LANCZOS)
-            resized = True
 
         # Save as WebP
         webp_path = dest_path.with_suffix(".webp")
@@ -164,22 +178,12 @@ def optimize_image(src_path: Path, dest_path: Path) -> dict:
             "converted": True,
         }
 
-    else:
-        # SVG, GIF — just copy as-is
-        shutil.copy2(src_path, dest_path)
-        return {
-            "original_kb": round(original_size / 1024),
-            "optimized_kb": round(original_size / 1024),
-            "resized": False,
-            "dimensions": img.size,
-            "converted": False,
-        }
-
-    dest_size = dest_path.stat().st_size
+    # Fallback
+    shutil.copy2(src_path, dest_path)
     return {
         "original_kb": round(original_size / 1024),
-        "optimized_kb": round(dest_size / 1024),
-        "resized": resized,
+        "optimized_kb": round(original_size / 1024),
+        "resized": False,
         "dimensions": img.size,
         "converted": False,
     }
