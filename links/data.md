@@ -15,6 +15,10 @@ Copy and paste these links into your markdown files:
 
 [config](https://assets2.openterface.com/data/config.txt)
 
+[keymod-KeyMod_beta](https://assets2.openterface.com/data/keymod/KeyMod_beta.step)
+
+[keymod-KeyMod_beta](https://assets2.openterface.com/data/keymod/KeyMod_beta.stl)
+
 [sample](https://assets2.openterface.com/data/sample.csv)
 
 [sample](https://assets2.openterface.com/data/sample.json)
